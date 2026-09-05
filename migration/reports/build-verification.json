@@ -1,0 +1,86 @@
+{
+  "verified_at": "2026-09-05T07:18:43.783Z",
+  "html_pages": 675,
+  "content_pages": 422,
+  "failures": [],
+  "unresolved_legacy_or_external_links": [
+    {
+      "page": "blog/balog/post_193/index.html",
+      "url": "http://www.balog.jp/~hiro/cgi-bin/thumb.cgi"
+    },
+    {
+      "page": "blog/balog/swoweblog/index.html",
+      "url": "http://www.balog.jp/~hiro/SIG-SWO-A401-07.pdf"
+    },
+    {
+      "page": "blog/days/gps_from_docomo2/index.html",
+      "url": "http://www.balog.jp/~hiro/mt/archives/000144.html"
+    },
+    {
+      "page": "blog/days/misdo_20100828/index.html",
+      "url": "http://www.balog.jp/photos/original/20100828/1282977346972.jpg"
+    },
+    {
+      "page": "blog/days/pillows/index.html",
+      "url": "http://www.balog.jp/~hiro/mt/archives/000332.html"
+    },
+    {
+      "page": "blog/days/post_123/index.html",
+      "url": "http://www.balog.jp/bunkasai-2003/"
+    },
+    {
+      "page": "blog/days/post_182/index.html",
+      "url": "http://www.balog.jp/"
+    },
+    {
+      "page": "blog/days/post_248/index.html",
+      "url": "http://www.balog.jp/~hiro/mt/archives/000339.html"
+    },
+    {
+      "page": "blog/days/post_298/index.html",
+      "url": "http://www.balog.jp/~hiro/mt/archives/000061.html"
+    },
+    {
+      "page": "blog/days/vs_fedoracore3/index.html",
+      "url": "http://www.balog.jp/"
+    },
+    {
+      "page": "blog/mt/index.html",
+      "url": "http://www.balog.jp/"
+    },
+    {
+      "page": "blog/uncategorized/fwd/index.html",
+      "url": "http://www.balog.jp/photos/original/20091127/1259314761917.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_309/index.html",
+      "url": "http://hrk-up.net/mt/balog_images/photo-1258526750.17-0.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_310/index.html",
+      "url": "http://www.balog.jp/photos/original/20091127/1259315978521.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_312/index.html",
+      "url": "http://www.balog.jp/photos/original/20100816/1281965336210.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_313/index.html",
+      "url": "http://www.balog.jp/photos/original/20100817/1282021763959.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_314/index.html",
+      "url": "http://www.balog.jp/photos/original/20100821/1282367758160.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_315/index.html",
+      "url": "http://www.balog.jp/photos/original/20100824/1282626276894.jpg"
+    },
+    {
+      "page": "blog/uncategorized/post_317/index.html",
+      "url": "http://www.balog.jp/photos/original/20100826/1282818777636.jpg"
+    }
+  ],
+  "pending_media_urls": 127,
+  "scope": "Static output validation, not an HTTP server/redirect test or visual comparison"
+}

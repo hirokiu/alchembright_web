@@ -1,5 +1,7 @@
 # WordPress / Movable Type → Astro 移行計画
 
+> 2026-09-05追記: メディアのURL変更は了承済み。旧メディアURLへの転送は必須とせず、元URLと新保存先の対応を保持します。画像回収を待たずに公開本文の暫定取り込みとAstro確認用サイトを実装しました。実施結果は [第2段階の結果](phase2-results.md)、操作は [作業手順](migration-workflow.md)。以下は本番移行までの全体計画で、未完了の項目を含みます。
+
 ## 目的と原則
 
 過去の文章を改稿せず、Blogを今後も書ける形で保存する。公開済み投稿・固定ページ・分類・メディア・現行と過去のURL・内部リンク・Movable Type由来情報を対象とする。Markdownで表現しきれない構造を捨てて「全件Markdown化した」とは扱わない。
@@ -45,11 +47,11 @@ WXRはメディア実体を含む完全なファイルバックアップでは�
 
 ## フェーズ4: Astro基盤と全件生成
 
-- Astroの静的出力とビルド時Content Collectionsを採用する予定。導入時に対応するNode/Astro版を選び、ロックファイルを固定する。現段階では未インストール。
+- Astroの静的出力とビルド時Content Collectionsを採用する予定。導入時に対応するNode/Astro版を選び、ロックファイルを固定する。第2段階でAstro 7.3.1を導入済み。
 - `src/content/blog/<年>/wp-<ID>.md`、`src/content/pages/wp-<ID>.md` を基本とし、分類は `src/data/` で独立管理する。
 - 公開ルートは `canonical_path` とURL台帳から明示生成する。ファイル名・記事年・タイトル変更が既存URLを変えないようにする。homeと汎用ルートの衝突を検出する。
 - 既存 `/blog/.../` と `/category/.../`、タグ、年/月別、ページ送り、RSSの必要なルートを照合する。機能を維持できないURLも対応方針を決める。
-- 画像は可能なら `public/wp-content/uploads/...` の旧パスを維持。旧ホスト分は `public/legacy/<host>/...` 等へ、必ず対応表で結びつける。
+- 画像は `public/media/imported/` に新URLで保存し、旧ホスト・WordPress画像とも対応表で結びつける。メディア旧URL維持は必須にしない。
 - 原本保全用HTMLと公開用HTMLは分け、公開側の古い実行スクリプト・埋め込みは動作と安全性を確認する。下書き・非公開・保護記事の除外を明示的に検証する。
 
 [Astro Content Collections](https://docs.astro.build/en/guides/content-collections/) / [Astro deployment](https://docs.astro.build/en/guides/deploy/)

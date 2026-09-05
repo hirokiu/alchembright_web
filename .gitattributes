@@ -1,0 +1,2 @@
+# Imported Markdown uses significant two-space line breaks and preserves source HTML whitespace.
+src/content/** whitespace=-blank-at-eol,-blank-at-eof
