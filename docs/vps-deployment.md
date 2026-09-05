@@ -35,13 +35,14 @@ sudo nginx -T
 
 ```sh
 active_conf=/etc/nginx/conf.d/130_note.ab.conf
+active_conf=$(readlink -f "$active_conf")
 sudo test -f "$active_conf"
 backup_dir=/data/www/130_note.ab/nginx-backup-$(date +%Y%m%d-%H%M%S)
 sudo install -d -m 700 "$backup_dir"
 sudo cp -a "$active_conf" "$backup_dir/wordpress.conf"
 ```
 
-バックアップは `conf.d/*.conf` の読み込み対象に追加しません。旧confと新confを同時に有効にしないでください。DB・uploads・WXRの保管とWordPressへの復旧方法も維持します。
+設定へのシンボリックリンクは `readlink -f` で実体のパスに解決してからバックアップします。バックアップは `conf.d/*.conf` の読み込み対象に追加しません。旧confと新confを同時に有効にしないでください。DB・uploads・WXRの保管とWordPressへの復旧方法も維持します。
 
 ## 2. ソースをcloneする
 
