@@ -1,5 +1,7 @@
 # さくらのVPS / Nginxへの配置・切替
 
+> 2026-09-05追記：公開先はGitHub Pagesへ変更。最新のDNS調査・公開手順は [GitHub Pages移行手順](github-pages.md) を参照。VPS構成は代替案として保持する。
+
 利用者提示の `www.alchembright.com` 設定を元に、同じVPSで静的サイトを配信する構成です。サーバーへの接続・設定変更はまだ行っていません。
 
 ## ディレクトリ構成

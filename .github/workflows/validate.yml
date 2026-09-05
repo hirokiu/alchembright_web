@@ -21,11 +21,11 @@ jobs:
           node-version-file: .nvmrc
           cache: npm
       - run: npm ci
+      - run: python3 scripts/deploy/audit-vps-paths.test.py
       - run: npm test
       - run: npm run check
       - run: npm run build
       - run: npm run migration:verify
-      - run: python3 scripts/deploy/test-nginx.py
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
         with:
           name: alchembright-migration-preview

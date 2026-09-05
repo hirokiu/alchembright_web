@@ -22,7 +22,14 @@ for(const r of report.records) {
   if(JSON.stringify(signature(body.html()))!==JSON.stringify(r.expected)) failures.push({path:r.path,reason:'rendered text/links/anchors/code/breaks/table differs from staged conversion'});
 }
 for(const [file,$] of pages) {
-  if($('script').length || $('[onclick],[onerror],[onload]').length) failures.push({file:path.relative(root,file),reason:'unexpected active content in static output'});
+  const relative = path.relative(root,file);
+  for (const script of $('script').toArray()) {
+    const e=$(script), src=e.attr('src');
+    const allowed=['index.html','404.html'].includes(relative) && e.attr('type')==='module' && /^\/_astro\/[A-Za-z0-9_.-]+\.js$/.test(src || '') && !e.html().trim();
+    if (!allowed) failures.push({file:relative,reason:'unexpected script'});
+    else try { await fs.access(path.join(root,src)); } catch { failures.push({file:relative,reason:'missing navigation script'}); }
+  }
+  if($('[onclick],[onerror],[onload]').length) failures.push({file:path.relative(root,file),reason:'unexpected active content in static output'});
   if(!process.argv.includes('--release') && !$('meta[name="robots"]').attr('content')?.includes('noindex')) failures.push({file:path.relative(root,file),reason:'missing preview noindex'});
   if(process.argv.includes('--release') && $('meta[name="robots"]').attr('content')?.includes('noindex')) failures.push({file:path.relative(root,file),reason:'production output still contains noindex'});
   for(const el of $('a[href],img[src],link[rel="stylesheet"]').toArray()) {

@@ -1,5 +1,7 @@
 # WordPress / Movable Type → Astro 移行計画
 
+> 2026-09-05追記：公開先はGitHub Pagesへ変更。最新のDNS調査・公開手順は [GitHub Pages移行手順](github-pages.md) を参照。VPS構成は代替案として保持する。
+
 > 2026-09-05追記: メディアのURL変更は了承済み。旧メディアURLへの転送は必須とせず、元URLと新保存先の対応を保持します。画像回収を待たずに公開本文の暫定取り込みとAstro確認用サイトを実装しました。実施結果は [第2段階の結果](phase2-results.md)、操作は [作業手順](migration-workflow.md)。以下は本番移行までの全体計画で、未完了の項目を含みます。
 
 ## 目的と原則

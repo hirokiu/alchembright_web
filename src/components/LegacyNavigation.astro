@@ -1,0 +1,16 @@
+---
+import { legacyMap } from '../../scripts/deploy/legacy-map.mjs';
+const map = await legacyMap();
+---
+<div id="legacy-navigation" data-map={JSON.stringify(map)} hidden>
+  <p>旧形式のURLを確認しています。移動しない場合は<a href="/category/blog/">Blog一覧</a>をご利用ください。</p>
+</div>
+<script>
+  import { legacyTarget } from '../lib/legacy-navigation';
+  const notice = document.getElementById('legacy-navigation');
+  if (notice && ['/', '/index.php'].includes(location.pathname) && /(?:^|[?&])(p|page_id|feed)=/.test(location.search)) {
+    const target = legacyTarget(location.pathname, location.search, location.hash, JSON.parse(notice.dataset.map || '{}'));
+    if (target && target !== location.pathname + location.search + location.hash) location.replace(target);
+    else notice.hidden = false;
+  }
+</script>

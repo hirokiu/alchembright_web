@@ -13,7 +13,7 @@ const entry = route.entry;
 const post = entry?.data.content_type === 'post';
 const years = await archiveYears();
 ---
-<Site title={route.title} path={route.path}>
+<Site title={route.title} path={route.path} legacyNavigation={route.path === '/'}>
   {entry && Content ? (
     <article class="article">
       {post && <div class="eyebrow"><a href="/category/blog/">Blog</a><time datetime={entry.data.published_at_local.slice(0,10)}>{entry.data.published_at_local.slice(0,10)}</time></div>}

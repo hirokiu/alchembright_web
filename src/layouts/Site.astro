@@ -1,7 +1,8 @@
 ---
 import '../styles/site.css';
-interface Props { title: string; path: string; }
-const {title,path} = Astro.props;
+import LegacyNavigation from '../components/LegacyNavigation.astro';
+interface Props { title: string; path: string; legacyNavigation?: boolean; }
+const {title,path,legacyNavigation=false} = Astro.props;
 const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
 ---
 <!doctype html>
@@ -22,7 +23,7 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
         <a href="/">home</a><a href="/category/news/">news</a><a href="/category/works/">works</a><a href="/category/blog/">blog</a><a href="/about/">about</a>
       </nav>
     </header>
-    <main id="content"><slot /></main>
+    <main id="content">{legacyNavigation && <LegacyNavigation />}<slot /></main>
     <footer><a href="/category/blog/">Blog</a><a href="/feed.xml">RSS</a><a href="/kirokun-support/">KIROKUN プライバシーポリシー</a><span>Alchembright</span></footer>
   </body>
 </html>

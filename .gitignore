@@ -22,3 +22,6 @@ dist/
 *.sql.gz
 *.wxr
 *.wxr.xml
+
+# Python inventory tool cache
+__pycache__/

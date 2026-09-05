@@ -6,11 +6,12 @@ Web site for Alchembright
 
 ## 現在の状態
 
-公開投稿419件・固定ページ3件を取り込んだ**確認用の静的サイト**です。記事と固定ページの旧URLを維持し、カテゴリ・タグ・年/月別一覧とページ送りを含む675 HTMLページを生成します。337件はMarkdown中心、85件は構造保存のためHTMLを残しています。
+公開投稿419件・固定ページ3件を取り込んだ**確認用の静的サイト**です。記事と固定ページの旧URLを維持し、カテゴリ・タグ・年/月別一覧とページ送りを含む677 HTMLページを生成します。337件はMarkdown中心、85件は構造保存のためHTMLを残しています。
 
 メディアは新URLへ変更してよい方針です。回収待ち127 URLを台帳で管理し、画像未収録表示を使用しています。WordPress/旧MTの原本突合・画像回収・サーバー設定は残っており、本番切替は行っていません。
 
-- [さくらのVPS / Nginxへの配置・切替](docs/vps-deployment.md)
+- [GitHub Pagesへの配置・DNSと既存サブドメインの調査](docs/github-pages.md)
+- [代替構成：さくらのVPS / Nginxへの配置・切替](docs/vps-deployment.md)
 - [今回の結果・制限・残作業](docs/phase2-results.md)
 - [起動・再変換・画像登録の手順](docs/migration-workflow.md)
 - [初回の現状調査](docs/current-state.md)
@@ -37,7 +38,7 @@ npm run build
 npm run migration:verify
 ```
 
-GitHub Actionsも同じ検証を実施し、確認用生成物を保存します。自動公開は設定していません。既定の確認用出力にはnoindexを付けています。
+GitHub Actionsも同じ検証を実施し、確認用生成物を保存します。GitHub Pages用の公開ワークフローを用意していますが、公開変数と事前検証で無効にしています。既定の確認用出力にはnoindexを付けています。
 
 ## 構成
 
@@ -53,4 +54,4 @@ migration/reports/                変換・生成物の検証結果
 scripts/migration/                取得・変換・反映・回収・検証
 ```
 
-原本スナップショット・WXR・DB・下書き・認証情報はGit外に保存し、`public/` に入れません。初回調査時の基点は `12c6ab51f5f9be1189fc8d734e7be3aaaa22b123`（READMEのみ）です。最終配信先は利用者が用意するWebサーバーを予定しています。
+原本スナップショット・WXR・DB・下書き・認証情報はGit外に保存し、`public/` に入れません。初回調査時の基点は `12c6ab51f5f9be1189fc8d734e7be3aaaa22b123`（READMEのみ）です。配信先は独自ドメイン付きGitHub Pagesを予定しています。

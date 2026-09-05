@@ -1,0 +1,156 @@
+{
+  "checked_at": "2026-09-05T10:09:53.974533+00:00",
+  "resolver": "1.1.1.1",
+  "records": [
+    {
+      "host": "alchembright.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 2542\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nalchembright.com.\t1200\tIN\tA\t160.16.239.27\n\n"
+    },
+    {
+      "host": "alchembright.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 12932\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "alchembright.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44181\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "alchembright.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 21763\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "alchembright.com",
+      "type": "MX",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 11870\n;; flags: qr rd ra; QUERY: 1, ANSWER: 7, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nalchembright.com.\t1200\tIN\tMX\t1 aspmx.l.google.com.\nalchembright.com.\t1200\tIN\tMX\t5 alt1.aspmx.l.google.com.\nalchembright.com.\t1200\tIN\tMX\t10 aspmx3.googlemail.com.\nalchembright.com.\t1200\tIN\tMX\t10 aspmx4.googlemail.com.\nalchembright.com.\t1200\tIN\tMX\t10 aspmx2.googlemail.com.\nalchembright.com.\t1200\tIN\tMX\t10 aspmx5.googlemail.com.\nalchembright.com.\t1200\tIN\tMX\t5 alt2.aspmx.l.google.com.\n\n"
+    },
+    {
+      "host": "alchembright.com",
+      "type": "NS",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 25078\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nalchembright.com.\t1200\tIN\tNS\tns1.value-domain.com.\nalchembright.com.\t1200\tIN\tNS\tns2.value-domain.com.\n\n"
+    },
+    {
+      "host": "www.alchembright.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8858\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nwww.alchembright.com.\t1200\tIN\tA\t160.16.239.27\n\n"
+    },
+    {
+      "host": "www.alchembright.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32823\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "www.alchembright.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 32718\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "www.alchembright.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35575\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "note.alchembright.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46235\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nnote.alchembright.com.\t1200\tIN\tA\t160.16.239.27\n\n"
+    },
+    {
+      "host": "note.alchembright.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 17599\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "note.alchembright.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 41318\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "note.alchembright.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 36917\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembright.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 55403\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ndev.alchembright.com.\t1200\tIN\tA\t160.16.122.89\n\n"
+    },
+    {
+      "host": "dev.alchembright.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 38823\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembright.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 10809\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembright.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 65063\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembrigt.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 58395\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembrigt.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 6381\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembrigt.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 13565\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "dev.alchembrigt.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 33719\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "codex-dns-check-20260905.alchembright.com",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 44380\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\ncodex-dns-check-20260905.alchembright.com. 1200\tIN A 160.16.239.27\n\n"
+    },
+    {
+      "host": "codex-dns-check-20260905.alchembright.com",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 40040\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "codex-dns-check-20260905.alchembright.com",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8913\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "codex-dns-check-20260905.alchembright.com",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51281\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "hirokiu.github.io",
+      "type": "A",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 24435\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nhirokiu.github.io.\t3600\tIN\tA\t185.199.108.153\nhirokiu.github.io.\t3600\tIN\tA\t185.199.111.153\nhirokiu.github.io.\t3600\tIN\tA\t185.199.109.153\nhirokiu.github.io.\t3600\tIN\tA\t185.199.110.153\n\n"
+    },
+    {
+      "host": "hirokiu.github.io",
+      "type": "AAAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1717\n;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nhirokiu.github.io.\t3600\tIN\tAAAA\t2606:50c0:8000::153\nhirokiu.github.io.\t3600\tIN\tAAAA\t2606:50c0:8001::153\nhirokiu.github.io.\t3600\tIN\tAAAA\t2606:50c0:8002::153\nhirokiu.github.io.\t3600\tIN\tAAAA\t2606:50c0:8003::153\n\n"
+    },
+    {
+      "host": "hirokiu.github.io",
+      "type": "CNAME",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 62774\n;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n"
+    },
+    {
+      "host": "hirokiu.github.io",
+      "type": "CAA",
+      "response": ";; Got answer:\n;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 35846\n;; flags: qr rd ra; QUERY: 1, ANSWER: 6, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version: 0, flags:; udp: 1232\n;; ANSWER SECTION:\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issue \"digicert.com\"\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issue \"letsencrypt.org\"\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issue \"sectigo.com\"\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issuewild \"digicert.com\"\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issuewild \"letsencrypt.org\"\nhirokiu.github.io.\t3600\tIN\tCAA\t0 issuewild \"sectigo.com\"\n\n"
+    }
+  ]
+}
