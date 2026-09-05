@@ -10,6 +10,7 @@ Web site for Alchembright
 
 メディアは新URLへ変更してよい方針です。回収待ち127 URLを台帳で管理し、画像未収録表示を使用しています。WordPress/旧MTの原本突合・画像回収・サーバー設定は残っており、本番切替は行っていません。
 
+- [さくらのVPS / Nginxへの配置・切替](docs/vps-deployment.md)
 - [今回の結果・制限・残作業](docs/phase2-results.md)
 - [起動・再変換・画像登録の手順](docs/migration-workflow.md)
 - [初回の現状調査](docs/current-state.md)

@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
 import { signature } from './lib.mjs';
-const root = path.resolve('dist');
+const root = path.resolve(process.env.ALCHEMBRIGHT_DIST_DIR || 'dist');
 const report=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
 const failures=[], legacyLinks=[];
 const pages=new Map();
@@ -24,6 +24,7 @@ for(const r of report.records) {
 for(const [file,$] of pages) {
   if($('script').length || $('[onclick],[onerror],[onload]').length) failures.push({file:path.relative(root,file),reason:'unexpected active content in static output'});
   if(!process.argv.includes('--release') && !$('meta[name="robots"]').attr('content')?.includes('noindex')) failures.push({file:path.relative(root,file),reason:'missing preview noindex'});
+  if(process.argv.includes('--release') && $('meta[name="robots"]').attr('content')?.includes('noindex')) failures.push({file:path.relative(root,file),reason:'production output still contains noindex'});
   for(const el of $('a[href],img[src],link[rel="stylesheet"]').toArray()) {
     const e=$(el); const ref=e.attr('href') || e.attr('src');
     if(!ref || /^(?:https?:|mailto:|tel:|data:)/i.test(ref)) {
@@ -41,8 +42,8 @@ for(const [file,$] of pages) {
     }
   }
 }
-if(process.argv.includes('--release') && report.media.pending) failures.push({reason:`${report.media.pending} unresolved media URLs; recovery decisions required before release`});
+if(process.argv.includes('--release') && report.media.pending && !process.argv.includes('--allow-pending-media')) failures.push({reason:`${report.media.pending} unresolved media URLs; recovery decisions required before release`});
 const result={verified_at:new Date().toISOString(),html_pages:pages.size,content_pages:report.records.length,failures,unresolved_legacy_or_external_links:legacyLinks,pending_media_urls:report.media.pending,scope:'Static output validation, not an HTTP server/redirect test or visual comparison'};
-await fs.writeFile('migration/reports/build-verification.json',JSON.stringify(result,null,2)+'\n');
+await fs.writeFile(process.env.ALCHEMBRIGHT_REPORT_PATH || 'migration/reports/build-verification.json',JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({html_pages:pages.size,content_pages:report.records.length,failures:failures.length,legacy_links:legacyLinks.length,pending_media:report.media.pending}));
 if(failures.length) { console.error(failures.slice(0,10));process.exitCode=1; }
