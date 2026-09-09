@@ -4,6 +4,7 @@ import LegacyNavigation from '../components/LegacyNavigation.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 interface Props { title: string; path: string; legacyNavigation?: boolean; }
 const {title,path,legacyNavigation=false} = Astro.props;
+const isHome = path === '/';
 const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
 ---
 <!doctype html>
@@ -20,8 +21,8 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
     <a class="skip" href="#content">本文へ</a>
     <header class:list={['site-header', {'is-home': path === '/'}]}>
       <div class="header-photo">
-        <img src="/media/site/yokohama-night.jpg" width="2000" height="1500" alt="" fetchpriority="high" decoding="async" />
-        <div class="branding"><a class="brand" href="/">Alchembright</a></div>
+        <img src={isHome ? "/media/site/yokohama-night.jpg" : "/media/site/page-header.jpg"} width={isHome ? 2000 : 1920} height={isHome ? 1500 : 2560} alt="" fetchpriority="high" decoding="async" />
+        <div class="branding"><a class="brand" href="/">Alchembright</a><p class="site-description">夢じゃない どれもすべて 二度とない 「日々のうた」</p></div>
       </div>
       <div class="navigation-wrap">
         <nav aria-label="メインメニュー">
@@ -31,9 +32,11 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
         </nav>
       </div>
     </header>
+    <div class="site-content">
     <main id="content">{legacyNavigation && <LegacyNavigation />}<slot /></main>
     <footer class="site-footer">
       <div class="footer-wrap"><SocialLinks /><p class="site-credit">Alchembright</p></div>
     </footer>
+    </div>
   </body>
 </html>

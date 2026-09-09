@@ -6,10 +6,13 @@
 .header-photo{position:relative;height:320px;background:#111;overflow:hidden}
 .header-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
 .header-photo::after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(0,0,0,.5));pointer-events:none}
-.branding{position:relative;z-index:1;width:min(100% - 3rem,980px);margin:auto;height:100%;display:flex;align-items:flex-end;padding-bottom:3rem}
+.branding{position:relative;z-index:1;width:min(100% - 3rem,980px);margin:auto;height:100%;display:flex;flex-direction:column;justify-content:flex-end;align-items:flex-start;padding-bottom:3rem}
 .branding .brand{color:white;font-size:2.75rem;font-weight:750;letter-spacing:-.035em;line-height:1.25;text-shadow:0 1px 4px #000}
 .is-home .header-photo{height:calc(100svh - 74px);min-height:420px}
-.navigation-wrap{border-bottom:1px solid #eee;background:white}
+.site-description{margin:.5rem 0 0;color:white;font-size:1rem;line-height:1.6;text-shadow:0 1px 4px #000}
+.is-home .header-photo>img{position:fixed;height:100svh}
+.site-content{position:relative;background:white}
+.navigation-wrap{position:relative;z-index:2;border-bottom:1px solid #eee;background:white}
 .navigation-wrap>nav{width:min(100% - 3rem,980px);margin:auto;align-items:center;gap:2.4rem;min-height:74px;font-weight:650}
 .navigation-wrap a{display:block;padding:1rem 0}
 .works-navigation{position:relative}
