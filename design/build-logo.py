@@ -62,4 +62,4 @@ for kind,letters_markup in [('outlined',outlined),('editable',editable)]:
  (HERE/f'alchembright-logo-{kind}.svg').write_text(base+geometry+'<g id="lettering" fill="#a96852">'+''.join(letters_markup)+'</g>'+center+'</svg>')
 # Small-size mark keeps the ring, star and central rune, omitting tiny lettering.
 favicon=f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><title>Alchembright</title><defs><linearGradient id="ink"><stop stop-color="#bb397f"/><stop offset="1" stop-color="#bd9a2d"/></linearGradient></defs><circle cx="32" cy="32" r="31" fill="white"/><g fill="none" stroke="url(#ink)" stroke-width="2.5"><circle cx="32" cy="32" r="28"/><path d="M32 8 53 44H11ZM32 56 11 20H53Z"/></g><circle cx="32" cy="32" r="12" fill="white"/><g fill="#246b4b" transform="translate(26 21) scale(.026)"><path d="{svgpath(1)}"/></g></svg>'''
-(HERE.parent/'public/favicon.svg').write_text(favicon)
+(HERE/'unused-favicon-concept.svg').write_text(favicon)
