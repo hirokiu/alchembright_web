@@ -1,5 +1,7 @@
 # GitHub Pagesへの移行とDNSの切替
 
+> 2026-09-09：独自ドメイン切替前に、[noindex付き確認用公開](pages-preview.md) を先行する。
+
 2026-09-05調査。公開先は **https://www.alchembright.com/**、生成はAstro、公開はGitHub Actionsとする。VPS向け設定は代替手段として保持する。DNS・本番WordPress・リポジトリの公開範囲は今回変更していない。
 
 ## DNSと既存サービスへの影響
@@ -59,7 +61,7 @@ python3 scripts/deploy/audit-vps-paths.py /data/www/130_note.ab/wp_htdocs > "$HO
 - `404.html` と `/feed/` を加え、677 HTMLページ。公開原本・DB・認証情報はビルド成果物に含めない。
 - Astroのsiteは独自ドメイン、baseはルート。`/alchembright_web/` を付けない。独自ドメイン設定前のgithub.ioリポジトリパスで、そのまま完全動作する構成ではない。
 
-現在のリポジトリはprivate。GitHub Freeではprivate repoのPagesを使えないため、Pro等の対応プランか確認する。APIから契約プランは確認できず、Pages設定取得は404だった。リポジトリを自動でpublicにはしない。private repoから公開しても、PagesのWebコンテンツ自体は公開される。
+2026-09-05調査時のリポジトリはprivateだったが、2026-09-09に利用者がpublicへ変更した。以下の契約制約は解消済み。GitHub Freeではprivate repoのPagesを使えないため、Pro等の対応プランか確認する。APIから契約プランは確認できず、Pages設定取得は404だった。リポジトリを自動でpublicにはしない。private repoから公開しても、PagesのWebコンテンツ自体は公開される。
 
 ## 切替手順
 
