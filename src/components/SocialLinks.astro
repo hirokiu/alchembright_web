@@ -1,0 +1,6 @@
+---
+import links from '../data/social-links.json';
+---
+<nav class="social-navigation" aria-label="ソーシャルメディア">
+  <ul>{links.map(link=><li><a href={link.href} aria-label={link.name} rel="me"><svg xmlns="http://www.w3.org/2000/svg" viewBox={link.viewBox} aria-hidden="true" focusable="false" width="16" height="16">{link.paths.map(d=><path d={d} />)}</svg></a></li>)}</ul>
+</nav>

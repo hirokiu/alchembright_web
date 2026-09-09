@@ -1,6 +1,7 @@
 ---
 import '../styles/site.css';
 import LegacyNavigation from '../components/LegacyNavigation.astro';
+import SocialLinks from '../components/SocialLinks.astro';
 interface Props { title: string; path: string; legacyNavigation?: boolean; }
 const {title,path,legacyNavigation=false} = Astro.props;
 const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
@@ -17,13 +18,22 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
   </head>
   <body>
     <a class="skip" href="#content">本文へ</a>
-    <header>
-      <a class="brand" href="/">Alchembright</a>
-      <nav aria-label="メインメニュー">
-        <a href="/">home</a><a href="/category/news/">news</a><a href="/category/works/">works</a><a href="/category/blog/">blog</a><a href="/about/">about</a>
-      </nav>
+    <header class:list={['site-header', {'is-home': path === '/'}]}>
+      <div class="header-photo">
+        <img src="/media/site/yokohama-night.jpg" width="2000" height="1500" alt="" fetchpriority="high" decoding="async" />
+        <div class="branding"><a class="brand" href="/">Alchembright</a></div>
+      </div>
+      <div class="navigation-wrap">
+        <nav aria-label="メインメニュー">
+          <a href="/">home</a><a href="/category/news/">news</a>
+          <div class="works-navigation"><a href="/category/works/">works</a><ul><li><a href="/works/kirokun/">KIROKUN</a></li></ul></div>
+          <a href="/category/blog/">blog</a><a href="/about/">about</a>
+        </nav>
+      </div>
     </header>
     <main id="content">{legacyNavigation && <LegacyNavigation />}<slot /></main>
-    <footer><a href="/category/blog/">Blog</a><a href="/feed.xml">RSS</a><a href="/kirokun-support/">KIROKUN プライバシーポリシー</a><span>Alchembright</span></footer>
+    <footer class="site-footer">
+      <div class="footer-wrap"><SocialLinks /><p class="site-credit">Alchembright</p></div>
+    </footer>
   </body>
 </html>

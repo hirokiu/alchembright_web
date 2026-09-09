@@ -16,6 +16,7 @@ const years = await archiveYears();
 <Site title={route.title} path={route.path} legacyNavigation={route.path === '/'}>
   {entry && Content ? (
     <article class="article">
+      {route.path === '/kirokun-support/' && <nav class="breadcrumbs" aria-label="パンくず"><a href="/category/works/">Works</a><span aria-hidden="true">/</span><a href="/works/kirokun/">KIROKUN</a><span aria-hidden="true">/</span><span>プライバシーポリシー</span></nav>}
       {post && <div class="eyebrow"><a href="/category/blog/">Blog</a><time datetime={entry.data.published_at_local.slice(0,10)}>{entry.data.published_at_local.slice(0,10)}</time></div>}
       <h1>{route.title}</h1>
       <div class="prose" data-source-id={entry.data.source_id}><Content /></div>
@@ -25,13 +26,14 @@ const years = await archiveYears();
     <section class="archive">
       <div class="eyebrow">Alchembright / Archive</div>
       <h1>{route.title}</h1>
-      {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div><h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{e.data.excerpt && <p>{e.data.excerpt.slice(0,160)}</p>}</div></li>)}</ol> : <p>この分類にはまだ記事がありません。</p>}
-      <nav class="pagination" aria-label="ページ送り">
+      {route.path === '/category/works/' && <section class="project-summary" aria-labelledby="kirokun-title"><p class="eyebrow">iOS / Android</p><h2 id="kirokun-title"><a href="/works/kirokun/">KIROKUN（キロクン）</a></h2><p>日常の第二言語の使用状況と言語学習パターンを記録し、言語学研究に役立てるアプリ。</p><a href="/works/kirokun/">アプリについて →</a></section>}
+      {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div><h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{e.data.excerpt && <p>{e.data.excerpt.slice(0,160)}</p>}</div></li>)}</ol> : route.path !== '/category/works/' ? <p>この分類にはまだ記事がありません。</p> : null}
+      {route.totalPages! > 1 && <nav class="pagination" aria-label="ページ送り">
         {route.page! > 1 && <a rel="prev" href={route.page===2?route.base:`${route.base}page/${route.page!-1}/`}>← 前のページ</a>}
         <span>{route.page} / {route.totalPages}</span>
         {route.page! < route.totalPages! && <a rel="next" href={`${route.base}page/${route.page!+1}/`}>次のページ →</a>}
-      </nav>
-      <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div></aside>
+      </nav>}
+      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div></aside>}
     </section>
   )}
 </Site>
