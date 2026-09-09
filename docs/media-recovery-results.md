@@ -13,3 +13,7 @@ node scripts/migration/recover-media.mjs '元URL' '/path/to/file.jpg' '2004/04'
 ```
 
 登録後は新しいステージに再取り込み・promoteする。承認済みMT記事も import-reviewed-mt.mjs で再生成し、buildとmigration:verifyで画像参照を確認する。
+
+## 2026-09-10 ローカルバックアップからの追加回収
+
+画像78URLと既存記事のPDF1URLを追加回収し、127URL中126件が復旧した。残る1件はCooking.drawio.svg。詳細は [場logバックアップ調査](balog-backup-audit.md)、対応表は migration/reports/balog-backup-recovery.csv を参照。
