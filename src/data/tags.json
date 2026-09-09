@@ -532,5 +532,15 @@
     "slug": "mt-9",
     "taxonomy": "post_tag",
     "meta": []
+  },
+  {
+    "id": -10,
+    "count": 71,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/photo/",
+    "name": "photo",
+    "slug": "photo",
+    "taxonomy": "post_tag",
+    "meta": []
   }
 ]

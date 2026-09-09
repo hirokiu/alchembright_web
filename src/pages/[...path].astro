@@ -14,6 +14,8 @@ const Content = rendered?.Content;
 const entry = route.entry;
 const post = entry?.data.content_type === 'post';
 const years = await archiveYears();
+const excerptText = (text: string) => text.replace(/[“「][^“”「」]*[”」]\s*の続きを読む(?:\\n|\s)*$/, '').trim().slice(0,160);
+
 ---
 <Site title={route.title} path={route.path} legacyNavigation={route.path === '/'}>
   {entry && Content ? (
@@ -32,7 +34,7 @@ const years = await archiveYears();
       <h1>{route.title}</h1>
       {route.path === '/category/works/' && <section class="project-summary" aria-labelledby="kirokun-title"><p class="eyebrow">iOS / Android</p><h2 id="kirokun-title"><a href="/works/kirokun/">KIROKUN（キロクン）</a></h2><p>日常の第二言語の使用状況と言語学習パターンを記録し、言語学研究に役立てるアプリ。</p><a href="/works/kirokun/">アプリについて →</a></section>}
       {route.path === '/category/works/' && <section class="project-summary" aria-labelledby="balog-title"><p class="eyebrow">位置情報 / Weblog / 研究開発</p><h2 id="balog-title"><a href="/works/balog/">場log（balog）</a></h2><p>写真やブログ記事を位置情報で結び付け、場所を手がかりに閲覧する研究開発プロジェクト。</p><a href="/works/balog/">プロジェクトについて →</a></section>}
-      {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div><h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{e.data.excerpt && <p>{e.data.excerpt.slice(0,160)}</p>}</div></li>)}</ol> : route.path !== '/category/works/' ? <p>この分類にはまだ記事がありません。</p> : null}
+      {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div><h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{excerptText(e.data.excerpt) && <p>{excerptText(e.data.excerpt)}</p>}<p class="read-more"><a href={e.data.canonical_path}>「{e.data.title}」の続きを読む</a></p></div></li>)}</ol> : route.path !== '/category/works/' ? <p>この分類にはまだ記事がありません。</p> : null}
       {route.totalPages! > 1 && <nav class="pagination" aria-label="ページ送り">
         {route.page! > 1 && <a rel="prev" href={route.page===2?route.base:`${route.base}page/${route.page!-1}/`}>← 前のページ</a>}
         <span>{route.page} / {route.totalPages}</span>

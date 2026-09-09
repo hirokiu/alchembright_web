@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import YAML from 'yaml';
+import {addPhotoTags} from './photo-tags.mjs';
 import {applyTagAdditions} from './tag-additions.mjs';
 import { parse } from 'csv-parse/sync';
 import { stringify } from 'csv-stringify/sync';
@@ -24,6 +25,7 @@ let additions = null;
 try { additions = JSON.parse(await fs.readFile('migration/mappings/mt-tag-additions.json','utf8')); }
 catch (e) { if (e.code !== 'ENOENT') throw e; }
 if (additions) applyTagAdditions(posts, tags, additions);
+addPhotoTags(posts,tags);
 const records = [...posts,...pages];
 if (records.some(r => r.status !== 'publish' || r.content?.protected || !['post','page'].includes(r.type))) throw new Error('Only public, unprotected posts/pages may enter this import');
 const paths = new Set(records.map(r => canonicalPath(r.link)));
