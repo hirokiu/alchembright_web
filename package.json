@@ -8,7 +8,7 @@
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "node scripts/deploy/thumbnails.mjs && astro build && node scripts/deploy/prefix-output.mjs",
+    "build": "npm run content:validate && node scripts/deploy/thumbnails.mjs && astro build && node scripts/deploy/prefix-output.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
     "test": "node --test scripts/migration/*.test.mjs scripts/deploy/*.test.mjs",
@@ -17,7 +17,8 @@
     "migration:verify": "node scripts/migration/verify.mjs",
     "nginx:generate": "node scripts/deploy/generate-nginx.mjs",
     "release:prepare": "node scripts/deploy/prepare-release.mjs",
-    "predev": "node scripts/deploy/thumbnails.mjs"
+    "predev": "node scripts/deploy/thumbnails.mjs",
+    "content:validate": "node scripts/deploy/validate-content.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.0",

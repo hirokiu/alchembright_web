@@ -39,7 +39,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run check
-      - run: npm run build
+      - name: Regenerate articles, category/tag/date archives and thumbnails
+        run: npm run build
       - name: Verify preview (pending media allowed for review)
         run: npm run migration:verify
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
