@@ -41,3 +41,5 @@
 .social-navigation a:hover,.social-navigation a:focus-visible{background:var(--accent)}
 
 .entries p.read-more{margin-top:1.8em}
+
+.entry-summary{min-width:0;display:flow-root}.entry-thumbnail{float:right;width:160px;margin:0 0 1rem 1.25rem;display:block}.entry-thumbnail img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:white}.entry-summary h2,.entry-summary p{overflow-wrap:anywhere}@media(max-width:600px){.entry-thumbnail{width:104px;margin-left:.8rem}}@media(max-width:360px){.entry-thumbnail{width:80px;margin-left:.6rem}}
