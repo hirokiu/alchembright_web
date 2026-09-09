@@ -3,7 +3,7 @@ import path from 'node:path';
 import {parse} from 'csv-parse/sync';
 import {stringify} from 'csv-stringify/sync';
 import {hash} from './lib.mjs';
-const [source,file]=process.argv.slice(2);
+const [source,file,monthArgument]=process.argv.slice(2);
 if(!source||!file)throw new Error('Usage: node scripts/migration/recover-media.mjs <exact-source-url> <recovered-local-file>');
 const rows=parse(await fs.readFile('migration/mappings/media-map.csv','utf8'),{columns:true});
 const entry=rows.find(r=>r.source_url===source);if(!entry)throw new Error('URL is not in the recovery inventory');
@@ -17,7 +17,9 @@ else if(ascii.startsWith('RIFF')&&ascii.slice(8,12)==='WEBP')format=['webp','ima
 else if(ascii.startsWith('%PDF-'))format=['pdf','application/pdf'];
 else throw new Error('Unrecognized file type. No file copied; inspect format manually.');
 if(entry.recovery_status==='recovered' && entry.sha256!==digest)throw new Error('A different file is already registered; review before replacement');
-const target=`/media/imported/${hash(source).slice(0,16)}/${digest.slice(0,16)}.${format[0]}`;
+const month=monthArgument || new URL(source).pathname.match(/\/(\d{4}\/(?:0[1-9]|1[0-2]))\//)?.[1];
+if(!/^\d{4}\/(?:0[1-9]|1[0-2])$/.test(month || ''))throw Error('Provide reviewed image month as YYYY/MM');
+const target=`/img/blog/${month}/${hash(source).slice(0,12)}-${digest.slice(0,12)}.${format[0]}`;
 const dest=path.join('public',target);await fs.mkdir(path.dirname(dest),{recursive:true});
 try {await fs.writeFile(dest,bytes,{flag:'wx'});}catch(e){if(e.code!=='EEXIST'||hash(await fs.readFile(dest))!==digest)throw e;}
 Object.assign(entry,{target_path:target,sha256:digest,bytes:String(bytes.length),mime_type:format[1],recovery_status:'recovered',evidence:'User-supplied local backup; source association provided explicitly',notes:'Re-import to a new stage and promote to update article references'});

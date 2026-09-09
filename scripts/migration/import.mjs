@@ -37,7 +37,7 @@ for (const a of attachments) {
 }
 for (const u of discovered) if (!media.has(u)) media.set(u, { source_url:u, source_record_id:'', target_path:mediaTarget(u), sha256:'', bytes:'', mime_type:'', recovery_status:'pending', evidence:'public REST 2026-09-05', notes:'Media URL changes approved; awaiting file recovery' });
 for (const m of media.values()) if (m.recovery_status === 'recovered') {
-  if (!m.target_path.startsWith('/media/imported/') || m.target_path.includes('..')) throw new Error('Unsafe recovered media path');
+  if (!(m.target_path.startsWith('/media/imported/') || /^\/img\/blog\/\d{4}\/(?:0[1-9]|1[0-2])\//.test(m.target_path)) || m.target_path.includes('..')) throw new Error('Unsafe recovered media path');
   const bytes = await fs.readFile(path.join('public',m.target_path));
   if (hash(bytes)!==m.sha256) throw new Error(`Recovered media hash mismatch: ${m.source_url}`);
 }

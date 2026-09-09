@@ -38,3 +38,12 @@ test('repeat imports are deterministic, existing stages are protected, and promo
   assert.match(await fs.readFile(path.join(dir,content),'utf8'),/手編集/);
  }finally{await fs.rm(dir,{recursive:true,force:true});}
 });
+
+test('former drafts without owner approval cannot enter the public content directory',async()=>{
+ const dir=await fixture();try{
+  await fs.mkdir(path.join(dir,'migration/reviewed'),{recursive:true});
+  await fs.writeFile(path.join(dir,'migration/reviewed/mt-drafts.json'),JSON.stringify([{basename:'private',publication_approved:false}]));
+  const result=run(dir,'import-reviewed-mt.mjs');assert.notEqual(result.status,0);assert.match(result.stderr,/Unapproved publication/);
+  await assert.rejects(fs.access(path.join(dir,'src/content')));
+ }finally{await fs.rm(dir,{recursive:true,force:true});}
+});

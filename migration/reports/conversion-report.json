@@ -27,7 +27,7 @@
     }
   },
   "provisional": true,
-  "mapping_input_sha256": "56825c4d7a468452697cf5c0291b5f15f39e1d3b1c6947d1bcebcaeb52b2b075",
+  "mapping_input_sha256": "b06629c4b88abdfbea1b33d21fb6d9c99f21a883ac8da2df26a8ac111aabcfe6",
   "generated_files": {
     "src/content/blog/2008/wp-6.md": "5bad0e80257b43f40d285e4879e42500290d8d0f4fd8a5c3fdcdb6def210f8b2",
     "src/content/blog/2008/wp-7.md": "a834fd2858915b9d77bcdff1f8802bd38e67f4ce27f28e2a24df9416db97f1d1",
@@ -442,7 +442,7 @@
     "src/content/blog/2010/wp-426.md": "69cd85c498793bc145d49271c4d85d01b8e6ea1f4be3c2d15e6d9e8bd1946fa3",
     "src/content/blog/2010/wp-427.md": "f48c5a188ab9ae50729501af24fc4dfde74d590732e6aefa9848355f6ea5dd92",
     "src/content/blog/2010/wp-428.md": "5e5fd3a70e1c7de6a6620b49463e6b2c1cd6988e26e4510ef14309ff8b95c387",
-    "src/content/blog/2010/wp-429.md": "efbc61c5dff90e299a723cb02e34219f3bced4177191e73e2c38be95d5d136bc",
+    "src/content/blog/2010/wp-429.md": "c58c1ba18111bc526604c87f379578066bd2f3f403812f4691add7f554b41aee",
     "src/content/blog/2010/wp-430.md": "8b4720f239aa9e40feae3a093c84d426bb121bcfa7cb4804fdbbd020ab00e38d",
     "src/content/blog/2010/wp-431.md": "a4c74c3e916530a9c0eb362f9ed7f262fb142a76c57a56b9192fb8742ac0e704",
     "src/content/blog/2011/wp-434.md": "2a60412c018f19e815dd7253881914fd738d6c81439eae58c014498b5e16974e",
@@ -8627,7 +8627,6 @@
       "path": "/blog/days/misdo_20100828/",
       "format": "html-preserved",
       "warnings": [
-        "pending_media:http://note.alchembright.com/wp-content/uploads/2010/08/photo-1282977346.00-0-224x300.jpg",
         "html_sanitized",
         "semantic_comparison_required_html_fallback"
       ],
@@ -8638,7 +8637,7 @@
             "href": "http://www.balog.jp/photos/original/20100828/1282977346972.jpg"
           },
           {
-            "src": "/media/pending.svg",
+            "src": "/img/blog/2010/08/2310cf155c72-photo-1282977346.00-0-224x300.jpg",
             "alt": "",
             "data-original-src": "http://note.alchembright.com/wp-content/uploads/2010/08/photo-1282977346.00-0-224x300.jpg"
           }
@@ -8791,7 +8790,7 @@
   ],
   "media": {
     "total": 127,
-    "pending": 127
+    "pending": 80
   },
   "url_map_generated_sha256": "c5e67e94d4939a7928ee7e48b6d32ebb012a11dee3f8291b833b79518e6313c6"
 }

@@ -1,0 +1,138 @@
+{
+  "records": [
+    {
+      "id": -3,
+      "file": "src/content/restored/post_8.md",
+      "path": "/blog/restored/2009/post_8/",
+      "expected": {
+        "text": "お昼を@komatak@mod_jkと食べながら思ったことのまとめ。その場でも、うまく話せてなかったし、書いてもまとまらない気がするけど。というか、最近うまく口が回らないことが増えてきた。単語も出ないし、いい間違えたり、噛んだりするよね、なに？老化？で、本題。ゆりぽの発言と、DESIGNIT!w/LOVEの記事を読んでの雑感。「図書館的」コミュニケーションわからないことへの耐性＊）リンク先を読んでくださいね。上記は抜粋しちゃってます。",
+        "attrs": [
+          {
+            "href": "http://gitanez.seesaa.net/"
+          },
+          {
+            "href": "https://twitter.com/yuripop/status/3395572783"
+          },
+          {
+            "href": "http://gitanez.seesaa.net/article/125996546.html"
+          }
+        ],
+        "code": [],
+        "breaks": 16,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -4,
+      "file": "src/content/restored/post_10.md",
+      "path": "/blog/restored/2003/post_10/",
+      "expected": {
+        "text": "■事実：今後の進路について考えた。◆気づき：就職活動を含め、悩むことが多い。●教訓：悩んでばかりいても、動かなければ始まらない。★宣言：僕は、自分自身について深く考えられる人間だ。",
+        "attrs": [],
+        "code": [],
+        "breaks": 3,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -5,
+      "file": "src/content/restored/post_12.md",
+      "path": "/blog/restored/2003/post_12/",
+      "expected": {
+        "text": "■事実：ゼミの開始時間がデフォルトより遅い。◆気づき：４限に出席できない。●教訓：進学したら、早く単位を集めよう。★宣言：僕は、先の見通しを立てられる人間だ。",
+        "attrs": [],
+        "code": [],
+        "breaks": 3,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -6,
+      "file": "src/content/restored/post_14.md",
+      "path": "/blog/restored/2003/post_14/",
+      "expected": {
+        "text": "■事実：ピックが買った状態の半分くらいに。◆気づき：ギターのピックアップがオレンジ色に。●教訓：自分のピッキングの強さにあったピックを買おう。★宣言：僕は、自分自身について深く考察できる人間だ。",
+        "attrs": [],
+        "code": [],
+        "breaks": 3,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -7,
+      "file": "src/content/restored/post_27.md",
+      "path": "/blog/restored/2003/post_27/",
+      "expected": {
+        "text": "ある人に電話しました。涙腺が緩んでしまうのは仕方ないんだろうな。電話をしても何も変わらないことはわかってたけど、心のどこかで期待していたのかな？まぁ、結局は、何も得るものはなく、空しくなっただけなんだろうけど。「ホントにつらいときは電話してもいいよ」そんな言葉をくれたけど、僕にしてみれば毎日がつらいよ。だったら、毎日電話していいのかといったら、そういうわけではないし。むずかしいね。あと、「もっと強くならなきゃだめだよ」、なんて言われたけど強さって何？って感じ。好きな子をあきらめることが強さなのかな。相手に迷惑かけないようにして、自分だけがつらいままで耐えるとか。他にもいろんな話をしたけど、言いたかったことが言えたからよしとしよう。ずっと好きだから、ずっとあきらめないでいるからって。",
+        "attrs": [],
+        "code": [],
+        "breaks": 9,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -8,
+      "file": "src/content/restored/post_28.md",
+      "path": "/blog/restored/2003/post_28/",
+      "expected": {
+        "text": "電話なんてするんじゃなかったな。もっと集中しなくちゃいけないことはたくさんあるのに以前よりもある人のことが頭からはなれません。ダメだねぇ。というか、どうして昨日の電話で「会いたい」って言わなかったんだろ？そのときは、ホントにそこまでしちゃダメだって思ってたのかな。でも、今になってこんなどうしようもない気持ちになるくらいならそれくらい言えばよかったと思う。",
+        "attrs": [],
+        "code": [],
+        "breaks": 4,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -9,
+      "file": "src/content/restored/post_164.md",
+      "path": "/blog/restored/2004/post_164/",
+      "expected": {
+        "text": "＜今日の晩ご飯＞―――――――――――――――――――――――――――――――・豚肉多めなハンバーグ・にんにく入れすぎたガーリックトーストfeaturingトマトサラダ・手抜きジャガイモスープ――――――――――――――――――――――――――――――――――――――――――定番となった某氏のご飯。いつもおいしくいただいております。ってか、毎日こんな幸せな時間をすごしていて良いのでしょうか？ガーリックトーストは、パン以外は手作りでした。トマトによるアレンジがかなり良い感じ。これからもいろんな料理を期待してます。",
+        "attrs": [],
+        "code": [],
+        "breaks": 6,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -10,
+      "file": "src/content/restored/post_214.md",
+      "path": "/blog/restored/2004/post_214/",
+      "expected": {
+        "text": "僕は、ずっと忘れてはいけない。いや、きっと忘れることはないだろう。このエントリは、記憶をつなぎとめておくための断片の一つでもある。",
+        "attrs": [],
+        "code": [],
+        "breaks": 1,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -11,
+      "file": "src/content/restored/centos_settings.md",
+      "path": "/blog/restored/2011/centos_settings/",
+      "expected": {
+        "text": "自分用のメモ基本はyumでインストールしたいのでリポジトリを追加wgethttp://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-4.noarch.rpmwgethttp://rpms.famillecollet.com/el5.i386/remi-release-5-8.el5.remi.noarch.rpmrpm-Uvhremi-release-5-8.el5.remi.noarch.rpmrpm-Uvhepel-release-5-4.noarch.rpmrpm-Uvhremi-release-5-8.el5.remi.noarch.rpmapacheの最新はここのリポジトリを追加cd/etc/yum.repos.d/lsviutter.repo[utter]name=Jason'sUtterRamblingsRepobaseurl=http://www.jasonlitka.com/media/EL$releasever/$basearch/enabled=0gpgcheck=1gpgkey=http://www.jasonlitka.com/media/RPM-GPG-KEY-jlitkacd../yum--enablerepo=utterinstallhttpd",
+        "attrs": [],
+        "code": [
+          "自分用のメモ\n\n基本は yum でインストールしたいのでリポジトリを追加\n\n wget http://download.fedora.redhat.com/pub/epel/5/i386/epel-release-5-4.noarch.rpm\n wget http://rpms.famillecollet.com/el5.i386/remi-release-5-8.el5.remi.noarch.rpm\n rpm -Uvh remi-release-5-8.el5.remi.noarch.rpm \n rpm -Uvh epel-release-5-4.noarch.rpm \n rpm -Uvh remi-release-5-8.el5.remi.noarch.rpm \n\napacheの最新はここのリポジトリを追加\n\ncd /etc/yum.repos.d/\nls\nvi utter.repo\n\n[utter]\nname=Jason's Utter Ramblings Repo\nbaseurl=http://www.jasonlitka.com/media/EL$releasever/$basearch/\nenabled=0\ngpgcheck=1\ngpgkey=http://www.jasonlitka.com/media/RPM-GPG-KEY-jlitka\n\n\ncd ../\nyum --enablerepo=utter install httpd"
+        ],
+        "breaks": 0,
+        "tableCells": []
+      }
+    },
+    {
+      "id": -12,
+      "file": "src/content/restored/gitosis_install.md",
+      "path": "/blog/restored/2011/gitosis_install/",
+      "expected": {
+        "text": "[user@host.ssh]$cd/var/lib/gitosis/[user@hostgitosis]$ls[user@hostgitosis]$ls[user@hostgitosis]$sudo-H-ugitosisgitosis-init</home/user/.ssh/user.pubInitializedemptyGitrepositoryin/var/lib/gitosis/repositories/gitosis-admin.git/ReinitializedexistingGitrepositoryin/var/lib/gitosis/repositories/gitosis-admin.git/例えば管理者の適当なディレクトリに移動してgitclonegitosis@localhost:gitosis-admin.git",
+        "attrs": [],
+        "code": [
+          "[user@host .ssh]$ cd /var/lib/gitosis/\n[user@host gitosis]$ ls\n[user@host gitosis]$ ls\n[user@host gitosis]$ sudo -H -u gitosis gitosis-init < /home/user/.ssh/user.pub \nInitialized empty Git repository in /var/lib/gitosis/repositories/gitosis-admin.git/\nReinitialized existing Git repository in /var/lib/gitosis/repositories/gitosis-admin.git/\n\n例えば管理者の適当なディレクトリに移動して\ngit clone gitosis@localhost:gitosis-admin.git"
+        ],
+        "breaks": 0,
+        "tableCells": []
+      }
+    }
+  ]
+}

@@ -4,6 +4,7 @@ import { load } from 'cheerio';
 import { signature } from './lib.mjs';
 const root = path.resolve(process.env.ALCHEMBRIGHT_DIST_DIR || 'dist');
 const report=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
+try {const extra=JSON.parse(await fs.readFile('migration/reports/reviewed-mt.json','utf8'));report.records.push(...extra.records);}catch(e){if(e.code!=='ENOENT')throw e;}
 const failures=[], legacyLinks=[];
 const pages=new Map();
 const projectBase=(process.env.ALCHEMBRIGHT_BASE || '/').replace(/\/$/,'');
