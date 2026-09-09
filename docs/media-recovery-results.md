@@ -17,3 +17,7 @@ node scripts/migration/recover-media.mjs '元URL' '/path/to/file.jpg' '2004/04'
 ## 2026-09-10 ローカルバックアップからの追加回収
 
 画像78URLと既存記事のPDF1URLを追加回収し、127URL中126件が復旧した。残る1件はCooking.drawio.svg。詳細は [場logバックアップ調査](balog-backup-audit.md)、対応表は migration/reports/balog-backup-recovery.csv を参照。
+
+## 2026-09-10 料理の図の復旧
+
+Cooking.drawioから表示用PNGを生成し、残る1件を復旧。画像・資料の一覧127URLはすべて回収済み。詳細は [料理の図の復旧](cooking-image-recovery.md)。

@@ -27,7 +27,7 @@
     }
   },
   "provisional": true,
-  "mapping_input_sha256": "45f363305510de521941755a8293df49f8ffe9207dfc0293c3fdf4e443a3341e",
+  "mapping_input_sha256": "722c2efb3c4e05484024b0662443fe9dfbad23868995803c7b4f282d781decbb",
   "generated_files": {
     "src/content/blog/2008/wp-6.md": "5bad0e80257b43f40d285e4879e42500290d8d0f4fd8a5c3fdcdb6def210f8b2",
     "src/content/blog/2008/wp-7.md": "a834fd2858915b9d77bcdff1f8802bd38e67f4ce27f28e2a24df9416db97f1d1",
@@ -447,7 +447,7 @@
     "src/content/blog/2010/wp-431.md": "a4c74c3e916530a9c0eb362f9ed7f262fb142a76c57a56b9192fb8742ac0e704",
     "src/content/blog/2011/wp-434.md": "2a60412c018f19e815dd7253881914fd738d6c81439eae58c014498b5e16974e",
     "src/content/blog/2021/wp-442.md": "e1157db911e40a4611c69f5a3145db8251a0d81f0673b4beab132b6f3e970046",
-    "src/content/blog/2025/wp-527.md": "2628b091b58a6ab828104d7168f8bd6e8d25583f189d32d4393b2e9e47215940",
+    "src/content/blog/2025/wp-527.md": "910b5eddbf268757c3f2c5041922263af4f7f560cc430df9935de3e6ac376b70",
     "src/content/pages/wp-461.md": "cb8efbc5502423c0854ce3789bb8709fa4c39d986c1a116c676ca5f9db2fb8bd",
     "src/content/pages/wp-466.md": "0dae5af2486dabf130004da06f81ed99425f1c41492e3ae3558cbc6667f70849",
     "src/content/pages/wp-531.md": "2511802cd7794a20034c829bda1ea2fb3ba88fd6f5290cece05e139e6e0b25ea",
@@ -8651,14 +8651,13 @@
       "path": "/blog/days/料理とそのゴール/",
       "format": "markdown",
       "warnings": [
-        "pending_media:https://dev.balog.jp/Cooking.drawio.svg",
         "html_sanitized"
       ],
       "expected": {
         "text": "基本、料理はだれかのためにしたいと思っている。（相手はいないけど）料理をする上で、もちろん盛り付けや味付けなども大切だけど、すべての料理が最適な状態で食卓に並んで、一緒に食べ始められることも重要。だいぶ端折るけど……このポリシーの上で料理の手順をまとめたのでいったん貼り付け。ここに至る経緯や、そもそもの成り立ちなどはまた気が向いたら書こう。",
         "attrs": [
           {
-            "src": "/media/pending.svg",
+            "src": "/img/blog/2025/04/ec0ef4ef80d6-42802cddfbb7.png",
             "alt": "",
             "data-original-src": "https://dev.balog.jp/Cooking.drawio.svg"
           }
@@ -8720,7 +8719,7 @@
   ],
   "media": {
     "total": 127,
-    "pending": 1
+    "pending": 0
   },
   "url_map_generated_sha256": "c5e67e94d4939a7928ee7e48b6d32ebb012a11dee3f8291b833b79518e6313c6"
 }
