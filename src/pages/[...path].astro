@@ -1,6 +1,7 @@
 ---
 import { render } from 'astro:content';
 import Site from '../layouts/Site.astro';
+import ResearchProfile from '../components/ResearchProfile.astro';
 import { routes, categories, tags, pathOf, archiveYears, type Route } from '../lib/routes';
 export async function getStaticPaths() {
   return (await routes()).map(route => ({ params: { path: route.path === '/' ? undefined : route.path.slice(1,-1) }, props: { route } }));
@@ -20,6 +21,7 @@ const years = await archiveYears();
       {post && <div class="eyebrow"><a href="/category/blog/">Blog</a><time datetime={entry.data.published_at_local.slice(0,10)}>{entry.data.published_at_local.slice(0,10)}</time></div>}
       <h1>{route.title}</h1>
       <div class="prose" data-source-id={entry.data.source_id}><Content /></div>
+      {route.path === "/about/" && <ResearchProfile />}
       {post && <nav class="terms" aria-label="この記事の分類">{categories.filter(c=>entry.data.category_ids.includes(c.id)).map(c=><a href={pathOf(c.link)}>{c.name}</a>)}{tags.filter(t=>entry.data.tag_ids.includes(t.id)).map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</nav>}
     </article>
   ) : (
