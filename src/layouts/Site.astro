@@ -35,7 +35,7 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
     <div class="site-content">
     <main id="content">{legacyNavigation && <LegacyNavigation />}<slot /></main>
     <footer class="site-footer">
-      <div class="footer-wrap"><SocialLinks /><p class="site-credit">Alchembright</p></div>
+      <div class="footer-wrap"><SocialLinks /><p class="site-credit">© {new Date().getFullYear()} Alchembright / hiroki_u</p></div>
     </footer>
     </div>
   </body>
