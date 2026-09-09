@@ -30,8 +30,9 @@ const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*�
     </article>
   ) : (
     <section class="archive">
-      <div class="eyebrow">Alchembright / Archive</div>
+      <div class="eyebrow">{route.path.startsWith('/tag/') ? 'Alchembright / タグ' : route.path.startsWith('/category/') ? 'Alchembright / カテゴリー' : 'Alchembright / Archive'}</div>
       <h1>{route.title}</h1>
+      {route.path.startsWith('/tag/') && <p>「{route.title}」タグの付いた記事を表示しています。<a href="/tags/">タグ一覧へ</a></p>}
       {route.path === '/category/works/' && <section class="project-summary" aria-labelledby="kirokun-title"><p class="eyebrow">iOS / Android</p><h2 id="kirokun-title"><a href="/works/kirokun/">KIROKUN（キロクン）</a></h2><p>日常の第二言語の使用状況と言語学習パターンを記録し、言語学研究に役立てるアプリ。</p><a href="/works/kirokun/">アプリについて →</a></section>}
       {route.path === '/category/works/' && <section class="project-summary" aria-labelledby="balog-title"><p class="eyebrow">位置情報 / Weblog / 研究開発</p><h2 id="balog-title"><a href="/works/balog/">場log（balog）</a></h2><p>写真やブログ記事を位置情報で結び付け、場所を手がかりに閲覧する研究開発プロジェクト。</p><a href="/works/balog/">プロジェクトについて →</a></section>}
       {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div><h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{excerptText(e.data.excerpt) && <p>{excerptText(e.data.excerpt)}</p>}<p class="read-more"><a href={e.data.canonical_path}>「{e.data.title}」の続きを読む</a></p></div></li>)}</ol> : route.path !== '/category/works/' ? <p>この分類にはまだ記事がありません。</p> : null}
@@ -40,7 +41,7 @@ const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*�
         <span>{route.page} / {route.totalPages}</span>
         {route.page! < route.totalPages! && <a rel="next" href={`${route.base}page/${route.page!+1}/`}>次のページ →</a>}
       </nav>}
-      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div></aside>}
+      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div><h2>タグ</h2><div class="years">{tags.map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</div><p><a href="/tags/">タグ一覧を見る →</a></p></aside>}
     </section>
   )}
 </Site>
