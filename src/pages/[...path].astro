@@ -14,7 +14,7 @@ const Content = rendered?.Content;
 const entry = route.entry;
 const post = entry?.data.content_type === 'post';
 const years = await archiveYears();
-const excerptText = (text: string) => text.replace(/[“「][^“”「」]*[”」]\s*の続きを読む(?:\\n|\s)*$/, '').trim().slice(0,160);
+const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*の続きを読む(?:\\n|\s)*$/, '').trim().slice(0,160);
 
 ---
 <Site title={route.title} path={route.path} legacyNavigation={route.path === '/'}>
