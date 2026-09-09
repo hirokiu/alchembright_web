@@ -6,8 +6,20 @@ const root = path.resolve(process.env.ALCHEMBRIGHT_DIST_DIR || 'dist');
 const report=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
 const failures=[], legacyLinks=[];
 const pages=new Map();
+const projectBase=(process.env.ALCHEMBRIGHT_BASE || '/').replace(/\/$/,'');
 async function walk(dir) { for(const e of await fs.readdir(dir,{withFileTypes:true})) { const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else if(e.name.endsWith('.html'))pages.set(p,load(await fs.readFile(p,'utf8'))); } }
 await walk(root);
+// Validate the deployed project prefix before normalizing back to archival paths.
+if(projectBase) for(const [file,$] of pages) {
+  for(const attr of ['href','src','action','poster']) $(`[${attr}]`).each((_,el)=>{
+    const value=$(el).attr(attr);
+    if(value.startsWith('/') && !value.startsWith('//')) {
+      if(!value.startsWith(projectBase+'/')) failures.push({file,ref:value,reason:'missing project prefix'});
+      else $(el).attr(attr,value.slice(projectBase.length));
+    }
+  });
+}
+
 const pageFile = p => path.join(root, decodeURIComponent(p), p.endsWith('/')?'index.html':'');
 for(const r of report.records) {
   const $=pages.get(pageFile(r.path));
