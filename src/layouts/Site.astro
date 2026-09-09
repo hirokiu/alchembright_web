@@ -13,6 +13,8 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title === 'home' ? 'Alchembright' : `${title} — Alchembright`}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={new URL(path, Astro.site).href} />
     <link rel="alternate" type="application/rss+xml" title="Alchembright" href="/feed.xml" />
     {preview && <meta name="robots" content="noindex,nofollow" />}

@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import YAML from 'yaml';
+import {applyTagAdditions} from './tag-additions.mjs';
 import { parse } from 'csv-parse/sync';
 import { stringify } from 'csv-stringify/sync';
 import { convert, canonicalPath, decodeText, assetURLs, mediaTarget, hash } from './lib.mjs';
@@ -18,6 +19,11 @@ for (const [type, item] of Object.entries(manifest.resources)) {
   if (hash(await fs.readFile(path.join(input, `${type}.json`))) !== item.sha256) throw new Error(`Snapshot hash mismatch: ${type}`);
 }
 const [posts,pages,categories,tags,attachments] = await Promise.all(['posts','pages','categories','tags','media'].map(read));
+const sourceRecordHashes = new Map([...posts,...pages].map(r => [r.id,hash(JSON.stringify(r))]));
+let additions = null;
+try { additions = JSON.parse(await fs.readFile('migration/mappings/mt-tag-additions.json','utf8')); }
+catch (e) { if (e.code !== 'ENOENT') throw e; }
+if (additions) applyTagAdditions(posts, tags, additions);
 const records = [...posts,...pages];
 if (records.some(r => r.status !== 'publish' || r.content?.protected || !['post','page'].includes(r.type))) throw new Error('Only public, unprotected posts/pages may enter this import');
 const paths = new Set(records.map(r => canonicalPath(r.link)));
@@ -41,7 +47,7 @@ for (const r of records) {
   const conversion = convert(r, media, paths);
   const folder = r.type === 'post' ? `blog/${r.date.slice(0,4)}` : 'pages';
   const relative = `src/content/${folder}/wp-${r.id}.md`;
-  const meta = { source_system:'wordpress', source_id:r.id, content_type:r.type, status:r.status, title:decodeText(r.title.rendered), slug_original:r.slug, canonical_path:canonicalPath(r.link), original_url:r.link, legacy_urls:[], published_at_local:r.date, published_at_gmt:r.date_gmt || null, modified_at_local:r.modified, modified_at_gmt:r.modified_gmt || null, source_timezone:null, category_ids:r.categories || [], tag_ids:r.tags || [], parent_id:r.parent || 0, menu_order:r.menu_order || 0, excerpt:decodeText(r.excerpt?.rendered || ''), featured_media_id:r.featured_media || 0, mt_entry_id:null, mt_basename:null, source_record_sha256:hash(JSON.stringify(r)), source_html_sha256:conversion.sourceHash, conversion_version:'1', conversion_format:conversion.format, conversion_warnings:conversion.warnings };
+  const meta = { source_system:'wordpress', source_id:r.id, content_type:r.type, status:r.status, title:decodeText(r.title.rendered), slug_original:r.slug, canonical_path:canonicalPath(r.link), original_url:r.link, legacy_urls:[], published_at_local:r.date, published_at_gmt:r.date_gmt || null, modified_at_local:r.modified, modified_at_gmt:r.modified_gmt || null, source_timezone:null, category_ids:r.categories || [], tag_ids:r.tags || [], parent_id:r.parent || 0, menu_order:r.menu_order || 0, excerpt:decodeText(r.excerpt?.rendered || ''), featured_media_id:r.featured_media || 0, mt_entry_id:null, mt_basename:null, source_record_sha256:sourceRecordHashes.get(r.id), source_html_sha256:conversion.sourceHash, conversion_version:'1', conversion_format:conversion.format, conversion_warnings:conversion.warnings };
   const file = path.join(output,relative); await fs.mkdir(path.dirname(file), {recursive:true});
   await fs.writeFile(file, `---\n${YAML.stringify(meta, { defaultStringType: 'QUOTE_DOUBLE' })}---\n\n${conversion.body}\n`, {flag:'wx'});
   report.generated_files[relative]=hash(await fs.readFile(file));

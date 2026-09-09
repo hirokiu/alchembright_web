@@ -15,7 +15,8 @@
 "source_timezone": null
 "category_ids":
   - 1
-"tag_ids": []
+"tag_ids":
+  - -1
 "parent_id": 0
 "menu_order": 0
 "excerpt": "平日は、がんばってサラリーマンをしているわけですが、朝から夜まで働いた後に、いかに更新するかが課題ですね。

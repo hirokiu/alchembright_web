@@ -1,0 +1,391 @@
+{
+  "source_sha256": "eecaa5bf46c2a0e28b015849daec27cfae82c2ba357ee5e5b9db86ec62fe230a",
+  "match_rule": "Exact timestamp and title; punctuation-only title changes also require identical basename. Add tags only.",
+  "records": [
+    {
+      "wp_id": 8,
+      "title": "デザイン変更…？",
+      "published_at_local": "2008-03-02T22:11:34",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 9,
+      "title": "The factor",
+      "published_at_local": "2008-03-03T19:46:32",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 10,
+      "title": "The way of",
+      "published_at_local": "2008-03-04T19:52:14",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 11,
+      "title": "works",
+      "published_at_local": "2008-03-05T19:07:03",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 12,
+      "title": "project?",
+      "published_at_local": "2008-03-06T21:30:20",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 13,
+      "title": "Forgot",
+      "published_at_local": "2008-03-08T09:18:59",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 14,
+      "title": "pollinosis",
+      "published_at_local": "2008-03-10T19:22:55",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 15,
+      "title": "Synth on DS",
+      "published_at_local": "2008-03-13T10:35:12",
+      "tags": [
+        "diary",
+        "music"
+      ]
+    },
+    {
+      "wp_id": 18,
+      "title": "OSX",
+      "published_at_local": "2008-07-17T17:42:51",
+      "tags": [
+        "mac"
+      ]
+    },
+    {
+      "wp_id": 19,
+      "title": "SWAG",
+      "published_at_local": "2008-07-22T21:16:25",
+      "tags": [
+        "SWAG"
+      ]
+    },
+    {
+      "wp_id": 20,
+      "title": "Subversion",
+      "published_at_local": "2008-07-23T19:24:42",
+      "tags": [
+        "diary",
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 21,
+      "title": "アイフォーンと女子高生",
+      "published_at_local": "2008-07-24T22:20:56",
+      "tags": [
+        "diary",
+        "SWAG"
+      ]
+    },
+    {
+      "wp_id": 22,
+      "title": "plan",
+      "published_at_local": "2008-07-25T17:03:06",
+      "tags": [
+        "diary",
+        "SWAG"
+      ]
+    },
+    {
+      "wp_id": 23,
+      "title": "starting objective-c",
+      "published_at_local": "2008-07-28T18:46:26",
+      "tags": [
+        "diary",
+        "iPhone"
+      ]
+    },
+    {
+      "wp_id": 24,
+      "title": "Thunderbirdのprofilesフォルダを移動",
+      "published_at_local": "2008-08-11T15:58:15",
+      "tags": [
+        "TIPS",
+        "windows"
+      ]
+    },
+    {
+      "wp_id": 25,
+      "title": "perl-DBI",
+      "published_at_local": "2008-09-05T17:13:51",
+      "tags": [
+        "diary",
+        "perl"
+      ]
+    },
+    {
+      "wp_id": 26,
+      "title": "amazon on sale",
+      "published_at_local": "2008-09-09T16:21:54",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 27,
+      "title": "sekaicamera",
+      "published_at_local": "2008-09-10T19:13:59",
+      "tags": [
+        "diary",
+        "iPhone"
+      ]
+    },
+    {
+      "wp_id": 28,
+      "title": "MySQLの話 その１",
+      "published_at_local": "2008-09-12T16:41:57",
+      "tags": [
+        "diary",
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 29,
+      "title": "テンプレートのテスト",
+      "published_at_local": "2008-09-12T16:47:00",
+      "tags": [
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 31,
+      "title": "OSXでログイン時に自動でサーバへ接続",
+      "published_at_local": "2008-09-22T14:54:52",
+      "tags": [
+        "mac",
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 32,
+      "title": "MySQLのコンソールで文字化け対策",
+      "published_at_local": "2008-09-29T20:11:30",
+      "tags": [
+        "MySQL",
+        "tech",
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 33,
+      "title": "FOSTEX”NF-4A”プレゼント・トラックバックキャンペーン",
+      "published_at_local": "2008-10-02T22:24:47",
+      "tags": [
+        "diary",
+        "music"
+      ]
+    },
+    {
+      "wp_id": 34,
+      "title": "pidginとSnarlでIMを快適に",
+      "published_at_local": "2008-10-07T15:05:13",
+      "tags": [
+        "TIPS",
+        "windows"
+      ]
+    },
+    {
+      "wp_id": 35,
+      "title": "第1回ひがやすを飲み会に参加してみた",
+      "published_at_local": "2008-10-09T16:04:18",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 36,
+      "title": "ブラウザから音楽を",
+      "published_at_local": "2008-10-16T12:00:01",
+      "tags": [
+        "diary",
+        "music"
+      ]
+    },
+    {
+      "wp_id": 37,
+      "title": "iPhoneのマップでも経路検索",
+      "published_at_local": "2008-10-29T09:29:29",
+      "tags": [
+        "diary",
+        "iPhone"
+      ]
+    },
+    {
+      "wp_id": 38,
+      "title": "MySQLの基本（１）",
+      "published_at_local": "2008-11-06T21:19:34",
+      "tags": [
+        "MySQL",
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 39,
+      "title": "インターネットって何だろうね。",
+      "published_at_local": "2008-11-25T19:19:12",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 40,
+      "title": "MySQLの基本 その２",
+      "published_at_local": "2008-12-09T20:10:21",
+      "tags": [
+        "diary",
+        "MySQL",
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 42,
+      "title": "Reboot!",
+      "published_at_local": "2009-08-10T12:55:10",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 43,
+      "title": "小さなことから",
+      "published_at_local": "2009-08-12T00:00:57",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 44,
+      "title": "さくらのレンタルサーバにvimインストール",
+      "published_at_local": "2009-08-13T09:10:53",
+      "tags": [
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 45,
+      "title": "Eye-Fi Share Video買ったよ",
+      "published_at_local": "2009-08-18T08:56:31",
+      "tags": [
+        "diary",
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 46,
+      "title": "FOAFとOpenID",
+      "published_at_local": "2009-08-18T09:52:53",
+      "tags": [
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 410,
+      "title": "import!",
+      "published_at_local": "2009-10-29T23:54:38",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 412,
+      "title": "vim設定",
+      "published_at_local": "2009-11-11T12:00:26",
+      "tags": [
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 417,
+      "title": "久しぶりの",
+      "published_at_local": "2009-12-31T02:39:41",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 418,
+      "title": "さよなら2009年",
+      "published_at_local": "2009-12-31T17:53:47",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 419,
+      "title": "hello, 2010",
+      "published_at_local": "2010-01-12T00:07:50",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 420,
+      "title": "Cassandra installl",
+      "published_at_local": "2010-05-14T10:23:10",
+      "tags": [
+        "diary",
+        "tech"
+      ]
+    },
+    {
+      "wp_id": 421,
+      "title": "Cassandraインストール手順",
+      "published_at_local": "2010-06-04T11:18:37",
+      "tags": [
+        "cassandra",
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 428,
+      "title": "思うこと",
+      "published_at_local": "2010-08-27T00:11:35",
+      "tags": [
+        "diary"
+      ]
+    },
+    {
+      "wp_id": 430,
+      "title": "start mac",
+      "published_at_local": "2010-11-24T16:28:31",
+      "tags": [
+        "diary",
+        "TIPS"
+      ]
+    },
+    {
+      "wp_id": 431,
+      "title": "warnings on XML::Simple",
+      "published_at_local": "2010-12-08T17:56:45",
+      "tags": [
+        "perl",
+        "tech",
+        "TIPS"
+      ]
+    }
+  ]
+}
