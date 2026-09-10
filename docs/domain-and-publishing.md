@@ -1,6 +1,6 @@
 # 独自ドメインへの切り替え・記事更新・画像保管
 
-2026-09-10更新：利用者によるDNS・Custom domain設定後、証明書approvedとHTTPS強制を確認。公開処理をwww.alchembright.comのルート配下へ変更した。noindexとrobotsのクロール拒否は継続。以下の切り替え手順は作業記録・参照用。
+2026-09-10更新：利用者によるDNS・Custom domain設定後、証明書approvedとHTTPS強制を確認。公開処理をwww.alchembright.comのルート配下へ変更した。その後、利用者の指示でnoindexとrobotsのクロール拒否を解除済み。以下の切り替え手順は作業記録・参照用。
 
 ## wwwの切り替え
 

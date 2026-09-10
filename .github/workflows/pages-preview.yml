@@ -1,4 +1,4 @@
-name: Deploy custom-domain Pages (noindex)
+name: Deploy custom-domain Pages
 on:
   push:
     branches: [docs/wordpress-migration-audit]
@@ -17,7 +17,7 @@ jobs:
       pages: read
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
-      PUBLIC_SITE_MODE: preview
+      PUBLIC_SITE_MODE: production
       ALCHEMBRIGHT_SITE: https://www.alchembright.com
       ALCHEMBRIGHT_BASE: /
     steps:
@@ -38,11 +38,11 @@ jobs:
       - run: npm run check
       - name: Regenerate articles, category/tag/date archives and thumbnails
         run: npm run build
-      - name: Verify root robots.txt blocks crawling
+      - name: Verify root robots.txt permits crawling
         run: |
-          node --input-type=module -e 'import fs from "node:fs"; if(fs.readFileSync("dist/robots.txt","utf8").trim()!=="User-agent: *\nDisallow: /") throw Error("Missing root crawl exclusion");'
-      - name: Verify preview (pending media allowed for review)
-        run: npm run migration:verify
+          node --input-type=module -e 'import fs from "node:fs"; if(fs.readFileSync("dist/robots.txt","utf8").trim()!=="User-agent: *\nAllow: /\nSitemap: https://www.alchembright.com/sitemap.xml") throw Error("Unexpected robots policy");'
+      - name: Verify published site
+        run: npm run migration:verify -- --release
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
         with:
           path: dist
