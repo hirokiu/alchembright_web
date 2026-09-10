@@ -542,5 +542,23 @@
     "slug": "photo",
     "taxonomy": "post_tag",
     "meta": []
+  },
+  {
+    "id": -11,
+    "name": "Astro",
+    "slug": "astro",
+    "link": "https://www.alchembright.com/tag/astro/"
+  },
+  {
+    "id": -12,
+    "name": "GitHub Pages",
+    "slug": "github-pages",
+    "link": "https://www.alchembright.com/tag/github-pages/"
+  },
+  {
+    "id": -13,
+    "name": "Webサイト移行",
+    "slug": "website-migration",
+    "link": "https://www.alchembright.com/tag/website-migration/"
   }
 ]
