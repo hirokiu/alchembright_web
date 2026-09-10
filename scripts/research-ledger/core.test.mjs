@@ -60,6 +60,6 @@ test('review flags point to retained observations and valid ledger records',()=>
  const observed=JSON.parse(readFileSync(new URL('../../research-ledger/observations/researchmap-2026-09-10.json',import.meta.url)));
  const urls=new Set(observed.entries.map(o=>o.url)),ids=new Set(seed.records.map(r=>r.id));
  assert.equal(new Set(queue.items.map(i=>i.id)).size,queue.items.length);
- for(const item of queue.items){assert.equal(item.status,'needs_review');for(const url of item.source_urls)assert.ok(urls.has(url));for(const id of item.ledger_ids)assert.ok(ids.has(id));}
+ for(const item of queue.items){assert.ok(['needs_review','confirmed_duplicate','not_duplicate','resolved'].includes(item.status));for(const url of item.source_urls)assert.ok(urls.has(url));for(const id of item.ledger_ids)assert.ok(ids.has(id));}
  assert.equal(queue.items.find(i=>i.id==='DUP-001').source_urls.length,2);
 });

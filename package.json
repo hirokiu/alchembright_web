@@ -19,11 +19,12 @@
     "release:prepare": "node scripts/deploy/prepare-release.mjs",
     "predev": "node scripts/deploy/thumbnails.mjs",
     "content:validate": "node scripts/deploy/validate-content.mjs",
-    "ledger:validate": "node scripts/research-ledger/cli.mjs validate",
+    "ledger:validate": "node scripts/research-ledger/cli.mjs validate && node scripts/research-ledger/sheets.mjs validate",
     "ledger:export": "node scripts/research-ledger/cli.mjs export",
     "ledger:report": "node scripts/research-ledger/cli.mjs report",
     "ledger:test": "node --test scripts/research-ledger/*.test.mjs",
-    "ledger:schema": "node scripts/research-ledger/cli.mjs schema"
+    "ledger:schema": "node scripts/research-ledger/cli.mjs schema",
+    "ledger:sheets": "node scripts/research-ledger/sheets.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.0",
