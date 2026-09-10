@@ -46,8 +46,8 @@
 
 /* Main navigation: hover feedback and persistent section indicator. */
 .navigation-wrap>nav{gap:.9rem;flex-wrap:nowrap;align-items:center}
-.navigation-wrap nav>a{padding:1rem .7rem;border-bottom:3px solid transparent;transition:background-color .15s,color .15s,border-color .15s}
+.navigation-wrap nav>a{margin-top:2rem;padding:0 .7rem;border-bottom:3px solid transparent;transition:background-color .15s,color .15s,border-color .15s}
 .navigation-wrap nav>a:hover,.navigation-wrap nav>a:focus-visible{color:var(--accent);background:#edf5ef;border-bottom-color:var(--accent)}
 .navigation-wrap nav>a.is-active{border-bottom-color:var(--accent)}
-.navigation-wrap .menu-divider{color:#87988d;flex:none;user-select:none}
-@media(max-width:600px){.navigation-wrap>nav{gap:.35rem}.navigation-wrap nav>a{padding:1rem .45rem}}
+.navigation-wrap .menu-divider{color:#87988d;flex:none;user-select:none;transform:translateY(1rem)}
+@media(max-width:600px){.navigation-wrap>nav{gap:.35rem}.navigation-wrap nav>a{padding:0 .45rem}}
