@@ -1,0 +1,55 @@
+---
+import '../styles/site.css';
+import LegacyNavigation from '../components/LegacyNavigation.astro';
+import SocialLinks from '../components/SocialLinks.astro';
+interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; }
+const {title,path,legacyNavigation=false,section} = Astro.props;
+const isHome = path === '/';
+const active = section ?? (
+  /^\/(category\/news|news)(\/|$)/.test(path) ? 'news' :
+  /^\/(category\/works|works|kirokun-support)(\/|$)/.test(path) ? 'works' :
+  path.startsWith('/about/') ? 'about' :
+  /^\/(category\/blog|blog|tags?|\d{4})(\/|$)/.test(path) ? 'blog' : ''
+);
+const menu = [
+  {label:'news',href:'/category/news/'}, {label:'works',href:'/category/works/'},
+  {label:'about',href:'/about/'}, {label:'blog',href:'/category/blog/'}
+];
+const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
+---
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title === 'home' ? 'Alchembright' : `${title} — Alchembright`}</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="canonical" href={new URL(path, Astro.site).href} />
+    <link rel="alternate" type="application/rss+xml" title="Alchembright" href="/feed.xml" />
+    {preview && <meta name="robots" content="noindex,nofollow" />}
+  </head>
+  <body>
+    <a class="skip" href="#content">本文へ</a>
+    <header class:list={['site-header', {'is-home': path === '/'}]}>
+      <div class="header-photo">
+        <img src={isHome ? "/media/site/yokohama-night.jpg" : "/media/site/page-header.jpg"} width={isHome ? 2000 : 1920} height={isHome ? 1500 : 2560} alt="" fetchpriority="high" decoding="async" />
+        <div class="branding"><a class="brand" href="/">Alchembright</a><p class="site-description">夢じゃない どれもすべて 二度とない 「日々のうた」</p></div>
+      </div>
+      <div class="navigation-wrap">
+        <nav aria-label="メインメニュー">
+          {menu.map(item => <>
+            {item.label === 'blog' && <span class="menu-divider" aria-hidden="true">|</span>}
+            <a href={item.href} class:list={{'is-active':active === item.label}} aria-current={active === item.label ? (path === item.href ? 'page' : 'location') : undefined}>{item.label}</a>
+          </>)}
+        </nav>
+      </div>
+    </header>
+    <div class="site-content">
+    <main id="content">{legacyNavigation && <LegacyNavigation />}<slot /></main>
+    <footer class="site-footer">
+      <div class="footer-wrap"><SocialLinks /><p class="site-credit">© {new Date().getFullYear()} Alchembright / hiroki_u</p></div>
+    </footer>
+    </div>
+  </body>
+</html>

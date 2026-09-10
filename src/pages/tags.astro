@@ -1,0 +1,17 @@
+---
+import {getCollection} from 'astro:content';
+import Site from '../layouts/Site.astro';
+import {tags,pathOf} from '../lib/routes';
+const posts=(await getCollection('archive')).filter(e=>e.data.content_type==='post');
+const items=tags.map(tag=>({...tag,total:posts.filter(e=>e.data.tag_ids.includes(tag.id)).length})).sort((a,b)=>a.name.localeCompare(b.name,'ja'));
+---
+<Site title="タグ一覧" path="/tags/">
+ <section class="archive">
+  <div class="eyebrow">Alchembright / タグ</div>
+  <h1>タグから記事を探す</h1>
+  <p>タグを選ぶと、そのタグが付いた記事だけを表示します。カテゴリーとは別の分類です。</p>
+  <ul class="tag-directory">{items.map(tag=><li><a href={pathOf(tag.link)}>#{tag.name}</a><span>（{tag.total}件）</span></li>)}</ul>
+  <p><a href="/category/blog/">すべてのブログ記事へ →</a></p>
+ </section>
+</Site>
+<style>.tag-directory{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:1rem 1.5rem;margin:2rem 0}.tag-directory span{color:#666;font-size:.875rem}</style>

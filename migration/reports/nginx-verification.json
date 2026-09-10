@@ -1,0 +1,8 @@
+{
+  "verified_at": "2026-09-05T07:57:32.092298+00:00",
+  "nginx_version": "nginx version: nginx/1.30.4",
+  "image_id": "sha256:40e2b9dcf90b74d9a8c6b02806ce9d5ec531de7c0bdddad6c3ef3324b6179ba5",
+  "checks": 864,
+  "result": "passed",
+  "scope": "Local container: nginx -t, 422 static content URLs, 422 ID redirects, RSS, HTTP-to-HTTPS, unknown IDs, hidden/PHP files and missing URLs. Test certificates substituted; real Certbot options, VPS global config, permissions and SELinux still require nginx -t on the VPS."
+}

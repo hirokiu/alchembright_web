@@ -1,0 +1,22 @@
+[
+  {
+    "url": "http://dev.alchembright.com/",
+    "status": 200,
+    "location": null
+  },
+  {
+    "url": "http://note.alchembright.com/",
+    "status": 301,
+    "location": "https://note.alchembright.com/"
+  },
+  {
+    "url": "http://note.alchembright.com/wp-content/uploads/2010/08/photo-1282977346.00-0-224x300.jpg",
+    "status": 301,
+    "location": "https://note.alchembright.com/wp-content/uploads/2010/08/photo-1282977346.00-0-224x300.jpg"
+  },
+  {
+    "url": "https://www.alchembright.com/wp-content/uploads/2010/08/photo-1282977346.00-0-224x300.jpg",
+    "status": 200,
+    "location": null
+  }
+]

@@ -1,0 +1,28 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import { spawnSync, execFileSync } from 'node:child_process';
+import { parseArgs } from 'node:util';
+const {values}=parseArgs({options:{dest:{type:'string'},mode:{type:'string',default:'preview'},'allow-pending-media':{type:'boolean',default:false}}});
+if(!values.dest || !['preview','production'].includes(values.mode))throw new Error('Usage: npm run release:prepare -- --dest <releases-directory> --mode preview|production [--allow-pending-media]');
+const git=(...args)=>execFileSync('git',args,{encoding:'utf8'}).trim();
+if(git('status','--porcelain'))throw new Error('Working tree has changes. Commit/review them before preparing a release.');
+const commit=git('rev-parse','HEAD');
+const conversion=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
+if(values.mode==='production'&&conversion.media.pending&&!values['allow-pending-media'])throw new Error(`${conversion.media.pending} media URLs remain pending. Recover them or explicitly use --allow-pending-media to publish placeholders.`);
+const release=path.resolve(values.dest,`${new Date().toISOString().replace(/[:.]/g,'-')}-${commit.slice(0,12)}-${values.mode}`);
+await fs.mkdir(path.dirname(release),{recursive:true});await fs.mkdir(release,{mode:0o755});
+await fs.writeFile(path.join(release,'.incomplete'),'Do not activate this release. Validation has not completed.\n');
+const env={...process.env,ASTRO_TELEMETRY_DISABLED:'1',PUBLIC_SITE_MODE:values.mode,ALCHEMBRIGHT_DIST_DIR:path.join(release,'public'),ALCHEMBRIGHT_REPORT_PATH:path.join(release,'verification.json')};
+const run=(command,args)=>{const result=spawnSync(command,args,{env,stdio:'inherit'});if(result.status!==0)throw new Error(`Release incomplete: ${command} ${args.join(' ')}`);};
+const npm=(...args)=>process.env.npm_execpath?run(process.execPath,[process.env.npm_execpath,...args]):run('npm',args);
+npm('test');npm('run','check');npm('run','build');
+const verifyArgs=['scripts/migration/verify.mjs'];if(values.mode==='production')verifyArgs.push('--release');if(values['allow-pending-media'])verifyArgs.push('--allow-pending-media');
+run(process.execPath,verifyArgs);
+await fs.mkdir(path.join(release,'nginx'));
+run(process.execPath,['scripts/deploy/generate-nginx.mjs',path.join(release,'nginx/wp-id-maps.conf')]);
+await fs.copyFile('deploy/nginx/alchembright.conf',path.join(release,'nginx/alchembright.conf'));
+const verification=JSON.parse(await fs.readFile(env.ALCHEMBRIGHT_REPORT_PATH,'utf8'));
+await fs.writeFile(path.join(release,'release.json'),JSON.stringify({commit,mode:values.mode,pending_media_urls:conversion.media.pending,pending_media_accepted:values['allow-pending-media'],html_pages:verification.html_pages,prepared_at:new Date().toISOString()},null,2)+'\n');
+async function permissions(dir){await fs.chmod(dir,0o755);for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isSymbolicLink())throw new Error('Unexpected symlink in release');if(e.isDirectory())await permissions(p);else await fs.chmod(p,0o644);}}
+await permissions(release);await fs.unlink(path.join(release,'.incomplete'));
+console.log(`Prepared and verified: ${release}\nCurrent release and Nginx configuration have not been changed.`);

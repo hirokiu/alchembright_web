@@ -1,0 +1,6 @@
+---
+import projects from '../data/works.json';
+const entries=[...projects.slice(0,3),{slug:'balog',title:'場log（balog）',kind:'研究開発 / 位置情報・Weblog',summary:'場所を手がかりに写真やブログの記録を結び付ける。',image:'/img/works/balog-logo.gif'},...projects.slice(3),{slug:'kirokun',title:'KIROKUN（キロクン）',kind:'iOS / Android · 言語学研究',summary:'日常の第二言語の使用状況と言語学習パターンを記録するアプリ。',image:''}];
+---
+{entries.map(project=><section class="project-summary work-card"><div><p class="eyebrow">{project.kind}</p><h2><a href={`/works/${project.slug}/`}>{project.title}</a></h2><p>{project.summary}</p><a href={`/works/${project.slug}/`}>詳しく見る →</a></div>{project.image && <a href={`/works/${project.slug}/`} aria-label={`${project.title}について`}><img src={project.image} alt="" width="240" height="140" loading="lazy" /></a>}</section>)}
+<style>.work-card{display:grid;grid-template-columns:1fr 200px;gap:1.5rem;align-items:center}.work-card img{width:100%;height:140px;object-fit:contain}.work-card div{min-width:0}@media(max-width:600px){.work-card{grid-template-columns:1fr 110px;gap:.8rem}.work-card img{height:90px}}</style>

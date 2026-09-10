@@ -1,0 +1,18 @@
+---
+import { legacyMap } from '../../scripts/deploy/legacy-map.mjs';
+const map = await legacyMap();
+---
+<div id="legacy-navigation" data-map={JSON.stringify(map)} data-base={import.meta.env.BASE_URL} hidden>
+  <p>旧形式のURLを確認しています。移動しない場合は<a href="/category/blog/">Blog一覧</a>をご利用ください。</p>
+</div>
+<script>
+  import { legacyTarget } from '../lib/legacy-navigation';
+  const notice = document.getElementById('legacy-navigation');
+  const base = (notice?.dataset.base || '/').replace(/\/$/, '');
+  const pathname = base && location.pathname.startsWith(base + '/') ? location.pathname.slice(base.length) : location.pathname;
+  if (notice && ['/', '/index.php'].includes(pathname) && /(?:^|[?&])(p|page_id|feed)=/.test(location.search)) {
+    const target = legacyTarget(pathname, location.search, location.hash, JSON.parse(notice.dataset.map || '{}'));
+    if (target && target !== location.pathname + location.search + location.hash) location.replace(base + target);
+    else notice.hidden = false;
+  }
+</script>

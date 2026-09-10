@@ -1,0 +1,21 @@
+[
+  {
+    "url": "https://www.alchembright.com/",
+    "status": 200,
+    "location": null,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "url": "https://note.alchembright.com/",
+    "status": 301,
+    "location": "https://www.alchembright.com/"
+  },
+  {
+    "url": "https://dev.alchembright.com/",
+    "error": "<urlopen error [Errno 61] Connection refused>"
+  },
+  {
+    "url": "https://alchembright.com/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'alchembright.com'. (_ssl.c:1082)>"
+  }
+]

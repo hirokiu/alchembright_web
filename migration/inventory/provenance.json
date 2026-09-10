@@ -1,0 +1,117 @@
+{
+  "survey_date": "2026-09-05",
+  "initial_api_probe_completed_at": "2026-09-05T06:53:35.720971+00:00",
+  "inventory_generated_at": "2026-09-05T06:59:56.386928+00:00",
+  "repository_base": "12c6ab51f5f9be1189fc8d734e7be3aaaa22b123",
+  "method": "Unauthenticated public GET. posts per_page=100, pages 1..5, orderby=id, order=asc; pages/categories/tags/media per_page=100. No binary media downloaded.",
+  "base_url": "https://www.alchembright.com",
+  "counts": {
+    "posts": 419,
+    "pages": 3,
+    "categories": 12,
+    "tags": 3,
+    "media_records": 7,
+    "body_asset_references": 74,
+    "body_link_occurrences": 195
+  },
+  "scope_limits": [
+    "Public REST visibility only; no DB, WXR or admin access",
+    "No link/asset reachability verification",
+    "No exhaustive crawl, sitemap reconciliation, CSS/script asset discovery or MT original recovery"
+  ],
+  "raw_response_hashes": {
+    "00.txt": "b07bb193ca1a1fdb411ced5b89b3a9d376e8febb201ee8e6f23b5d5f0bb1b464",
+    "01.txt": "a84b996434b9efce3e02a91c352d0ac4c4fc886c21ed895ef7fcb10c38e618a4",
+    "02.txt": "253e27d49dc7cec8270c063a031b29ac0eebbabec1970af8e3f918ff9519e35f",
+    "03.txt": "91f70f35b4bd91ab5d89d5e05ad90e471f394b38ace7c12aba735fc06ba357bc",
+    "04.txt": "95c006fac24bd461ee0ebd45dcd9216488f4303b6fde383ca51de9f24fd168fb",
+    "05.txt": "c8fdb606ea3cb0225dac5ad7878ad08985240a0284bfe082f01deed784cfc8b1",
+    "06.txt": "cf0157587fbec8c77039fdb8312568348db788fc6bec2e08f16b923aff433282",
+    "07.txt": "74aa518c3ba61b33d912037a7d433971e75e22e67bf388ce09bb24878bda3b71",
+    "08.txt": "9c550a80ef9226ddc9a6a85b5896c1b1a162f3d39acce04925b7db4f46566317",
+    "09.txt": "4016819b677c6a22e6bb54aea72e29acfff880376da833fe8c62da77480dc80f",
+    "10.txt": "9b3b08c1003966e0050edffa8b42df74ed89553d36786ddea91e8b3282c48f42",
+    "11.txt": "0235f8b316741a4ab084a88bc31d7049aae54b9795044d05ad8c147aa8acc54a",
+    "asset-references.json": "55a26cfb0e30081ac76eeb4bae0fc479ef85da420a91a20a55860f8a9af92397",
+    "content-inventory.json": "a8c1a1a2764d64584d645036cb894a46afb4e91f39dc3851630649f9b8c024be",
+    "index.json": "057c1bded03c47e77646b10a2b9f4fb1b1d72267f564742e9fbf13bd5aa3c3a9",
+    "legacy-trace-candidates.json": "b6761dea0e4c7b2e83f1dd0801203763efc599708a1b33d1793de62cd2b431ac",
+    "link-references.json": "62376f9b60b9950ab16ab55690858a9a42f297ba7577eaa350de1de490f2d5ff",
+    "media.json": "6d0b00245c9a30b969572a72bdb9ecf71ac37bcd20acb633202143caecbcafc7",
+    "posts.json": "c6da70e3791afa2a2aff318cdfe21a6eb5c12d3f1b0b4b2f1b6e44273eefeab7"
+  },
+  "probe_results": [
+    {
+      "url": "https://www.alchembright.com/robots.txt",
+      "final_url": "https://www.alchembright.com/robots.txt",
+      "status": 200,
+      "file": "00.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-sitemap.xml",
+      "final_url": "https://www.alchembright.com/sitemap.xml",
+      "status": 200,
+      "file": "01.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/posts?per_page=1&orderby=date&order=asc",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/posts?per_page=1&orderby=date&order=asc",
+      "status": 200,
+      "file": "02.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/posts?per_page=1&orderby=date&order=desc",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/posts?per_page=1&orderby=date&order=desc",
+      "status": 200,
+      "file": "03.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/pages?per_page=100",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/pages?per_page=100",
+      "status": 200,
+      "file": "04.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/categories?per_page=100",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/categories?per_page=100",
+      "status": 200,
+      "file": "05.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/tags?per_page=100",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/tags?per_page=100",
+      "status": 200,
+      "file": "06.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/wp-json/wp/v2/media?per_page=1",
+      "final_url": "https://www.alchembright.com/wp-json/wp/v2/media?per_page=1",
+      "status": 200,
+      "file": "07.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/category/blog/",
+      "final_url": "https://www.alchembright.com/category/blog/",
+      "status": 200,
+      "file": "08.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/category/blog/page/42/",
+      "final_url": "https://www.alchembright.com/category/blog/page/42/",
+      "status": 200,
+      "file": "09.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/category/news/",
+      "final_url": "https://www.alchembright.com/category/news/",
+      "status": 200,
+      "file": "10.txt"
+    },
+    {
+      "url": "https://www.alchembright.com/category/works/",
+      "final_url": "https://www.alchembright.com/category/works/",
+      "status": 200,
+      "file": "11.txt"
+    }
+  ]
+}

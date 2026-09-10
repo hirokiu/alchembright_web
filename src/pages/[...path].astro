@@ -1,0 +1,49 @@
+---
+import { render } from 'astro:content';
+import Site from '../layouts/Site.astro';
+import thumbnails from '../data/thumbnails.json';
+const thumbnailFor = (path: string) => (thumbnails as Record<string,string>)[path];
+import WorksList from '../components/WorksList.astro';
+import ResearchProfile from '../components/ResearchProfile.astro';
+import ProfessionalExperience from '../components/ProfessionalExperience.astro';
+import { routes, categories, tags, pathOf, archiveYears, type Route } from '../lib/routes';
+export async function getStaticPaths() {
+  return (await routes()).map(route => ({ params: { path: route.path === '/' ? undefined : route.path.slice(1,-1) }, props: { route } }));
+}
+interface Props { route: Route; }
+const { route } = Astro.props;
+const rendered = route.entry ? await render(route.entry) : null;
+const Content = rendered?.Content;
+const entry = route.entry;
+const post = entry?.data.content_type === 'post';
+const years = await archiveYears();
+const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*の続きを読む(?:\\n|\s)*$/, '').trim().slice(0,160);
+
+---
+<Site title={route.title} path={route.path} section={post ? (entry.data.category_ids.includes(14) ? 'news' : 'blog') : undefined} legacyNavigation={route.path === '/'}>
+  {entry && Content ? (
+    <article class="article">
+      {route.path === '/kirokun-support/' && <nav class="breadcrumbs" aria-label="パンくず"><a href="/category/works/">Works</a><span aria-hidden="true">/</span><a href="/works/kirokun/">KIROKUN</a><span aria-hidden="true">/</span><span>プライバシーポリシー</span></nav>}
+      {post && <div class="eyebrow"><a href="/category/blog/">Blog</a><time datetime={entry.data.published_at_local.slice(0,10)}>{entry.data.published_at_local.slice(0,10)}</time></div>}
+      <h1>{route.title}</h1>
+      {entry.data.source_system === "movable-type" && <p class="restoration-note">表示の日付は当時の下書き作成日です。2026年9月9日、本人が公開内容を確認したうえで公開しました。</p>}
+      <div class="prose" data-source-id={entry.data.source_id}><Content /></div>
+      {route.path === "/about/" && <><ResearchProfile /><ProfessionalExperience /></>}
+      {post && <nav class="terms" aria-label="この記事の分類">{categories.filter(c=>entry.data.category_ids.includes(c.id)).map(c=><a href={pathOf(c.link)}>{c.name}</a>)}{tags.filter(t=>entry.data.tag_ids.includes(t.id)).map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</nav>}
+    </article>
+  ) : (
+    <section class="archive">
+      <div class="eyebrow">{route.path.startsWith('/tag/') ? 'Alchembright / タグ' : route.path.startsWith('/category/') ? 'Alchembright / カテゴリー' : 'Alchembright / Archive'}</div>
+      <h1>{route.title}</h1>
+      {route.path.startsWith('/tag/') && <p>「{route.title}」タグの付いた記事を表示しています。<a href="/tags/">タグ一覧へ</a></p>}
+      {route.path === '/category/works/' && <WorksList />}
+      {route.entries?.length ? <ol class="entries">{route.entries.map(e=><li><time datetime={e.data.published_at_local.slice(0,10)}>{e.data.published_at_local.slice(0,10)}</time><div class:list={['entry-summary', {'has-thumbnail': thumbnailFor(e.data.canonical_path)}]}>{thumbnailFor(e.data.canonical_path) && <a class="entry-thumbnail" href={e.data.canonical_path} aria-label={`${e.data.title}を読む`}><img src={thumbnailFor(e.data.canonical_path)} width="320" height="240" alt="" loading="lazy" decoding="async" /></a>}<h2><a href={e.data.canonical_path}>{e.data.title}</a></h2>{excerptText(e.data.excerpt) && <p>{excerptText(e.data.excerpt)}</p>}<p class="read-more"><a href={e.data.canonical_path}>「{e.data.title}」の続きを読む</a></p></div></li>)}</ol> : route.path !== '/category/works/' ? <p>この分類にはまだ記事がありません。</p> : null}
+      {route.totalPages! > 1 && <nav class="pagination" aria-label="ページ送り">
+        {route.page! > 1 && <a rel="prev" href={route.page===2?route.base:`${route.base}page/${route.page!-1}/`}>← 前のページ</a>}
+        <span>{route.page} / {route.totalPages}</span>
+        {route.page! < route.totalPages! && <a rel="next" href={`${route.base}page/${route.page!+1}/`}>次のページ →</a>}
+      </nav>}
+      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div><h2>タグ</h2><div class="years">{tags.map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</div><p><a href="/tags/">タグ一覧を見る →</a></p></aside>}
+    </section>
+  )}
+</Site>

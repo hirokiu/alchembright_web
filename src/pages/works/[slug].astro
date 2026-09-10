@@ -1,0 +1,18 @@
+---
+import Site from '../../layouts/Site.astro';
+import projects from '../../data/works.json';
+export function getStaticPaths(){return projects.map(project=>({params:{slug:project.slug},props:{project}}));}
+const {project}=Astro.props;
+---
+<Site title={project.title} path={`/works/${project.slug}/`}>
+ <article class="article">
+  <nav class="breadcrumbs" aria-label="パンくず"><a href="/category/works/">Works</a><span aria-hidden="true">/</span><span>{project.title}</span></nav>
+  <p class="eyebrow">{project.kind}</p><h1>{project.title}</h1>
+  <div class="prose">
+   <p class="app-lead">{project.summary}</p>
+   <figure><img src={project.image} width="840" height="360" alt={`${project.title}のシステム概念図`} /><figcaption>仕組みを説明する概念図</figcaption></figure>
+   {project.sections.map(([title,body])=><section><h2>{title}</h2><p>{body}</p></section>)}
+   {project.links.length>0 && <section><h2>公開成果・論文</h2><ul>{project.links.map(([title,url])=><li><a href={url}>{title}</a></li>)}</ul></section>}
+  </div>
+ </article>
+</Site>
