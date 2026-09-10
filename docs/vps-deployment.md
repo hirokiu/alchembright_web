@@ -58,14 +58,14 @@ sudo install -d -m 755 -o "$(id -un)" -g "$(id -gn)" \
   /data/www/130_note.ab/static \
   /data/www/130_note.ab/static/releases
 
-git clone --branch docs/wordpress-migration-audit \
+git clone --branch main \
   git@github.com:hirokiu/alchembright_web.git \
   /data/www/130_note.ab/alchembright_web
 cd /data/www/130_note.ab/alchembright_web
 npm ci
 ```
 
-現時点の実装は下書きPRの `docs/wordpress-migration-audit` にあります。mainへマージした後の新規cloneでは `--branch main` を使います。ビルド・検証にdevDependenciesも使うため `npm ci --omit=dev` にはしません。Nodeはビルド時だけ必要で、配信にNode常駐プロセスは不要です。
+移行は完了し、現在の実装は `main` にあります。新規cloneでは `--branch main` を使います。ビルド・検証にdevDependenciesも使うため `npm ci --omit=dev` にはしません。Nodeはビルド時だけ必要で、配信にNode常駐プロセスは不要です。
 
 ## 3. 新しいリリースを準備する
 

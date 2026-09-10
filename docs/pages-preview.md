@@ -1,5 +1,7 @@
 # 独自ドメイン切替前の確認用公開
 
+現在は移行完了済みで、`main` から https://www.alchembright.com/ へ公開しています。以下は仮公開時の記録です。日常の操作は [記事の追加・更新手順](adding-posts.md) を参照してください。
+
 2026-09-09。利用者が元リポジトリをpublicに変更し、同リポジトリからGitHub Pagesを利用する方針。Pagesは独自ドメインなしで有効化済み。サイトは `https://hirokiu.github.io/alchembright_web/` で確認し、wwwのDNS・独自ドメイン設定は変更しない。
 
 ## 公開前に必要なこと

@@ -2,7 +2,7 @@ name: Validate migration preview
 on:
   pull_request:
   push:
-    branches: [main, docs/wordpress-migration-audit]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read

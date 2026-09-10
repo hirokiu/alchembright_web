@@ -1,5 +1,8 @@
 # alchembright_web
 
+移行は完了しました。今後は `main` を更新すると、GitHub Actionsから https://www.alchembright.com/ へ自動公開されます。[記事の追加・更新手順](docs/adding-posts.md)を参照してください。
+
+
 Web site for Alchembright
 
 2003年頃からのMovable Type由来Blogを保存し、WordPressからAstro + Markdownへ移行するためのリポジトリです。

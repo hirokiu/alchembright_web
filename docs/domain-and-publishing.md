@@ -15,7 +15,7 @@ CNAMEの向き先は `hirokiu.github.io` で正しいが、DNSだけでは完了
 7. 準備済みの独自ドメイン用ビルドを公開し、DNS確認・証明書発行後にEnforce HTTPSを有効にする。DNSや証明書の反映待ちを考慮し切り替え時間を確保する。
 8. wwwでトップ、過去記事、画像、分類一覧、RSS、サイトマップとリンク先を確認する。旧URL中のクエリ形式や特殊な転送はGitHub Pagesで別途対応が必要な場合がある。ドメインなしのalchembright.comもwwwへ寄せるなら別のDNS/転送作業として実施する。
 
-現在の公開元ブランチは `docs/wordpress-migration-audit`。mainへの変更はこの手順では実施していない。
+2026-09-10に移行ブランチをmainへマージ。現在の公開元ブランチは `main`。mainへのpushで本番サイトを自動更新する。
 
 ## 日々の記事更新
 

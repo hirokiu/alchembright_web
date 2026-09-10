@@ -1,7 +1,7 @@
 name: Deploy custom-domain Pages
 on:
   push:
-    branches: [docs/wordpress-migration-audit]
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -10,7 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.ref == 'refs/heads/docs/wordpress-migration-audit' && vars.PAGES_PREVIEW_ENABLED == 'true'
+    if: github.ref == 'refs/heads/main' && vars.PAGES_PREVIEW_ENABLED == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: read
