@@ -1,0 +1,285 @@
+{
+  "source": "https://researchmap.jp/hiroki_u",
+  "accessed_at": "2026-09-10",
+  "html_sha256": "b154c05bd54c599a4588807ba0a2df2f444a87ce0507540616d7d1796616c1da",
+  "scope": "Public portal entries only; hidden entries and full detail fields not audited",
+  "identity": {
+    "name": "Hiroki UEMATSU",
+    "researchmap_member_id": "R000018545",
+    "researcher_number": "00897423",
+    "orcid": "0000-0003-4215-3112"
+  },
+  "counts": {
+    "research_experience": 1,
+    "published_papers": 13,
+    "misc": 17,
+    "works": 1,
+    "research_projects": 1
+  },
+  "entries": [
+    {
+      "category": "research_experience",
+      "external_id": "53506459",
+      "url": "https://researchmap.jp/hiroki_u/research_experience/53506459",
+      "title": "東京経済大学, コミュニケーション学部, 特別招聘教授",
+      "authors_observed": null,
+      "display_text": "2026年4月 - 現在 東京経済大学, コミュニケーション学部, 特別招聘教授"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "52303451",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/52303451",
+      "title": "古事類苑LODを用いた地部と引用資料との関連性抽出",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "古事類苑LODを用いた地部と引用資料との関連性抽出 Hiroki UEMATSU 情報知識学会誌 2025年5月31日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "52303450",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/52303450",
+      "title": "コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に Hiroki UEMATSU 情報知識学会誌 2025年5月31日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "52303452",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/52303452",
+      "title": "エラータ：コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "エラータ：コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に Hiroki UEMATSU 情報知識学会誌 2025年"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "46097311",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/46097311",
+      "title": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築 Hiroki UEMATSU 人工知能学会第二種研究会資料 62(2) 2024年3月23日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "46097310",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/46097310",
+      "title": "地震語彙の構築と地震LOD",
+      "authors_observed": "上松大輝, 金亜伊, 武田英明",
+      "display_text": "地震語彙の構築と地震LOD 上松大輝, 金亜伊, 武田英明 2023年度人工知能学会全国大会(第37回)論文集 2023年6月"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "48338812",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/48338812",
+      "title": "地震の分類のためのオントロジー構築",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "地震の分類のためのオントロジー構築 Hiroki UEMATSU 人工知能学会第二種研究会資料 2023年3月17日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "48338813",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/48338813",
+      "title": "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area",
+      "authors_observed": "Kim, A., Nakamura, Y., Yukutake, Y., Uematsu, H., Abe, Y.",
+      "display_text": "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area Kim, A., Nakamura, Y., Yukutake, Y., Uematsu, H., Abe, Y. Earth, Planets and Space 75(1) 2023年"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "41498904",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/41498904",
+      "title": "Design for Data Structures: Data Unification and Federation with Wikibase",
+      "authors_observed": "Hiroki Uematsu, Phuc Nguyen, Hideaki Takeda",
+      "display_text": "Design for Data Structures: Data Unification and Federation with Wikibase Hiroki Uematsu, Phuc Nguyen, Hideaki Takeda 2022 IEEE International Conference on Big Data (Big Data) 2022年12月17日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "37060390",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/37060390",
+      "title": "Wikidata連携：Wikibaseを用いた知識グラフの拡張",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "Wikidata連携：Wikibaseを用いた知識グラフの拡張 Hiroki UEMATSU 人工知能学会第二種研究会資料 2022年3月11日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "32001100",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/32001100",
+      "title": "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想",
+      "authors_observed": "久光 水島, 輔 椋本, 大輝 上松",
+      "display_text": "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想 久光 水島, 輔 椋本, 大輝 上松 デジタルアーカイブ学会誌 4(2) 2020年"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "32001099",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/32001099",
+      "title": "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて",
+      "authors_observed": "久光 水島, 輔 椋本, 大輝 上松",
+      "display_text": "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて 久光 水島, 輔 椋本, 大輝 上松 デジタルアーカイブ学会誌 4(s1) 2020年"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "48338811",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/48338811",
+      "title": "オントロジーマッチングを用いた知識グラフの構築",
+      "authors_observed": "Hiroki UEMATSU",
+      "display_text": "オントロジーマッチングを用いた知識グラフの構築 Hiroki UEMATSU 人工知能学会第二種研究会資料 2018年3月18日"
+    },
+    {
+      "category": "published_papers",
+      "external_id": "42803436",
+      "url": "https://researchmap.jp/hiroki_u/published_papers/42803436",
+      "title": "A Weblog Grounded to the Real World.",
+      "authors_observed": "Kosuke Numa, Hideaki Takeda 0001, Hiroki Uematsu, Takuichi Nishimura, Yutaka Matsuo, Masahiro Hamasaki, Noriyuki Fujimura, Keisuke Ishida, Tom Hope, Yoshiyuki Nakamura …",
+      "display_text": "A Weblog Grounded to the Real World. Kosuke Numa, Hideaki Takeda 0001, Hiroki Uematsu, Takuichi Nishimura, Yutaka Matsuo, Masahiro Hamasaki, Noriyuki Fujimura, Keisuke Ishida, Tom Hope, Yoshiyuki Nakamura … AAAI Spring Symposium - Technical Report SS-06-03 168-175 2006年"
+    },
+    {
+      "category": "misc",
+      "external_id": "49768683",
+      "url": "https://researchmap.jp/hiroki_u/misc/49768683",
+      "title": "古事類苑と和歌データベースの知識グラフ構築と相互活用",
+      "authors_observed": "上松大輝, 武田英明, 武田英明, 山田奨治, 山田奨治, 相田満",
+      "display_text": "古事類苑と和歌データベースの知識グラフ構築と相互活用 上松大輝, 武田英明, 武田英明, 山田奨治, 山田奨治, 相田満 情報処理学会シンポジウム論文集 2024(1) 2024年"
+    },
+    {
+      "category": "misc",
+      "external_id": "47272865",
+      "url": "https://researchmap.jp/hiroki_u/misc/47272865",
+      "title": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築",
+      "authors_observed": "上松大輝, 上松大輝, 武田英明, 武田英明, 山田奨治, 相田満, 相田満",
+      "display_text": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築 上松大輝, 上松大輝, 武田英明, 武田英明, 山田奨治, 相田満, 相田満 人工知能学会第二種研究会資料(Web) 2023(SWO-062) 2024年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060395",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060395",
+      "title": "箱根火山における機械学習を用いた地震波検測の性能評価",
+      "authors_observed": "KIM Ahyi, 中村勇士, 畠山海, 上松大輝, 行竹洋平, 安倍祐希",
+      "display_text": "箱根火山における機械学習を用いた地震波検測の性能評価 KIM Ahyi, 中村勇士, 畠山海, 上松大輝, 行竹洋平, 安倍祐希 日本地震学会秋季大会講演予稿集(CD-ROM) 2021 2021年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060398",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060398",
+      "title": "ソーシャルメディアを用いたSpatial Know1edge Graphの構築",
+      "authors_observed": "上松大輝, NATTHAWUT Kertkeidkachorn, 市瀬龍太郎, 市瀬龍太郎",
+      "display_text": "ソーシャルメディアを用いたSpatial Know1edge Graphの構築 上松大輝, NATTHAWUT Kertkeidkachorn, 市瀬龍太郎, 市瀬龍太郎 人工知能学会全国大会(Web) 34th 2020年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060396",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060396",
+      "title": "高ノイズ環境下における機械学習を用いた地震動検出の試み:市民参加型地震計ネットワークの構築に向けて",
+      "authors_observed": "KIM Ahyi, 上松大輝, 中村勇士, 高橋佑汰, 中村桃子",
+      "display_text": "高ノイズ環境下における機械学習を用いた地震動検出の試み:市民参加型地震計ネットワークの構築に向けて KIM Ahyi, 上松大輝, 中村勇士, 高橋佑汰, 中村桃子 日本地震学会秋季大会講演予稿集(CD-ROM) 2020 2020年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060401",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060401",
+      "title": "ニューラルネットワークを用いた低SN比条件下における地震波検出法の開発",
+      "authors_observed": "高橋馨子, 松本裕也, 上松大輝, MICHELETTO Ruggero, KIM Ahyi, SUN Zhe",
+      "display_text": "ニューラルネットワークを用いた低SN比条件下における地震波検出法の開発 高橋馨子, 松本裕也, 上松大輝, MICHELETTO Ruggero, KIM Ahyi, SUN Zhe 日本地震学会秋季大会講演予稿集(CD-ROM) 2017 2017年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060400",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060400",
+      "title": "揺れた?揺れていない?ソーシャルメディアとセンサーネットワークで安否確認",
+      "authors_observed": "竹内達哉, KIM Ahyi, 上松大輝",
+      "display_text": "揺れた?揺れていない?ソーシャルメディアとセンサーネットワークで安否確認 竹内達哉, KIM Ahyi, 上松大輝 日本地球惑星科学連合大会予稿集(Web) 2016 2016年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060402",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060402",
+      "title": "I felt it!市民参加型加速度センサーネットワークの構築",
+      "authors_observed": "竹内達哉, 佐々木亜季子, 上松大輝, 小泉和之, 金亜伊",
+      "display_text": "I felt it!市民参加型加速度センサーネットワークの構築 竹内達哉, 佐々木亜季子, 上松大輝, 小泉和之, 金亜伊 日本地震学会秋季大会講演予稿集 2015 2015年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060399",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060399",
+      "title": "ローカル加速度センサーネットワークとソーシャルメディアの連携による見守りアプリの開発",
+      "authors_observed": "佐々木亜季子, 上松大輝, 竹内達哉, 藤原了, KIM Ahyi",
+      "display_text": "ローカル加速度センサーネットワークとソーシャルメディアの連携による見守りアプリの開発 佐々木亜季子, 上松大輝, 竹内達哉, 藤原了, KIM Ahyi 日本地球惑星科学連合大会予稿集(Web) 2015 2015年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060404",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060404",
+      "title": "ミックスダウンの視覚化による支援システムの開発",
+      "authors_observed": "北谷光浩, 上松大輝, 根上生也",
+      "display_text": "ミックスダウンの視覚化による支援システムの開発 北谷光浩, 上松大輝, 根上生也 情報処理学会全国大会講演論文集 76th(2) 2014年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060409",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060409",
+      "title": "ActionLog:行動に着目した実世界コンテクストに基づく情報共有",
+      "authors_observed": "沼晃介, 沼晃介, 上松大輝, 上松大輝, 大向一輝, 市瀬龍太郎, 市瀬龍太郎, 武田英明, 武田英明",
+      "display_text": "ActionLog:行動に着目した実世界コンテクストに基づく情報共有 沼晃介, 沼晃介, 上松大輝, 上松大輝, 大向一輝, 市瀬龍太郎, 市瀬龍太郎, 武田英明, 武田英明 人工知能学会全国大会論文集(CD-ROM) 20th 2006年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060405",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060405",
+      "title": "コンテクストを考慮した位置情報に基づくコミュニケーションシステム",
+      "authors_observed": "上松大輝, 上松大輝, 沼晃介, 沼晃介, 大向一輝, 武田英明, 武田英明",
+      "display_text": "コンテクストを考慮した位置情報に基づくコミュニケーションシステム 上松大輝, 上松大輝, 沼晃介, 沼晃介, 大向一輝, 武田英明, 武田英明 情報処理学会シンポジウム論文集 2006(4) 2006年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060408",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060408",
+      "title": "タグ付けされた場所に基づいたコミュニケーション支援",
+      "authors_observed": "上松大輝, 上松大輝, 沼晃介, 沼晃介, 浜崎雅弘, 大向一輝, 武田英明, 武田英明",
+      "display_text": "タグ付けされた場所に基づいたコミュニケーション支援 上松大輝, 上松大輝, 沼晃介, 沼晃介, 浜崎雅弘, 大向一輝, 武田英明, 武田英明 人工知能学会全国大会論文集(CD-ROM) 19th 2005年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060407",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060407",
+      "title": "ActionLog:移動履歴に基づく位置情報付きWeblogの自動生成",
+      "authors_observed": "沼晃介, 沼晃介, 上松大輝, 上松大輝, 浜崎雅弘, 大向一輝, 武田英明, 武田英明",
+      "display_text": "ActionLog:移動履歴に基づく位置情報付きWeblogの自動生成 沼晃介, 沼晃介, 上松大輝, 上松大輝, 浜崎雅弘, 大向一輝, 武田英明, 武田英明 人工知能学会全国大会論文集(CD-ROM) 19th 2005年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060406",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060406",
+      "title": "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用",
+      "authors_observed": "浜崎雅弘, 武田英明, 武田英明, 大向一輝, 沼晃介, 沼晃介, 上松大輝, 市瀬龍太郎, 市瀬龍太郎",
+      "display_text": "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用 浜崎雅弘, 武田英明, 武田英明, 大向一輝, 沼晃介, 沼晃介, 上松大輝, 市瀬龍太郎, 市瀬龍太郎 人工知能学会全国大会論文集(CD-ROM) 19th 2005年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060397",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060397",
+      "title": "ActionLog:実世界指向コンテンツ記述支援システム",
+      "authors_observed": "沼晃介, 沼晃介, 上松大輝, 上松大輝, 浜崎雅弘, 浜崎雅弘, 大向一輝, 大向一輝, 武田英明, 武田英明",
+      "display_text": "ActionLog:実世界指向コンテンツ記述支援システム 沼晃介, 沼晃介, 上松大輝, 上松大輝, 浜崎雅弘, 浜崎雅弘, 大向一輝, 大向一輝, 武田英明, 武田英明 情報処理学会シンポジウム論文集 2005(4) 2005年"
+    },
+    {
+      "category": "misc",
+      "external_id": "37060403",
+      "url": "https://researchmap.jp/hiroki_u/misc/37060403",
+      "title": "場log:位置情報に基づく情報整理システム",
+      "authors_observed": "上松大輝, 徳永徹郎, 沼晃介, 大向一輝, 武田英明",
+      "display_text": "場log:位置情報に基づく情報整理システム 上松大輝, 徳永徹郎, 沼晃介, 大向一輝, 武田英明 情報処理学会シンポジウム論文集 2004(5) 2004年"
+    },
+    {
+      "category": "works",
+      "external_id": "51198541",
+      "url": "https://researchmap.jp/hiroki_u/works/51198541",
+      "title": "Illusionary Banyan: meta-data as semiosis",
+      "authors_observed": "上松大輝, 水島久光, 椋本輔",
+      "display_text": "Illusionary Banyan: meta-data as semiosis 上松大輝, 水島久光, 椋本輔 2025年7月5日 - 現在 芸術活動"
+    },
+    {
+      "category": "research_projects",
+      "external_id": "49898535",
+      "url": "https://researchmap.jp/hiroki_u/research_projects/49898535",
+      "title": "地域創生のための民俗資料デジタルアーカイブ構築におけるAI技術の開発と適用",
+      "authors_observed": "朱 成敏, 南山 泰之, 上松 大輝, 武田 英明",
+      "display_text": "地域創生のための民俗資料デジタルアーカイブ構築におけるAI技術の開発と適用 日本学術振興会 科学研究費助成事業 基盤研究(C) 2025年4月 - 2029年3月 朱 成敏, 南山 泰之, 上松 大輝, 武田 英明"
+    }
+  ]
+}

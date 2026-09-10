@@ -8,21 +8,28 @@
   },
   "scripts": {
     "dev": "astro dev --host 127.0.0.1",
-    "build": "npm run content:validate && node scripts/deploy/thumbnails.mjs && astro build && node scripts/deploy/prefix-output.mjs && node scripts/deploy/external-links.mjs",
+    "build": "npm run ledger:validate && npm run content:validate && node scripts/deploy/thumbnails.mjs && astro build && node scripts/deploy/prefix-output.mjs && node scripts/deploy/external-links.mjs",
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
-    "test": "node --test scripts/migration/*.test.mjs scripts/deploy/*.test.mjs",
+    "test": "node --test scripts/migration/*.test.mjs scripts/deploy/*.test.mjs scripts/research-ledger/*.test.mjs",
     "migration:fetch": "node scripts/migration/fetch.mjs",
     "migration:import": "node scripts/migration/import.mjs",
     "migration:verify": "node scripts/migration/verify.mjs",
     "nginx:generate": "node scripts/deploy/generate-nginx.mjs",
     "release:prepare": "node scripts/deploy/prepare-release.mjs",
     "predev": "node scripts/deploy/thumbnails.mjs",
-    "content:validate": "node scripts/deploy/validate-content.mjs"
+    "content:validate": "node scripts/deploy/validate-content.mjs",
+    "ledger:validate": "node scripts/research-ledger/cli.mjs validate && node scripts/research-ledger/sheets.mjs validate",
+    "ledger:export": "node scripts/research-ledger/cli.mjs export",
+    "ledger:report": "node scripts/research-ledger/cli.mjs report",
+    "ledger:test": "node --test scripts/research-ledger/*.test.mjs",
+    "ledger:schema": "node scripts/research-ledger/cli.mjs schema",
+    "ledger:sheets": "node scripts/research-ledger/sheets.mjs"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.0",
-    "astro": "7.3.1"
+    "astro": "7.3.1",
+    "zod": "4.5.4"
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",

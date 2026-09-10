@@ -1,0 +1,1035 @@
+{
+  "accessed_at": "2026-09-10",
+  "entries": [
+    {
+      "doi": "10.11517/jsaisigtwo.2004.SWO-006_07",
+      "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2004/SWO-006/2004_07/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "人工知能学会第二種研究会資料"
+        ],
+        "citation_journal_abbrev": [
+          "人工知能学会第二種研究会"
+        ],
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "沼 晃介",
+          "徳永 徹郎",
+          "大向 一輝",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "横浜国立大学大学院",
+          "国立情報学研究所",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "横浜国立大学大学院",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学"
+        ],
+        "citation_title": [
+          "場log：Weblog環境における位置情報利用の提案"
+        ],
+        "citation_publication_date": [
+          "2004/07/02"
+        ],
+        "citation_online_date": [
+          "2021/09/17"
+        ],
+        "citation_volume": [
+          "2004"
+        ],
+        "citation_issue": [
+          "SWO-006"
+        ],
+        "citation_firstpage": [
+          "07"
+        ],
+        "citation_doi": [
+          "10.11517/jsaisigtwo.2004.SWO-006_07"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsaisigtwo/2004/SWO-006/2004_07/_pdf"
+        ],
+        "citation_issn": [
+          "2436-5556"
+        ],
+        "citation_language": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/jsaisigtwo.2018.SWO-044_04",
+      "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2018/SWO-044/2018_04/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "人工知能学会第二種研究会資料"
+        ],
+        "citation_journal_abbrev": [
+          "人工知能学会第二種研究会"
+        ],
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "趙 麗花",
+          "Natthawut Kertkeidkachorn",
+          "市瀬 龍太郎"
+        ],
+        "citation_author_institution": [
+          "産業技術総合研究所",
+          "産業技術総合研究所",
+          "産業技術総合研究所",
+          "産業技術総合研究所",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "オントロジーマッチングを用いた知識グラフの構築"
+        ],
+        "citation_publication_date": [
+          "2018/03/18"
+        ],
+        "citation_online_date": [
+          "2021/09/17"
+        ],
+        "citation_volume": [
+          "2018"
+        ],
+        "citation_issue": [
+          "SWO-044"
+        ],
+        "citation_firstpage": [
+          "04"
+        ],
+        "citation_doi": [
+          "10.11517/jsaisigtwo.2018.SWO-044_04"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsaisigtwo/2018/SWO-044/2018_04/_pdf"
+        ],
+        "citation_issn": [
+          "2436-5556"
+        ],
+        "citation_language": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/jsaisigtwo.2022.SWO-056_04",
+      "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_04/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "人工知能学会第二種研究会資料"
+        ],
+        "citation_journal_abbrev": [
+          "人工知能学会第二種研究会"
+        ],
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "Phuc Nguyen",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "国立情報学研究所",
+          "総合研究大学院大学"
+        ],
+        "citation_title": [
+          "Wikidata連携：Wikibaseを用いた知識グラフの拡張"
+        ],
+        "citation_publication_date": [
+          "2022/03/11"
+        ],
+        "citation_online_date": [
+          "2022/03/24"
+        ],
+        "citation_volume": [
+          "2022"
+        ],
+        "citation_issue": [
+          "SWO-056"
+        ],
+        "citation_firstpage": [
+          "04"
+        ],
+        "citation_doi": [
+          "10.11517/jsaisigtwo.2022.SWO-056_04"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_04/_pdf"
+        ],
+        "citation_issn": [
+          "2436-5556"
+        ],
+        "citation_language": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/jsaisigtwo.2023.SWO-059_07",
+      "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-059/2023_07/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "人工知能学会第二種研究会資料"
+        ],
+        "citation_journal_abbrev": [
+          "人工知能学会第二種研究会"
+        ],
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "金 亜伊",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "横浜市立大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "地震の分類のためのオントロジー構築"
+        ],
+        "citation_publication_date": [
+          "2023/03/17"
+        ],
+        "citation_online_date": [
+          "2023/03/23"
+        ],
+        "citation_volume": [
+          "2023"
+        ],
+        "citation_issue": [
+          "SWO-059"
+        ],
+        "citation_firstpage": [
+          "07"
+        ],
+        "citation_doi": [
+          "10.11517/jsaisigtwo.2023.SWO-059_07"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-059/2023_07/_pdf"
+        ],
+        "citation_issn": [
+          "2436-5556"
+        ],
+        "citation_language": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/jsaisigtwo.2023.SWO-062_02",
+      "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-062/2023_02/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "人工知能学会第二種研究会資料"
+        ],
+        "citation_journal_abbrev": [
+          "人工知能学会第二種研究会"
+        ],
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "武田 英明",
+          "山田 奨治",
+          "相田 満"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "国際日本文化研究センター",
+          "国文学研究資料館"
+        ],
+        "citation_title": [
+          "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築"
+        ],
+        "citation_publication_date": [
+          "2024/03/23"
+        ],
+        "citation_online_date": [
+          "2024/03/30"
+        ],
+        "citation_volume": [
+          "2023"
+        ],
+        "citation_issue": [
+          "SWO-062"
+        ],
+        "citation_firstpage": [
+          "02"
+        ],
+        "citation_doi": [
+          "10.11517/jsaisigtwo.2023.SWO-062_02"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-062/2023_02/_pdf"
+        ],
+        "citation_issn": [
+          "2436-5556"
+        ],
+        "citation_language": [
+          "ja"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI05.0.35.0",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_35/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "沼 晃介",
+          "濱崎 雅弘",
+          "大向 一輝",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "横浜国立大学大学院",
+          "国立情報学研究所",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学"
+        ],
+        "citation_title": [
+          "タグ付けされた場所に基づいたコミュニケーション支援"
+        ],
+        "citation_publication_date": [
+          "2005"
+        ],
+        "citation_online_date": [
+          "2006/10/26"
+        ],
+        "citation_firstpage": [
+          "35"
+        ],
+        "citation_lastpage": [
+          "35"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI05.0.35.0"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_35/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第19回 (2005)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI05.0.37.0",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_37/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "沼 晃介",
+          "上松 大輝",
+          "濱崎 雅弘",
+          "大向 一輝",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "国立情報学研究所",
+          "横浜国立大学大学院",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "ActionLog：移動履歴に基づく位置情報付きWeblogの自動生成"
+        ],
+        "citation_publication_date": [
+          "2005"
+        ],
+        "citation_online_date": [
+          "2006/10/26"
+        ],
+        "citation_firstpage": [
+          "37"
+        ],
+        "citation_lastpage": [
+          "37"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI05.0.37.0"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_37/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第19回 (2005)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI05.0.8.0",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "濱崎 雅弘",
+          "武田 英明",
+          "大向 一輝",
+          "沼 晃介",
+          "上松 大輝",
+          "市瀬 龍太郎"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "横浜国立大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用"
+        ],
+        "citation_publication_date": [
+          "2005"
+        ],
+        "citation_online_date": [
+          "2006/10/26"
+        ],
+        "citation_firstpage": [
+          "8"
+        ],
+        "citation_lastpage": [
+          "8"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI05.0.8.0"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第19回 (2005)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI06.0.223.0",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI06/0/JSAI06_0_223/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "沼 晃介",
+          "上松 大輝",
+          "大向 一輝",
+          "市瀬 龍太郎",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "国立情報学研究所",
+          "横浜国立大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "東京大学"
+        ],
+        "citation_title": [
+          "ActionLog：行動に着目した実世界コンテクストに基づく情報共有"
+        ],
+        "citation_publication_date": [
+          "2006"
+        ],
+        "citation_online_date": [
+          "2006/12/07"
+        ],
+        "citation_firstpage": [
+          "223"
+        ],
+        "citation_lastpage": [
+          "223"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI06.0.223.0"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI06/0/JSAI06_0_223/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第20回 (2006)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI2020.0_1O4GS404",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1O4GS404/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "KERTKEIDKACHORN Natthawut",
+          "市瀬 龍太郎"
+        ],
+        "citation_author_institution": [
+          "産業技術総合研究所",
+          "国立情報学研究所",
+          "産業技術総合研究所",
+          "産業技術総合研究所",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "ソーシャルメディアを用いたSpatial Knowledge Graphの構築"
+        ],
+        "citation_publication_date": [
+          "2020"
+        ],
+        "citation_online_date": [
+          "2020/06/19"
+        ],
+        "citation_firstpage": [
+          "1O4GS404"
+        ],
+        "citation_lastpage": [
+          "1O4GS404"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI2020.0_1O4GS404"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1O4GS404/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "位置情報",
+          "ナレッジグラフ",
+          "ソーシャルメディア",
+          "Location",
+          "Knowlege Graph",
+          "Social Medhia"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第34回 (2020)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI2023.0_2B6GS301",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2B6GS301/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "金 亜伊",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "横浜市立大学",
+          "横浜市立大学",
+          "総合研究大学院大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "地震語彙の構築と地震LOD"
+        ],
+        "citation_publication_date": [
+          "2023"
+        ],
+        "citation_online_date": [
+          "2023/07/10"
+        ],
+        "citation_firstpage": [
+          "2B6GS301"
+        ],
+        "citation_lastpage": [
+          "2B6GS301"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI2023.0_2B6GS301"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2B6GS301/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "セマンティックWeb",
+          "オントロジー",
+          "知識グラフ",
+          "地震",
+          "Semantic Web",
+          "Ontology",
+          "Knowledge Graph",
+          "Earthquake"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第37回 (2023)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI2024.0_3L1OS3a05",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3L1OS3a05/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "地震LODの拡張と利活用"
+        ],
+        "citation_publication_date": [
+          "2024"
+        ],
+        "citation_online_date": [
+          "2024/06/11"
+        ],
+        "citation_firstpage": [
+          "3L1OS3a05"
+        ],
+        "citation_lastpage": [
+          "3L1OS3a05"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI2024.0_3L1OS3a05"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3L1OS3a05/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "知識グラフ",
+          "地震",
+          "Linked Open Data",
+          "Knowledge Graph",
+          "Earthquake"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第38回 (2024)"
+        ]
+      }
+    },
+    {
+      "doi": "10.11517/pjsai.JSAI2025.0_2K1OS602",
+      "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2K1OS602/_article/-char/ja/",
+      "metadata": {
+        "citation_publisher": [
+          "一般社団法人 人工知能学会"
+        ],
+        "citation_author": [
+          "上松 大輝",
+          "武田 英明"
+        ],
+        "citation_author_institution": [
+          "総合研究大学院大学",
+          "国立情報学研究所",
+          "総合研究大学院大学",
+          "国立情報学研究所"
+        ],
+        "citation_title": [
+          "地震および災害事例のLOD化と相互運用性の向上"
+        ],
+        "citation_publication_date": [
+          "2025"
+        ],
+        "citation_online_date": [
+          "2025/07/01"
+        ],
+        "citation_firstpage": [
+          "2K1OS602"
+        ],
+        "citation_lastpage": [
+          "2K1OS602"
+        ],
+        "citation_doi": [
+          "10.11517/pjsai.JSAI2025.0_2K1OS602"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2K1OS602/_pdf"
+        ],
+        "citation_issn": [
+          "2758-7347"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "Linked Open Data",
+          "知識グラフ",
+          "地震",
+          "Knowledge Graph",
+          "Earthquake"
+        ],
+        "citation_conference_title": [
+          "人工知能学会全国大会論文集 第39回 (2025)"
+        ]
+      }
+    },
+    {
+      "doi": "10.24506/jsda.4.2_97",
+      "url": "https://www.jstage.jst.go.jp/article/jsda/4/2/4_97/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "デジタルアーカイブ学会誌"
+        ],
+        "citation_journal_abbrev": [
+          "デジタルアーカイブ学会誌",
+          "Journal of the Japan Society for Digital Archive"
+        ],
+        "citation_publisher": [
+          "デジタルアーカイブ学会"
+        ],
+        "citation_author": [
+          "水島 久光",
+          "椋本 輔",
+          "上松 大輝"
+        ],
+        "citation_author_institution": [
+          "東海大学文化社会学部",
+          "鶴見大学／学習院大学",
+          "国立情報学研究所／専修大学"
+        ],
+        "citation_title": [
+          "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想"
+        ],
+        "citation_publication_date": [
+          "2020"
+        ],
+        "citation_online_date": [
+          "2020/04/25"
+        ],
+        "citation_volume": [
+          "4"
+        ],
+        "citation_issue": [
+          "2"
+        ],
+        "citation_firstpage": [
+          "97"
+        ],
+        "citation_lastpage": [
+          "100"
+        ],
+        "citation_doi": [
+          "10.24506/jsda.4.2_97"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsda/4/2/4_97/_pdf"
+        ],
+        "citation_issn": [
+          "2432-9762",
+          "2432-9770"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "第4回研究大会予稿",
+          "口頭発表",
+          "Preprint",
+          "Presentation"
+        ]
+      }
+    },
+    {
+      "doi": "10.24506/jsda.4.s1_s27",
+      "url": "https://www.jstage.jst.go.jp/article/jsda/4/s1/4_s27/_article/-char/ja/",
+      "metadata": {
+        "citation_journal_title": [
+          "デジタルアーカイブ学会誌"
+        ],
+        "citation_journal_abbrev": [
+          "デジタルアーカイブ学会誌",
+          "Journal of the Japan Society for Digital Archive"
+        ],
+        "citation_publisher": [
+          "デジタルアーカイブ学会"
+        ],
+        "citation_author": [
+          "水島 久光",
+          "椋本 輔",
+          "上松 大輝"
+        ],
+        "citation_author_institution": [
+          "東海大学文化社会学部",
+          "学習院大学／鶴見大学",
+          "国立情報学研究所／専修大学"
+        ],
+        "citation_title": [
+          "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて"
+        ],
+        "citation_publication_date": [
+          "2020"
+        ],
+        "citation_online_date": [
+          "2020/10/09"
+        ],
+        "citation_volume": [
+          "4"
+        ],
+        "citation_issue": [
+          "s1"
+        ],
+        "citation_firstpage": [
+          "s27"
+        ],
+        "citation_lastpage": [
+          "s30"
+        ],
+        "citation_doi": [
+          "10.24506/jsda.4.s1_s27"
+        ],
+        "citation_fulltext_world_readable": [
+          ""
+        ],
+        "citation_pdf_url": [
+          "https://www.jstage.jst.go.jp/article/jsda/4/s1/4_s27/_pdf"
+        ],
+        "citation_issn": [
+          "2432-9762",
+          "2432-9770"
+        ],
+        "citation_language": [
+          "ja"
+        ],
+        "citation_keywords": [
+          "第5回研究大会予稿",
+          "口頭発表",
+          "Preprint",
+          "Presentation"
+        ]
+      }
+    },
+    {
+      "url": "https://ipsj.ixsq.nii.ac.jp/records/237419",
+      "metadata": {
+        "citation_title": [
+          "引用・参考関係を考慮した和歌集の知識グラフ構築"
+        ],
+        "citation_publisher": [
+          "情報処理学会"
+        ],
+        "citation_journal_title": [
+          "研究報告人文科学とコンピュータ（CH）"
+        ],
+        "citation_volume": [
+          "2024-CH-136"
+        ],
+        "citation_issue": [
+          "3"
+        ],
+        "citation_firstpage": [
+          "1"
+        ],
+        "citation_lastpage": [
+          "7"
+        ],
+        "citation_publication_date": [
+          "2024-07-19"
+        ],
+        "citation_author": [
+          "上松, 大輝",
+          "武田, 英明",
+          "山田, 奨治",
+          "相田, 満",
+          "Hiroki, Uematsu",
+          "Hideaki, Takeda",
+          "Shoji, Yamada",
+          "Mitsuru, Aida"
+        ],
+        "citation_issn": [
+          "2188-8957"
+        ],
+        "citation_pdf_url": [
+          "https://ipsj.ixsq.nii.ac.jp/record/237419/files/IPSJ-CH24136003.pdf"
+        ],
+        "citation_dissertation_institution": [
+          ""
+        ],
+        "citation_abstract_html_url": [
+          "https://ipsj.ixsq.nii.ac.jp/records/237419"
+        ]
+      }
+    },
+    {
+      "url": "https://ipsj.ixsq.nii.ac.jp/records/104715",
+      "metadata": {
+        "citation_title": [
+          "ミックスダウンの視覚化による支援システムの開発"
+        ],
+        "citation_publisher": [
+          "情報処理学会"
+        ],
+        "citation_keywords": [
+          "人工知能と認知科学"
+        ],
+        "citation_journal_title": [
+          "第76回全国大会講演論文集"
+        ],
+        "citation_volume": [
+          "2014"
+        ],
+        "citation_issue": [
+          "1"
+        ],
+        "citation_firstpage": [
+          "307"
+        ],
+        "citation_lastpage": [
+          "308"
+        ],
+        "citation_publication_date": [
+          "2014-03-11"
+        ],
+        "citation_author": [
+          "北谷光浩",
+          "上松大輝",
+          "根上生也"
+        ],
+        "citation_pdf_url": [
+          "https://ipsj.ixsq.nii.ac.jp/record/104715/files/IPSJ-Z76-1R-8.pdf"
+        ],
+        "citation_dissertation_institution": [
+          ""
+        ],
+        "citation_abstract_html_url": [
+          "https://ipsj.ixsq.nii.ac.jp/records/104715"
+        ]
+      }
+    }
+  ]
+}
