@@ -43,3 +43,11 @@
 .entries p.read-more{margin-top:1.8em}
 
 .entry-summary{min-width:0;display:flow-root}.entry-thumbnail{float:right;width:160px;margin:0 0 1rem 1.25rem;display:block}.entry-thumbnail img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:4px;background:white}.entry-summary h2,.entry-summary p{overflow-wrap:anywhere}@media(max-width:600px){.entry-thumbnail{width:104px;margin-left:.8rem}}@media(max-width:360px){.entry-thumbnail{width:80px;margin-left:.6rem}}
+
+/* Main navigation: hover feedback and persistent section indicator. */
+.navigation-wrap>nav{gap:.9rem;flex-wrap:nowrap;align-items:center}
+.navigation-wrap nav>a{padding:1rem .7rem;border-bottom:3px solid transparent;transition:background-color .15s,color .15s,border-color .15s}
+.navigation-wrap nav>a:hover,.navigation-wrap nav>a:focus-visible{color:var(--accent);background:#edf5ef;border-bottom-color:var(--accent)}
+.navigation-wrap nav>a.is-active{border-bottom-color:var(--accent)}
+.navigation-wrap .menu-divider{color:#87988d;flex:none;user-select:none}
+@media(max-width:600px){.navigation-wrap>nav{gap:.35rem}.navigation-wrap nav>a{padding:1rem .45rem}}

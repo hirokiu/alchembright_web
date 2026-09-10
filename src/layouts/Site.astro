@@ -2,9 +2,19 @@
 import '../styles/site.css';
 import LegacyNavigation from '../components/LegacyNavigation.astro';
 import SocialLinks from '../components/SocialLinks.astro';
-interface Props { title: string; path: string; legacyNavigation?: boolean; }
-const {title,path,legacyNavigation=false} = Astro.props;
+interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; }
+const {title,path,legacyNavigation=false,section} = Astro.props;
 const isHome = path === '/';
+const active = section ?? (
+  /^\/(category\/news|news)(\/|$)/.test(path) ? 'news' :
+  /^\/(category\/works|works|kirokun-support)(\/|$)/.test(path) ? 'works' :
+  path.startsWith('/about/') ? 'about' :
+  /^\/(category\/blog|blog|tags?|\d{4})(\/|$)/.test(path) ? 'blog' : ''
+);
+const menu = [
+  {label:'news',href:'/category/news/'}, {label:'works',href:'/category/works/'},
+  {label:'about',href:'/about/'}, {label:'blog',href:'/category/blog/'}
+];
 const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
 ---
 <!doctype html>
@@ -28,9 +38,10 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
       </div>
       <div class="navigation-wrap">
         <nav aria-label="メインメニュー">
-          <a href="/">home</a><a href="/category/news/">news</a>
-          <a href="/category/works/">works</a>
-          <a href="/category/blog/">blog</a><a href="/about/">about</a>
+          {menu.map(item => <>
+            {item.label === 'blog' && <span class="menu-divider" aria-hidden="true">|</span>}
+            <a href={item.href} class:list={{'is-active':active === item.label}} aria-current={active === item.label ? (path === item.href ? 'page' : 'location') : undefined}>{item.label}</a>
+          </>)}
         </nav>
       </div>
     </header>
