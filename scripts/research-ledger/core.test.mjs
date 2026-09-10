@@ -58,7 +58,9 @@ test('review scope is consistent and retained in public output',()=>{
 test('review flags point to retained observations and valid ledger records',()=>{
  const queue=JSON.parse(readFileSync(new URL('../../research-ledger/review-queue.json',import.meta.url)));
  const observed=JSON.parse(readFileSync(new URL('../../research-ledger/observations/researchmap-2026-09-10.json',import.meta.url)));
- const urls=new Set(observed.entries.map(o=>o.url)),ids=new Set(seed.records.map(r=>r.id));
+ const orcid=JSON.parse(readFileSync(new URL('../../research-ledger/observations/orcid-2026-09-10.json',import.meta.url)));
+ const scholar=JSON.parse(readFileSync(new URL('../../research-ledger/observations/scholar-2026-09-10.json',import.meta.url)));
+ const urls=new Set([...observed.entries.map(o=>o.url),...orcid.entries.map(o=>o.url),scholar.source,...seed.records.flatMap(r=>r.evidence.map(e=>e.url))]),ids=new Set(seed.records.map(r=>r.id));
  assert.equal(new Set(queue.items.map(i=>i.id)).size,queue.items.length);
  for(const item of queue.items){assert.ok(['needs_review','confirmed_duplicate','not_duplicate','resolved'].includes(item.status));for(const url of item.source_urls)assert.ok(urls.has(url));for(const id of item.ledger_ids)assert.ok(ids.has(id));}
  assert.equal(queue.items.find(i=>i.id==='DUP-001').source_urls.length,2);

@@ -448,6 +448,14 @@
             "subtype"
           ],
           "note": "発表日は2023-03-10。dateは出版社の発行日2023-03-17を維持。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050854",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050854。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -467,20 +475,20 @@
           "note": "Researchmap portal shows only Hiroki UEMATSU; publisher lists three authors."
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "160050854",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050854",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
-          "status": "tracked",
+          "status": "needs_review",
           "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
         },
         "university_db": {
           "status": "tracked",
@@ -727,6 +735,14 @@
             "contributors"
           ],
           "note": "2024-03-23のSIG-SWO-062-02として掲載。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050851",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050851。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -748,20 +764,20 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "160050851",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050851",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
-          "status": "tracked",
+          "status": "needs_review",
           "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
         },
         "university_db": {
           "status": "tracked",
@@ -1039,6 +1055,14 @@
             "bibliographic"
           ],
           "note": "出版社の書誌情報。発行日を採用し、Web公開日や発表日から置換しない。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980643",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 206980643。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -1059,12 +1083,12 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "206980643",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/206980643",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
           "status": "tracked",
@@ -1181,6 +1205,14 @@
             "bibliographic"
           ],
           "note": "出版社の書誌情報。発行日を採用し、Web公開日や発表日から置換しない。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980623",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 206980623。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -1201,12 +1233,12 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "206980623",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/206980623",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
           "status": "tracked",
@@ -1323,6 +1355,14 @@
             "bibliographic"
           ],
           "note": "出版社の書誌情報。発行日を採用し、Web公開日や発表日から置換しない。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980644",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 206980644。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -1344,12 +1384,12 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "206980644",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/206980644",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
           "status": "tracked",
@@ -1473,6 +1513,14 @@
             "peer_review_scope"
           ],
           "note": "本人のSWO研究会は査読なしという確認を適用。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/113772401",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 113772401。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -1492,12 +1540,12 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "113772401",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/113772401",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
           "status": "tracked",
@@ -1629,6 +1677,14 @@
             "peer_review_scope"
           ],
           "note": "本人のSWO研究会は査読なしという確認を適用。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/118086567",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 118086567。登録元の書誌は原典を優先して照合。"
         }
       ],
       "last_verified_at": "2026-09-10",
@@ -1648,12 +1704,12 @@
           "note": "ポータル観測とPDFの著者・書誌を本人が照合し、Researchmapを手動更新。現在の外部分類は published_papers。台帳の分類は確認用提案。"
         },
         "orcid": {
-          "status": "tracked",
-          "external_id": null,
-          "url": null,
-          "checked_at": null,
+          "status": "needs_review",
+          "external_id": "118086567",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/118086567",
+          "checked_at": "2026-09-10",
           "content_hash": null,
-          "note": null
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
         },
         "google_scholar": {
           "status": "tracked",
@@ -1819,6 +1875,3922 @@
           "note": null
         }
       }
+    },
+    {
+      "id": "ral-84508833-e5d9-4891-b9e3-4e40ce9797b7",
+      "kind": "publications",
+      "subtype": "research_report",
+      "title": {
+        "ja": "場log：Weblog環境における位置情報利用の提案",
+        "en": null
+      },
+      "date": "2004-07-02",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "徳永 徹郎",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "no",
+      "doi": "10.11517/jsaisigtwo.2004.SWO-006_07",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/jsaisigtwo/2004/SWO-006/2004_07/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会第二種研究会資料",
+        "volume": "2004",
+        "issue": "SWO-006",
+        "pages": "07"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2004/SWO-006/2004_07/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "none"
+    },
+    {
+      "id": "ral-0e3aee8f-036f-47d1-8d2a-0985b1a5cc91",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "タグ付けされた場所に基づいたコミュニケーション支援",
+        "en": null
+      },
+      "date": "2005",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "濱崎 雅弘",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI05.0.35.0",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_35/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第19回 (2005)",
+        "volume": null,
+        "issue": null,
+        "pages": "35"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_35/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060408",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074395",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074395。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060408",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060408",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074395",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074395",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-e2c3f4a6-a2d7-4c23-9e2a-65c744e49f83",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "ActionLog：移動履歴に基づく位置情報付きWeblogの自動生成",
+        "en": null
+      },
+      "date": "2005",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "濱崎 雅弘",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI05.0.37.0",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_37/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第19回 (2005)",
+        "volume": null,
+        "issue": null,
+        "pages": "37"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_37/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060407",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074390",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074390。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060407",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060407",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074390",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074390",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用",
+        "en": null
+      },
+      "date": "2005",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "濱崎 雅弘",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "市瀬 龍太郎",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI05.0.8.0",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第19回 (2005)",
+        "volume": null,
+        "issue": null,
+        "pages": "8"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060406",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074388",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074388。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060406",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060406",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074388",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074388",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-86d9b88a-ab01-4ea5-808d-97128947fa59",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "ActionLog：行動に着目した実世界コンテクストに基づく情報共有",
+        "en": null
+      },
+      "date": "2006",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "市瀬 龍太郎",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI06.0.223.0",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI06/0/JSAI06_0_223/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第20回 (2006)",
+        "volume": null,
+        "issue": null,
+        "pages": "223"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI06/0/JSAI06_0_223/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060409",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074386",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074386。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060409",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060409",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074386",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074386",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-e2d9ee4a-e0f0-4693-997e-cdf96771a806",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "ソーシャルメディアを用いたSpatial Knowledge Graphの構築",
+        "en": null
+      },
+      "date": "2020",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "KERTKEIDKACHORN Natthawut"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "市瀬 龍太郎",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI2020.0_1O4GS404",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1O4GS404/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [
+        "位置情報",
+        "ナレッジグラフ",
+        "ソーシャルメディア",
+        "Location",
+        "Knowlege Graph",
+        "Social Medhia"
+      ],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第34回 (2020)",
+        "volume": null,
+        "issue": null,
+        "pages": "1O4GS404"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1O4GS404/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074375",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074375。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074375",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074375",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-c0fd95ca-1626-4f61-95a2-2dddc8558bf7",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "地震語彙の構築と地震LOD",
+        "en": null
+      },
+      "date": "2023",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "金 亜伊",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI2023.0_2B6GS301",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2B6GS301/_article/-char/ja/"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [
+        "セマンティックWeb",
+        "オントロジー",
+        "知識グラフ",
+        "地震",
+        "Semantic Web",
+        "Ontology",
+        "Knowledge Graph",
+        "Earthquake"
+      ],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第37回 (2023)",
+        "volume": null,
+        "issue": null,
+        "pages": "2B6GS301"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2B6GS301/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/46097310",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050853",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050853。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "46097310",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/46097310",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "160050853",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050853",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-52b3aecc-0bf1-4f83-949f-ed097c036b7e",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "地震LODの拡張と利活用",
+        "en": null
+      },
+      "date": "2024",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI2024.0_3L1OS3a05",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3L1OS3a05/_article/-char/ja/"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [
+        "知識グラフ",
+        "地震",
+        "Linked Open Data",
+        "Knowledge Graph",
+        "Earthquake"
+      ],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第38回 (2024)",
+        "volume": null,
+        "issue": null,
+        "pages": "3L1OS3a05"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3L1OS3a05/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/180532715",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 180532715。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "180532715",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/180532715",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-2f138348-642f-46ec-8364-4c5b1f7c01a7",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "地震および災害事例のLOD化と相互運用性の向上",
+        "en": null
+      },
+      "date": "2025",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/pjsai.JSAI2025.0_2K1OS602",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2K1OS602/_article/-char/ja/"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [
+        "Linked Open Data",
+        "知識グラフ",
+        "地震",
+        "Knowledge Graph",
+        "Earthquake"
+      ],
+      "bibliographic": {
+        "venue": "人工知能学会全国大会論文集 第39回 (2025)",
+        "volume": null,
+        "issue": null,
+        "pages": "2K1OS602"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2K1OS602/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980514",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 206980514。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の論文として論文。発表行為は別レコードで講演・口頭発表に登録。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "206980514",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/206980514",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-80439b49-1b01-4803-94b8-f298ff6291da",
+      "kind": "publications",
+      "subtype": "conference_abstract",
+      "title": {
+        "ja": "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想",
+        "en": null
+      },
+      "date": "2020",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "水島 久光",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "椋本 輔",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.24506/jsda.4.2_97",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/jsda/4/2/4_97/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [
+        "第4回研究大会予稿",
+        "口頭発表",
+        "Preprint",
+        "Presentation"
+      ],
+      "bibliographic": {
+        "venue": "デジタルアーカイブ学会誌",
+        "volume": "4",
+        "issue": "2",
+        "pages": "97-100"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jsda/4/2/4_97/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：学会研究大会の予稿としてMISC。学会誌に掲載されていても通常の学術誌論文とは区別。査読範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/32001100",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074378",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074378。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：学会研究大会の予稿としてMISC。学会誌に掲載されていても通常の学術誌論文とは区別。査読範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "32001100",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/32001100",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074378",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074378",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-1f834f61-1c45-43ee-9679-ee22e475ffd9",
+      "kind": "publications",
+      "subtype": "conference_abstract",
+      "title": {
+        "ja": "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて",
+        "en": null
+      },
+      "date": "2020",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "水島 久光",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "椋本 輔",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.24506/jsda.4.s1_s27",
+      "urls": [
+        "https://www.jstage.jst.go.jp/article/jsda/4/s1/4_s27/_article/-char/ja/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [
+        "第5回研究大会予稿",
+        "口頭発表",
+        "Preprint",
+        "Presentation"
+      ],
+      "bibliographic": {
+        "venue": "デジタルアーカイブ学会誌",
+        "volume": "4",
+        "issue": "s1",
+        "pages": "s27-s30"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jsda/4/s1/4_s27/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：学会研究大会の予稿としてMISC。学会誌に掲載されていても通常の学術誌論文とは区別。査読範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/32001099",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074373",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074373。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：学会研究大会の予稿としてMISC。学会誌に掲載されていても通常の学術誌論文とは区別。査読範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "32001099",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/32001099",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074373",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074373",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305",
+      "kind": "publications",
+      "subtype": "journal_article",
+      "title": {
+        "ja": null,
+        "en": "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area"
+      },
+      "date": "2023-05-16",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Ahyi Kim"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yuji Nakamura"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yohei Yukutake"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yuki Abe"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "yes",
+      "doi": "10.1186/s40623-023-01840-5",
+      "urls": [
+        "https://doi.org/10.1186/s40623-023-01840-5"
+      ],
+      "project_ids": [],
+      "related_ids": [
+        "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5"
+      ],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "Earth, Planets and Space",
+        "volume": "75",
+        "issue": "1",
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1186/s40623-023-01840-5",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：査読付き学術誌論文。出版元の受理・公開履歴を確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/48338813",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1186/s40623-023-01840-5",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "出版社登録メタデータ。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050927",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050927。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：査読付き学術誌論文。出版元の受理・公開履歴を確認。",
+        "論文番号85。頁数と論文番号を混同せず、公開可否は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "48338813",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/48338813",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "160050927",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050927",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "full_text"
+    },
+    {
+      "id": "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5",
+      "kind": "publications",
+      "subtype": "preprint",
+      "title": {
+        "ja": null,
+        "en": "Development of High-Performance Seismic Phase Picker Using Deep Learning in Hakone Volcanic Area"
+      },
+      "date": "2022-11-29",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Ahyi Kim"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yuji Nakamura"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yohei Yukutake"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yuki Abe"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "no",
+      "doi": "10.21203/rs.3.rs-2253946/v1",
+      "urls": [
+        "https://doi.org/10.21203/rs.3.rs-2253946/v1"
+      ],
+      "project_ids": [],
+      "related_ids": [
+        "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305"
+      ],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "Research Square",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.21203/rs.3.rs-2253946/v1",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：未査読プレプリントとしてMISC。2023年の出版版と関連付け、別の査読論文として数えない。"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.21203/rs.3.rs-2253946/v1",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "出版社登録メタデータ。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050929",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050929。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：未査読プレプリントとしてMISC。2023年の出版版と関連付け、別の査読論文として数えない。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "160050929",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050929",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "none"
+    },
+    {
+      "id": "ral-0be9a772-4531-49a6-9c52-44dc9905c851",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": null,
+        "en": "Communication support with location-based information"
+      },
+      "date": "2005",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "H. Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "K. Numa"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "M. Hamasaki"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "I. Ohmukai"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "H. Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.1109/AMT.2005.1505344",
+      "urls": [
+        "https://doi.org/10.1109/AMT.2005.1505344"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "Proceedings of the 2005 International Conference on Active Media Technology, 2005. (AMT 2005).",
+        "volume": null,
+        "issue": null,
+        "pages": "282-282"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://doi.org/10.1109/AMT.2005.1505344",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：国際会議論文。ただしDOI登録の頁は282-282で短報・要旨の可能性があり、本文範囲と分類を本人確認。"
+        },
+        {
+          "url": "https://api.crossref.org/works/10.1109/AMT.2005.1505344",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "出版社登録メタデータ。AMTの出版日が空のため年はORCID公開レコードを採用。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074190",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074190。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：国際会議論文。ただしDOI登録の頁は282-282で短報・要旨の可能性があり、本文範囲と分類を本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074190",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074190",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": null,
+        "en": "Design for Data Structures: Data Unification and Federation with Wikibase"
+      },
+      "date": "2022-12-17",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Phuc Nguyen"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.1109/BigData55660.2022.10020686",
+      "urls": [
+        "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "2022 IEEE International Conference on Big Data (Big Data)",
+        "volume": null,
+        "issue": null,
+        "pages": "6169-6178"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：国際会議論文。ORCID登録とIJCKG2023論文の参考文献を照合。査読範囲・トラックは本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/41498904",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://ijckg2023.knowledge-graph.jp/pages/proc/paper_17.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "doi",
+            "bibliographic.pages"
+          ],
+          "note": "参考文献27に書誌を確認。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 129380274。登録元の書誌は原典を優先して照合。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050928",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050928。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：国際会議論文。ORCID登録とIJCKG2023論文の参考文献を照合。査読範囲・トラックは本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "41498904",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/41498904",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "129380274",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/129380274",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-ec73954a-7707-4193-8c9b-35994808ccf8",
+      "kind": "publications",
+      "subtype": "poster_paper",
+      "title": {
+        "ja": null,
+        "en": "Earthquake Ontology and LOD"
+      },
+      "date": "2023",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://ceur-ws.org/Vol-3632/ISWC2023_paper_475.pdf"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "ISWC 2023 Posters, Demos and Industry Tracks / CEUR Workshop Proceedings",
+        "volume": "3632",
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://ceur-ws.org/Vol-3632/ISWC2023_paper_475.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：ISWCのポスター論文としてMISC。メイントラックのフルペーパーと区別。査読有無・範囲と最終分類は本人確認。"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050926",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 160050926。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：ISWCのポスター論文としてMISC。メイントラックのフルペーパーと区別。査読有無・範囲と最終分類は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "160050926",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/160050926",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-eaebcef7-0db3-45cc-ab09-8c05db022674",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": null,
+        "en": "Earthquake LOD: Seismic Dataset Construction with Ontology Oriented Design Patterns"
+      },
+      "date": "2023",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://ijckg2023.knowledge-graph.jp/pages/proc/paper_17.pdf"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "The 12th International Joint Conference on Knowledge Graphs (IJCKG 2023)",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://ijckg2023.knowledge-graph.jp/pages/proc/paper_17.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：国際会議論文。公式公開PDFは9ページだがDOI・ISBNが仮文字列のためDOIは未登録。最終出版情報と査読範囲を本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：国際会議論文。公式公開PDFは9ページだがDOI・ISBNが仮文字列のためDOIは未登録。最終出版情報と査読範囲を本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-d4250479-c24e-4696-98ff-4b0bfd176292",
+      "kind": "publications",
+      "subtype": "poster_paper",
+      "title": {
+        "ja": null,
+        "en": "Exploring LLM To Extract Knowledge Graph From Academic Abstracts"
+      },
+      "date": "2025",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Victor Eiti Yamamoto"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Othmane Kabal"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Lakshan Karunathilake"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Kotaro Nishigori"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Vicente Lermanda"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Shixiong Zhao"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yanming He"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://ceur-ws.org/Vol-4085/paper49.pdf"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "ISWC 2025 Companion Volume / CEUR Workshop Proceedings",
+        "volume": "4085",
+        "issue": null,
+        "pages": "298-303"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://ceur-ws.org/Vol-4085/paper49.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：ISWC2025 Posters掲載論文としてMISC。原典に本人ORCID・Alchembrightのメールを確認。査読範囲は本人確認。"
+        },
+        {
+          "url": "https://ceur-ws.org/Vol-4085/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "subtype",
+            "bibliographic.pages"
+          ],
+          "note": "目次のPosters区分と頁を確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：ISWC2025 Posters掲載論文としてMISC。原典に本人ORCID・Alchembrightのメールを確認。査読範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-e1fb8733-9a95-4e67-a6a0-503e47559b5a",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "古事類苑の知識グラフ化と言語リソースとしての活用",
+        "en": null
+      },
+      "date": "2025-03",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "山田 奨治",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "相田 満",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://anlp.jp/proceedings/annual_meeting/2025/pdf_dir/E4-3.pdf"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000003"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "言語処理学会 第31回年次大会 発表論文集",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://anlp.jp/proceedings/annual_meeting/2025/pdf_dir/E4-3.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：年次大会の発表論文として論文。著者4名を原典で確認。査読有無・最終分類は本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：年次大会の発表論文として論文。著者4名を原典で確認。査読有無・最終分類は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-2bf11416-48a6-4da7-b438-2196a98ad384",
+      "kind": "publications",
+      "subtype": "research_report",
+      "title": {
+        "ja": "引用・参考関係を考慮した和歌集の知識グラフ構築",
+        "en": "Knowledge Graph of Waka Collection for Citation and Reference"
+      },
+      "date": "2024-07-19",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "山田 奨治",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "相田 満",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://ipsj.ixsq.nii.ac.jp/records/237419"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000003"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "研究報告人文科学とコンピュータ（CH）",
+        "volume": "2024-CH-136",
+        "issue": "3",
+        "pages": "1-7"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://ipsj.ixsq.nii.ac.jp/records/237419",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の刊行論文として論文。日本語と英語の著者欄を同一著者として扱い二重追加しない。査読有無・範囲は本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の刊行論文として論文。日本語と英語の著者欄を同一著者として扱い二重追加しない。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-028f61ec-35bb-46b1-b91b-9cc2cd708d8c",
+      "kind": "publications",
+      "subtype": "conference_paper",
+      "title": {
+        "ja": "ミックスダウンの視覚化による支援システムの開発",
+        "en": null
+      },
+      "date": "2014-03-11",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "北谷光浩",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "根上生也",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://ipsj.ixsq.nii.ac.jp/records/104715"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "第76回全国大会講演論文集",
+        "volume": "2014",
+        "issue": "1",
+        "pages": "307-308"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://ipsj.ixsq.nii.ac.jp/records/104715",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：研究会・全国大会の刊行論文として論文。日本語と英語の著者欄を同一著者として扱い二重追加しない。査読有無・範囲は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060404",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：研究会・全国大会の刊行論文として論文。日本語と英語の著者欄を同一著者として扱い二重追加しない。査読有無・範囲は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060404",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060404",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-9a4b0830-6ad7-4470-a80c-0cd1ad4ce46a",
+      "kind": "publications",
+      "subtype": "interactive_paper",
+      "title": {
+        "ja": "MEMS加速度センサーユニットを用いた市民参加型地震波計測ネットワークの構築",
+        "en": null
+      },
+      "date": "2015-03-05",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "金 亜伊",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "岩本 穂",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://www.interaction-ipsj.org/proceedings/2015/data/20150226/A36.pdf"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000001"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "情報処理学会 インタラクション2015",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://www.interaction-ipsj.org/proceedings/2015/data/20150226/A36.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：インタラクティブ発表の予稿としてMISC。PDF記載の日付を保持。査読範囲と刊行日の扱いは本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：インタラクティブ発表の予稿としてMISC。PDF記載の日付を保持。査読範囲と刊行日の扱いは本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-51174035-6677-4b5f-a2e5-4c1ac375ff81",
+      "kind": "publications",
+      "subtype": "interactive_paper",
+      "title": {
+        "ja": "ActionLog：実世界指向コンテンツ記述支援システム",
+        "en": null
+      },
+      "date": "2005",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "沼 晃介",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": null
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "濱崎 雅弘",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "大向 一輝",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://www.interaction-ipsj.org/archives/paper2005/pdf2005/interactive/B227.pdf"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "インタラクション2005",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://www.interaction-ipsj.org/archives/paper2005/pdf2005/interactive/B227.pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：インタラクティブ発表B-227の予稿としてMISC。査読範囲と最終分類は本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/misc/37060397",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはmisc"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：インタラクティブ発表B-227の予稿としてMISC。査読範囲と最終分類は本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "37060397",
+          "url": "https://researchmap.jp/hiroki_u/misc/37060397",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-a06fdee2-f8e8-4e4e-92b8-0fc478a5e20e",
+      "kind": "publications",
+      "subtype": "symposium_paper",
+      "title": {
+        "ja": null,
+        "en": "A Weblog Grounded to the Real World"
+      },
+      "date": "2006",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Kosuke Numa"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Takuichi Nishimura"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yutaka Matsuo"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Masahiro Hamasaki"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Noriyuki Fujimura"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Keisuke Ishida"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Tom Hope"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Yoshiyuki Nakamura"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Satoshi Fujiyoshi"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Kazuya Sakamoto"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroshi Nagata"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Osamu Nakagawa"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Eiji Shinbori"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://m.aaai.org/Library/Symposia/Spring/ss06-03.php"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "AAAI Spring Symposium - Technical Report",
+        "volume": "SS-06-03",
+        "issue": null,
+        "pages": "168-175"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://m.aaai.org/Library/Symposia/Spring/ss06-03.php",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：シンポジウム論文。主催者の著者15名を採用。ORCIDの一部著者表記に誤記候補があるため修正を本人確認。"
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/42803436",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.researchmap"
+          ],
+          "note": "既存の公開観測との題名一致。現行カテゴリーはpublished_papers"
+        },
+        {
+          "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074189",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "sync.orcid.external_id"
+          ],
+          "note": "公開ORCID put-code 84074189。登録元の書誌は原典を優先して照合。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：シンポジウム論文。主催者の著者15名を採用。ORCIDの一部著者表記に誤記候補があるため修正を本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "42803436",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/42803436",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開観測で掲載を確認。提案分類・書誌を照合して本人が手動更新。"
+        },
+        "orcid": {
+          "status": "needs_review",
+          "external_id": "84074189",
+          "url": "https://orcid.org/0000-0003-4215-3112/work/84074189",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "公開ORCIDに題名・DOIを確認。全項目一致は未確認。複数登録がある場合は出典を参照。"
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
+    },
+    {
+      "id": "ral-ff338756-ff29-4126-a409-f99ededadac2",
+      "kind": "publications",
+      "subtype": "poster_paper",
+      "title": {
+        "ja": null,
+        "en": "Balog: Location-based information aggregation system"
+      },
+      "date": "2004",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": null,
+            "en": "Hiroki Uematsu"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Kosuke Numa"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Tetsuro Tokunaga"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Ikki Ohmukai"
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": null,
+            "en": "Hideaki Takeda"
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": null,
+      "urls": [
+        "https://citeseerx.ist.psu.edu/document?doi=2213f45740b0fa646ba61343ace6d378bafee6ee&repid=rep1&type=pdf"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "Poster Proceedings of the 3rd International Semantic Web Conference (ISWC2004)",
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "misc",
+      "evidence": [
+        {
+          "url": "https://citeseerx.ist.psu.edu/document?doi=2213f45740b0fa646ba61343ace6d378bafee6ee&repid=rep1&type=pdf",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "date",
+            "contributors",
+            "bibliographic",
+            "doi"
+          ],
+          "note": "分類提案：国際会議ポスター論文としてMISC。論文本文とGoogle Scholar、2005年JSAI論文の参考文献を照合。査読範囲と正式公開URLは本人確認。"
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "分類提案：国際会議ポスター論文としてMISC。論文本文とGoogle Scholar、2005年JSAI論文の参考文献を照合。査読範囲と正式公開URLは本人確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "needs_review",
+          "external_id": null,
+          "url": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Web取得のキャッシュで表示先頭20件の題名を観測（クロール約1.7年前）。現在の全件・個別ID・書誌一致は未確認。"
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      },
+      "peer_review_scope": "unknown"
     }
   ]
 }

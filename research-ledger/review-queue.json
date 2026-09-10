@@ -18,7 +18,9 @@
       "id": "AUTH-48338813",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/published_papers/48338813"
       ],
@@ -62,7 +64,9 @@
       "id": "AUTH-37060409",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-86d9b88a-ab01-4ea5-808d-97128947fa59"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/misc/37060409"
       ],
@@ -82,7 +86,9 @@
       "id": "AUTH-37060408",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-0e3aee8f-036f-47d1-8d2a-0985b1a5cc91"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/misc/37060408"
       ],
@@ -92,7 +98,9 @@
       "id": "AUTH-37060407",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-e2c3f4a6-a2d7-4c23-9e2a-65c744e49f83"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/misc/37060407"
       ],
@@ -102,7 +110,9 @@
       "id": "AUTH-37060406",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/misc/37060406"
       ],
@@ -112,11 +122,53 @@
       "id": "AUTH-37060397",
       "type": "repeated_author_names",
       "status": "needs_review",
-      "ledger_ids": [],
+      "ledger_ids": [
+        "ral-51174035-6677-4b5f-a2e5-4c1ac375ff81"
+      ],
       "source_urls": [
         "https://researchmap.jp/hiroki_u/misc/37060397"
       ],
       "note": "原表示に繰り返し著者名: 上松大輝, 大向一輝, 武田英明, 沼晃介, 浜崎雅弘。自動統合せず本人確認。"
+    },
+    {
+      "id": "ORCID-001",
+      "type": "multiple_external_records",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61"
+      ],
+      "source_urls": [
+        "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274",
+        "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050928"
+      ],
+      "note": "同じDOIに2つのput-code。台帳は1成果、ORCIDではグループ内の複数登録元として確認。削除しない。"
+    },
+    {
+      "id": "VERSION-001",
+      "type": "preprint_and_published_version",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5",
+        "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305"
+      ],
+      "source_urls": [
+        "https://doi.org/10.21203/rs.3.rs-2253946/v1",
+        "https://doi.org/10.1186/s40623-023-01840-5"
+      ],
+      "note": "プレプリントと出版版。関連成果として保持し、独立した査読論文2本に数えない。"
+    },
+    {
+      "id": "SCHOLAR-001",
+      "type": "year_author_mismatch",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67"
+      ],
+      "source_urls": [
+        "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_article/-char/ja/"
+      ],
+      "note": "Scholarの同名候補は2004年・4著者で本人名なし。出版元の2005年・6著者の論文とは年・著者が相違。誤結合の有無を本人確認。"
     }
   ]
 }

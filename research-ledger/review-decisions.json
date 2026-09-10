@@ -16,19 +16,19 @@
     "note": ""
   },
   "ral-00000000-0000-4000-8000-000000000005": {
-    "status": "未確認",
+    "status": "確認済み",
     "note": ""
   },
   "ral-5dfcf545-5f26-4621-ab4d-584a6b6fa94d": {
-    "status": "未確認",
+    "status": "確認済み",
     "note": ""
   },
   "ral-881619b2-92f5-4fd4-9f0e-c7b10caa1fde": {
-    "status": "未確認",
+    "status": "確認済み",
     "note": ""
   },
   "ral-9c877662-7648-4600-a592-74c47b22c291": {
-    "status": "未確認",
+    "status": "確認済み",
     "note": ""
   },
   "ral-572e03d4-13e1-406c-9a1a-22a517176f05": {
@@ -44,10 +44,110 @@
     "note": ""
   },
   "ral-90bc327a-589d-452b-9be2-8aabf7a88273": {
-    "status": "未確認",
+    "status": "確認済み",
     "note": ""
   },
   "ral-59c1d522-1c74-4607-b43f-72dbe9b5d71e": {
+    "status": "確認済み",
+    "note": ""
+  },
+  "ral-84508833-e5d9-4891-b9e3-4e40ce9797b7": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-0e3aee8f-036f-47d1-8d2a-0985b1a5cc91": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-e2c3f4a6-a2d7-4c23-9e2a-65c744e49f83": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-86d9b88a-ab01-4ea5-808d-97128947fa59": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-e2d9ee4a-e0f0-4693-997e-cdf96771a806": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-c0fd95ca-1626-4f61-95a2-2dddc8558bf7": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-52b3aecc-0bf1-4f83-949f-ed097c036b7e": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-2f138348-642f-46ec-8364-4c5b1f7c01a7": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-80439b49-1b01-4803-94b8-f298ff6291da": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-1f834f61-1c45-43ee-9679-ee22e475ffd9": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-0be9a772-4531-49a6-9c52-44dc9905c851": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-ec73954a-7707-4193-8c9b-35994808ccf8": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-eaebcef7-0db3-45cc-ab09-8c05db022674": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-d4250479-c24e-4696-98ff-4b0bfd176292": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-e1fb8733-9a95-4e67-a6a0-503e47559b5a": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-2bf11416-48a6-4da7-b438-2196a98ad384": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-028f61ec-35bb-46b1-b91b-9cc2cd708d8c": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-9a4b0830-6ad7-4470-a80c-0cd1ad4ce46a": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-51174035-6677-4b5f-a2e5-4c1ac375ff81": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-a06fdee2-f8e8-4e4e-92b8-0fc478a5e20e": {
+    "status": "未確認",
+    "note": ""
+  },
+  "ral-ff338756-ff29-4126-a409-f99ededadac2": {
     "status": "未確認",
     "note": ""
   }

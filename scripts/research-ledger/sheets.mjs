@@ -3,7 +3,9 @@ import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {validateLedger} from './core.mjs';
-import {targets} from './schema.mjs';
+import {targets, mapping} from './schema.mjs';
+export const categoryLabels={published_papers:'論文',misc:'MISC',presentations:'講演・口頭発表',works:'Works（作品等）',research_projects:'共同研究・競争的資金等の研究課題',others:'その他',awards:'受賞',research_experience:'経歴',education:'学歴',committee_memberships:'委員歴',academic_contribution:'学術貢献活動',social_contribution:'社会貢献活動',association_memberships:'所属学協会'};
+const categoryCode=v=>v==='未決定'||v===''?null:Object.keys(categoryLabels).find(k=>categoryLabels[k]===v)??(()=>{throw new Error('Unknown classification choice');})();
 const stable=v=>Array.isArray(v)?v.map(stable):v&&typeof v==='object'?Object.fromEntries(Object.keys(v).sort().map(k=>[k,stable(v[k])])):v;
 export const snapshotHash=state=>createHash('sha256').update(JSON.stringify(stable(state))).digest('hex');
 export const headers={
@@ -15,6 +17,7 @@ export const headers={
  '掲載先状況':['ID','掲載先','状態','外部ID','URL','照合日','内容ハッシュ','メモ'],
  '重複確認':['確認ID','種類','判断','台帳ID_JSON','出典URL_JSON','確認内容'],
  '管理情報':['キー','値'],
+ 'Researchmap分類':['ID','題名（参照）','提案分類（参照）','本人選択','分類メモ','提案理由（参照）'],
 };
 const fieldLabels={urls:'URL',project_ids:'関連プロジェクトID',related_ids:'関連成果ID',keywords:'キーワード',review_notes:'確認事項'};
 const empty=v=>v===null||v===undefined?'':v;
@@ -33,7 +36,11 @@ export function validateState(state){
   if(!Array.isArray(q.source_urls)||q.source_urls.some(u=>{try{return !['http:','https:'].includes(new URL(u).protocol);}catch{return true;}}))throw new Error('Invalid review source URL');
   if(typeof q.note!=='string'||typeof q.type!=='string')throw new Error('Invalid review flag text');
  }
- for(const [id,v] of Object.entries(state.decisions))if(!ids.has(id)||!['未確認','確認済み','要修正'].includes(v.status)||typeof v.note!=='string')throw new Error('Invalid owner decision');
+ for(const [id,v] of Object.entries(state.decisions)){
+  if(!ids.has(id)||!['未確認','確認済み','要修正'].includes(v.status)||typeof v.note!=='string')throw new Error('Invalid owner decision');
+  if(v.researchmap_category!==undefined&&v.researchmap_category!==null&&!Object.values(mapping).flat().includes(v.researchmap_category))throw new Error('Invalid classification choice');
+  if(v.classification_note!==undefined&&typeof v.classification_note!=='string')throw new Error('Invalid classification note');
+ }
  return result;
 }
 export function exportWorkbook(state,baseCommit='unknown'){
@@ -42,6 +49,7 @@ export function exportWorkbook(state,baseCommit='unknown'){
  for(const r of state.ledger.records){
   const decision=state.decisions[r.id]??{status:'未確認',note:''};
   tabs['活動台帳'].push([r.id,decision.status,decision.note,r.title.ja,r.title.en,r.kind,r.subtype,r.date,r.end_date,r.ongoing?'TRUE':'FALSE',r.peer_reviewed,r.peer_review_scope,r.researchmap_category,r.verification,r.publication_status,r.last_verified_at,r.web_work_slug,r.doi].map(empty));
+  tabs['Researchmap分類'].push([r.id,r.title.ja??r.title.en,categoryLabels[r.researchmap_category]??'未決定',categoryLabels[decision.researchmap_category]??'未決定',decision.classification_note??'',r.review_notes.filter(n=>/分類|査読|予稿|プレプリント/.test(n)).join(' / ')]);
   tabs['書誌・研究費'].push([r.id,r.bibliographic.venue,r.bibliographic.volume,r.bibliographic.issue,r.bibliographic.pages,r.organization,r.funding.funder,r.funding.program,r.funding.award_number].map(empty));
   r.contributors.forEach((a,i)=>tabs['著者・役割'].push([r.id,String(i+1),a.name.ja,a.name.en,a.person_id,a.role].map(empty)));
   for(const [field,label] of Object.entries(fieldLabels))r[field].forEach((v,i)=>tabs['補足情報'].push([r.id,label,String(i+1),v]));
@@ -93,6 +101,18 @@ export function importWorkbook(book,current){
  for(const [id,target,status,external,url,checked,hash,note] of table(book,'掲載先状況')){const r=record(id);if(!targets.includes(target)||r.sync[target])throw new Error('Unknown or duplicate sync target');r.sync[target]={status,external_id:nullable(external),url:nullable(url),checked_at:nullable(checked),content_hash:nullable(hash),note:nullable(note)};}
  for(const [id,type,status,ids,urls,note] of table(book,'重複確認'))state.queue.items.push({id,type,status,ledger_ids:json(ids,'Ledger IDs'),source_urls:json(urls,'Source URLs'),note});
  for(const q of current.queue.items)if(!state.queue.items.some(i=>i.id===q.id))throw new Error('Review flag deletion blocked; mark resolved instead');
+ if(book.tabs['Researchmap分類']){
+  const classified=new Set();
+  for(const [id,title,proposed,choice,note,reason] of table(book,'Researchmap分類')){
+   const r=record(id);if(classified.has(id))throw new Error('Duplicate classification ID');classified.add(id);
+   const reference=current.ledger.records.find(v=>v.id===id)??r;
+   if(title!==(reference.title.ja??reference.title.en)||proposed!==(categoryLabels[reference.researchmap_category]??'未決定')||reason!==reference.review_notes.filter(n=>/分類|査読|予稿|プレプリント/.test(n)).join(' / '))throw new Error('Classification reference columns changed; refresh from ledger');
+   const d=state.decisions[id],old=current.decisions[id]??{};
+   if(choice!=='未決定'||Object.hasOwn(old,'researchmap_category'))d.researchmap_category=categoryCode(choice);
+   if(note||Object.hasOwn(old,'classification_note'))d.classification_note=note;
+  }
+  if(classified.size!==byId.size)throw new Error('Missing classification rows');
+ }else if(Object.values(current.decisions).some(d=>Object.hasOwn(d,'researchmap_category')||Object.hasOwn(d,'classification_note')))throw new Error('Missing classification tab would discard decisions');
  // Row sorting is presentation only; preserve existing ledger/queue order for clean diffs.
  const orderedIds=new Map(current.ledger.records.map((r,i)=>[r.id,i]));state.ledger.records.sort((a,b)=>(orderedIds.get(a.id)??Infinity)-(orderedIds.get(b.id)??Infinity)||a.id.localeCompare(b.id));
  const queueOrder=new Map(current.queue.items.map((q,i)=>[q.id,i]));state.queue.items.sort((a,b)=>(queueOrder.get(a.id)??Infinity)-(queueOrder.get(b.id)??Infinity)||a.id.localeCompare(b.id));

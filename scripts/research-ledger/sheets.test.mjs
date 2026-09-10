@@ -40,3 +40,18 @@ test('flag resolution updates status without deleting source observations',()=>{
  const b=fresh();b.tabs['重複確認'][1][2]='not_duplicate';
  const r=importWorkbook(b,state);assert.equal(r.queue.items[0].status,'not_duplicate');assert.deepEqual(r.queue.items[0].source_urls,state.queue.items[0].source_urls);
 });
+
+test('Japanese category choices persist independently from master and can request presentations',()=>{
+ const b=fresh(),row=b.tabs['Researchmap分類'][1],id=row[0];row[3]='講演・口頭発表';row[4]='発表として別登録を希望';
+ const result=importWorkbook(b,state);
+ assert.equal(result.decisions[id].researchmap_category,'presentations');
+ assert.equal(result.decisions[id].classification_note,'発表として別登録を希望');
+ assert.deepEqual(result.ledger,state.ledger);
+ assert.deepEqual(importWorkbook(exportWorkbook(result),result),result);
+ const missing=exportWorkbook(result);delete missing.tabs['Researchmap分類'];assert.throws(()=>importWorkbook(missing,result),/Missing classification/);
+});
+test('classification unknown choices, duplicate rows and edited reference cells are rejected',()=>{
+ for(const mutate of [b=>b.tabs['Researchmap分類'][1][3]='適当',b=>b.tabs['Researchmap分類'].push(b.tabs['Researchmap分類'][1]),b=>b.tabs['Researchmap分類'].pop(),b=>b.tabs['Researchmap分類'][1][1]='changed']){
+  const b=fresh();mutate(b);assert.throws(()=>importWorkbook(b,state));
+ }
+});
