@@ -1,5 +1,8 @@
 ---
 import '../styles/site.css';
+import researcher from '../data/researcher.json';
+import projects from '../data/works.json';
+import { structuredData, serializeStructuredData } from '../lib/structured-data.mjs';
 import LegacyNavigation from '../components/LegacyNavigation.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; }
@@ -27,6 +30,7 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={new URL(path, Astro.site).href} />
     <link rel="alternate" type="application/rss+xml" title="Alchembright" href="/feed.xml" />
+    <script is:inline type="application/ld+json" set:html={serializeStructuredData(structuredData(path,title,researcher,projects))} />
     {preview && <meta name="robots" content="noindex,nofollow" />}
   </head>
   <body>
