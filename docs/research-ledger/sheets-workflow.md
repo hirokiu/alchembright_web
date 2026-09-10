@@ -67,3 +67,9 @@ npm run ledger:sheets -- import /tmp/ledger-workbook-from-sheets.json /tmp/ledge
 ID・題名・提案分類・提案理由は参照欄。「本人選択」は未決定／論文／MISC／講演・口頭発表等の日本語選択肢で、「分類メモ」は自由記述。review-decisions.jsonのresearchmap_category / classification_noteへ保存する。活動台帳のresearchmap_categoryはWorkによる整合性確認後に変更するため、選択のみで公開・外部DBの状態を変更しない。講演・口頭発表を選んだ論文は、発表レコードを別に作るか本人の意図を確認する。
 
 旧8タブ形式は分類判断のない状態に限り取り込み可能。分類判断を保存した後のタブ欠落はエラー。追加後は9データタブを読み戻して確認する。初期13件に対して論文等25件を追加し、現在は38件。
+
+## 共著者分類照合タブ（参照資料）
+
+[共著者分類照合](https://docs.google.com/spreadsheets/d/1uXB0lO2c1hohgacnckK-7YlRXDA2-EIBSWRkpjlkwdo/edit#gid=1327922629)は33件の比較資料。共著者側の分類、根拠URL、今回の追加提案、未確認の範囲を示す。2026-09-10の10件は検索保存情報・Researchmap由来のJ-GLOBALで確認、23件は未確認。
+
+本タブは9データタブの往復変換対象に含めず、取り込み時の判断根拠として読む。生成元はresearch-ledger/observations/coauthor-classifications-2026-09-10.json。確定分類を二重入力させず、既存「Researchmap分類」の本人選択・分類メモを唯一の判断入力欄として使う。今回の推奨と従来の提案分類が異なる5件は、本人の選択を確認後にWorkがマスターと根拠を更新する。データ3ファイルは変更していないため、既存base_hashは有効なまま。

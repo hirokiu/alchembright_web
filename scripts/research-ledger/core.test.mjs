@@ -29,7 +29,9 @@ test('identity, cross references and duplicate identifiers',()=>{
 });
 test('all twelve activity families can be represented with independent category and review status',()=>{
  for(const kind of kinds){const x=copy(); x.records[0].kind=kind;x.records[0].researchmap_category=mapping[kind][0];
- x.records[3].project_ids=[];assert.deepEqual(validateLedger(x).errors,[],kind);}
+ // Changing the fixture's project kind requires removing every inbound project reference.
+ for(const r of x.records)r.project_ids=r.project_ids.filter(id=>id!==x.records[0].id);
+ assert.deepEqual(validateLedger(x).errors,[],kind);}
 });
 test('sync declaration requires evidence of comparison; content edits invalidate sync',()=>{
  const r=copy().records[4];r.sync.cv={status:'synced',external_id:'cv-v1',url:'https://www.alchembright.com/cv/',checked_at:'2026-09-10',content_hash:contentHash(r),note:null};

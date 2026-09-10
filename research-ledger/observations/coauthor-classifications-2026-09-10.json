@@ -1,0 +1,759 @@
+{
+  "as_of": "2026-09-10",
+  "subject": "UEMATSU Hiroki / 上松大輝",
+  "ledger_base_commit": "259ed43700eb419bfdb5bf5f51cb9b93457d7fb4",
+  "scope": "33 publication records, including preprint and erratum; this is a proposal overlay, not an approved category update",
+  "limitations": [
+    "Researchmapの現在のページはHTTP403で取得できず、検索保存情報とJST J-GLOBALのResearchmap由来情報を使用。最新状態の確認ではない。",
+    "取得日とResearchmapの実際の更新日を区別する。検索の未検出は登録なしの証拠ではない。",
+    "全共著者の全登録を網羅していない。未確認23件を確認済み扱いしない。",
+    "共著者の登録から本人の意図や査読範囲を推測しない。"
+  ],
+  "items": [
+    {
+      "ledger_id": "ral-00000000-0000-4000-8000-000000000004",
+      "title": "地震の分類のためのオントロジー構築",
+      "coauthors": [
+        "金 亜伊",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.11517/jsaisigtwo.2023.SWO-059_07"
+      ]
+    },
+    {
+      "ledger_id": "ral-5dfcf545-5f26-4621-ab4d-584a6b6fa94d",
+      "title": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築",
+      "coauthors": [
+        "武田 英明",
+        "山田 奨治",
+        "相田 満"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "山田奨治",
+          "category": "misc",
+          "source_url": "https://researchmap.jp/0000-0002-4940-5231/misc?lang=en&limit=100",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "英語題名・共著者・2024年・SWO-062が一致",
+          "note": "著者の重複表記あり。台帳へ重複著者をコピーしない。",
+          "checked_at": "2026-09-10"
+        },
+        {
+          "coauthor": "山田奨治",
+          "category": "published_papers",
+          "source_url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901005925783285",
+          "access_method": "jglobal_researchmap_mirror",
+          "match_basis": "日本語題名・著者4名・2024年・第62回第2番が一致",
+          "note": "同一成果の二重登録候補。削除判断は本人。",
+          "checked_at": "2026-09-10"
+        },
+        {
+          "coauthor": "相田満",
+          "category": "published_papers",
+          "source_url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901011273207708",
+          "access_method": "jglobal_researchmap_mirror",
+          "match_basis": "日本語題名・著者4名・2024年・第62回第2番が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        },
+        {
+          "coauthor": "相田満",
+          "category": "misc",
+          "source_url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901011273207708",
+          "access_method": "jglobal_researchmap_mirror",
+          "match_basis": "日本語題名・2024年・SWO-062が一致",
+          "note": "同一成果の二重登録候補。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "論文（研究会資料・査読なし）を維持提案。山田・相田両氏のResearchmap由来情報に論文/MISCの併存候補があるため、多数決せず原典の研究報告として整理。",
+      "primary_source_urls": [
+        "https://doi.org/10.11517/jsaisigtwo.2023.SWO-062_02",
+        "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-062/2023_02/_pdf/-char/ja"
+      ]
+    },
+    {
+      "ledger_id": "ral-881619b2-92f5-4fd4-9f0e-c7b10caa1fde",
+      "title": "古事類苑と和歌データベースの知識グラフ構築と相互活用",
+      "coauthors": [
+        "武田 英明",
+        "山田 奨治",
+        "相田 満"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "山田奨治",
+          "category": "misc",
+          "source_url": "https://researchmap.jp/0000-0002-4940-5231/misc?lang=en&limit=100",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "英語題名・著者4名（重複表記あり）・2024年シンポジウム論文集が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        },
+        {
+          "coauthor": "相田満",
+          "category": "misc",
+          "source_url": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=200901011273207708",
+          "access_method": "jglobal_researchmap_mirror",
+          "match_basis": "日本語題名・著者4名（重複表記あり）・2024年シンポジウム論文集が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "今回の推奨はMISC。山田・相田両氏および上松本人の既存登録との整合を優先する。シンポジウム論文・概要査読ありの属性は維持。論文分類も候補として残し本人が決定。",
+      "primary_source_urls": [
+        "https://ipsj.ixsq.nii.ac.jp/records/241529",
+        "https://ipsj.ixsq.nii.ac.jp/record/241529/files/IPSJ-CH2024028.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-9c877662-7648-4600-a592-74c47b22c291",
+      "title": "古事類苑LODを用いた地部と引用資料との関連性抽出",
+      "coauthors": [
+        "武田 英明",
+        "山田 奨治",
+        "相田 満"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.2964/jsik_2025_026",
+        "https://www.jstage.jst.go.jp/article/jsik/35/2/35_2025_026/_pdf/-char/ja"
+      ]
+    },
+    {
+      "ledger_id": "ral-572e03d4-13e1-406c-9a1a-22a517176f05",
+      "title": "コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "coauthors": [
+        "椋本 輔",
+        "山中 司"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "椋本輔",
+          "category": "published_papers",
+          "source_url": "https://researchmap.jp/Tasuku-MUKUMOTO",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "日本語題名・著者3名・情報知識学会誌35(2)・2025年が一致",
+          "note": "査読ありとは表示されていない。査読なしの証拠とはしない。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "論文を維持提案。筆頭著者の登録と一致。年次大会論文であることを明示し、通常の査読付き学術誌原著と混同しない。",
+      "primary_source_urls": [
+        "https://doi.org/10.2964/jsik_2025_022",
+        "https://www.jstage.jst.go.jp/article/jsik/35/2/35_2025_022/_pdf/-char/ja"
+      ]
+    },
+    {
+      "ledger_id": "ral-1cd6061c-1f75-4891-a79a-9d28bbe2368d",
+      "title": "エラータ：コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "coauthors": [
+        "椋本 輔",
+        "山中 司"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.2964/jsik_2025_036",
+        "https://www.jstage.jst.go.jp/article/jsik/35/3/35_2025_036/_pdf/-char/en"
+      ]
+    },
+    {
+      "ledger_id": "ral-4e7e2a45-0184-4965-84d5-59cd3ad338e0",
+      "title": "Wikidata連携：Wikibaseを用いた知識グラフの拡張",
+      "coauthors": [
+        "Phuc Nguyen",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.11517/jsaisigtwo.2022.SWO-056_04",
+        "https://www.jstage.jst.go.jp/article/jsaisigtwo/2022/SWO-056/2022_04/_pdf/-char/en"
+      ]
+    },
+    {
+      "ledger_id": "ral-90bc327a-589d-452b-9be2-8aabf7a88273",
+      "title": "オントロジーマッチングを用いた知識グラフの構築",
+      "coauthors": [
+        "趙 麗花",
+        "Natthawut Kertkeidkachorn",
+        "市瀬 龍太郎"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "市瀬龍太郎",
+          "category": "presentations",
+          "source_url": "https://researchmap.jp/ichise",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "日本語題名・著者4名・SIG-SWO-044-04・2018年3月が一致",
+          "note": "発表活動としての登録。刊行論文の分類と同一視しない。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "刊行論文は論文（研究会資料）を維持提案。共著者の講演・口頭発表登録は発表活動として別IDで関連付ける候補。書誌レコードを発表へ変換しない。",
+      "primary_source_urls": [
+        "https://doi.org/10.11517/jsaisigtwo.2018.SWO-044_04",
+        "https://www.jstage.jst.go.jp/article/jsaisigtwo/2018/SWO-044/2018_04/_pdf/-char/ja"
+      ]
+    },
+    {
+      "ledger_id": "ral-84508833-e5d9-4891-b9e3-4e40ce9797b7",
+      "title": "場log：Weblog環境における位置情報利用の提案",
+      "coauthors": [
+        "沼 晃介",
+        "徳永 徹郎",
+        "大向 一輝",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/jsaisigtwo/2004/SWO-006/2004_07/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-0e3aee8f-036f-47d1-8d2a-0985b1a5cc91",
+      "title": "タグ付けされた場所に基づいたコミュニケーション支援",
+      "coauthors": [
+        "沼 晃介",
+        "濱崎 雅弘",
+        "大向 一輝",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_35/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-e2c3f4a6-a2d7-4c23-9e2a-65c744e49f83",
+      "title": "ActionLog：移動履歴に基づく位置情報付きWeblogの自動生成",
+      "coauthors": [
+        "沼 晃介",
+        "濱崎 雅弘",
+        "大向 一輝",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_37/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67",
+      "title": "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用",
+      "coauthors": [
+        "濱崎 雅弘",
+        "武田 英明",
+        "大向 一輝",
+        "沼 晃介",
+        "市瀬 龍太郎"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI05/0/JSAI05_0_8/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-86d9b88a-ab01-4ea5-808d-97128947fa59",
+      "title": "ActionLog：行動に着目した実世界コンテクストに基づく情報共有",
+      "coauthors": [
+        "沼 晃介",
+        "大向 一輝",
+        "市瀬 龍太郎",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI06/0/JSAI06_0_223/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-e2d9ee4a-e0f0-4693-997e-cdf96771a806",
+      "title": "ソーシャルメディアを用いたSpatial Knowledge Graphの構築",
+      "coauthors": [
+        "KERTKEIDKACHORN Natthawut",
+        "市瀬 龍太郎"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "市瀬龍太郎",
+          "category": "presentations",
+          "source_url": "https://researchmap.jp/ichise",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "題名（メディア/メデイアの表記差）・著者3名・JSAI2020 1O4-GS-4-04が一致",
+          "note": "発表活動としての登録。刊行論文の分類と同一視しない。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "刊行論文は論文を暫定維持。共著者の講演・口頭発表登録は発表活動として別IDで関連付ける候補。書誌レコードを発表へ変換しない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2020/0/JSAI2020_1O4GS404/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-c0fd95ca-1626-4f61-95a2-2dddc8558bf7",
+      "title": "地震語彙の構築と地震LOD",
+      "coauthors": [
+        "金 亜伊",
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "金亜伊",
+          "category": "misc",
+          "source_url": "https://researchmap.jp/ahyi_kim?lang=english",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "日本語題名・著者3名・第37回人工知能学会全国大会・2023年が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "今回の推奨はMISC。共著者の同一大会論文の登録に合わせる案。大会論文という細分類を保持し、他のJSAI論文まで自動変更しない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2B6GS301/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-52b3aecc-0bf1-4f83-949f-ed097c036b7e",
+      "title": "地震LODの拡張と利活用",
+      "coauthors": [
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2024/0/JSAI2024_3L1OS3a05/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-2f138348-642f-46ec-8364-4c5b1f7c01a7",
+      "title": "地震および災害事例のLOD化と相互運用性の向上",
+      "coauthors": [
+        "武田 英明"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/pjsai/JSAI2025/0/JSAI2025_2K1OS602/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-80439b49-1b01-4803-94b8-f298ff6291da",
+      "title": "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想",
+      "coauthors": [
+        "水島 久光",
+        "椋本 輔"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "椋本輔",
+          "category": "published_papers",
+          "source_url": "https://researchmap.jp/Tasuku-MUKUMOTO",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "A14・英語題名・著者3名・4(2)・97–100頁・2020年が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "今回の推奨は論文。共著者と本人の既存登録との整合を優先し、研究大会予稿という細分類と未確認の査読範囲を保持する。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/jsda/4/2/4_97/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-1f834f61-1c45-43ee-9679-ee22e475ffd9",
+      "title": "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて",
+      "coauthors": [
+        "水島 久光",
+        "椋本 輔"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "椋本輔",
+          "category": "published_papers",
+          "source_url": "https://researchmap.jp/Tasuku-MUKUMOTO",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "発表番号25・英語題名・著者3名・4(s1)・s27–s30頁・2020年が一致",
+          "note": "",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "今回の推奨は論文。共著者と本人の既存登録との整合を優先し、研究大会予稿という細分類と未確認の査読範囲を保持する。",
+      "primary_source_urls": [
+        "https://www.jstage.jst.go.jp/article/jsda/4/s1/4_s27/_article/-char/ja/"
+      ]
+    },
+    {
+      "ledger_id": "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305",
+      "title": "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area",
+      "coauthors": [
+        "Ahyi Kim",
+        "Yuji Nakamura",
+        "Yohei Yukutake",
+        "Yuki Abe"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "金亜伊",
+          "category": "published_papers",
+          "source_url": "https://researchmap.jp/ahyi_kim?lang=english",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "英語題名・著者5名・Earth, Planets and Space75(1)・2023年が一致",
+          "note": "共著者側は査読あり。2022年プレプリントとは別。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "論文を維持提案。筆頭著者の査読付き論文登録と一致。プレプリントは別レコード。",
+      "primary_source_urls": [
+        "https://doi.org/10.1186/s40623-023-01840-5"
+      ]
+    },
+    {
+      "ledger_id": "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5",
+      "title": "Development of High-Performance Seismic Phase Picker Using Deep Learning in Hakone Volcanic Area",
+      "coauthors": [
+        "Ahyi Kim",
+        "Yuji Nakamura",
+        "Yohei Yukutake",
+        "Yuki Abe"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.21203/rs.3.rs-2253946/v1"
+      ]
+    },
+    {
+      "ledger_id": "ral-0be9a772-4531-49a6-9c52-44dc9905c851",
+      "title": "Communication support with location-based information",
+      "coauthors": [
+        "K. Numa",
+        "M. Hamasaki",
+        "I. Ohmukai",
+        "H. Takeda"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://doi.org/10.1109/AMT.2005.1505344"
+      ]
+    },
+    {
+      "ledger_id": "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61",
+      "title": "Design for Data Structures: Data Unification and Federation with Wikibase",
+      "coauthors": [
+        "Phuc Nguyen",
+        "Hideaki Takeda"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274"
+      ]
+    },
+    {
+      "ledger_id": "ral-ec73954a-7707-4193-8c9b-35994808ccf8",
+      "title": "Earthquake Ontology and LOD",
+      "coauthors": [
+        "Hideaki Takeda"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://ceur-ws.org/Vol-3632/ISWC2023_paper_475.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-eaebcef7-0db3-45cc-ab09-8c05db022674",
+      "title": "Earthquake LOD: Seismic Dataset Construction with Ontology Oriented Design Patterns",
+      "coauthors": [
+        "Hideaki Takeda"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://ijckg2023.knowledge-graph.jp/pages/proc/paper_17.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-d4250479-c24e-4696-98ff-4b0bfd176292",
+      "title": "Exploring LLM To Extract Knowledge Graph From Academic Abstracts",
+      "coauthors": [
+        "Victor Eiti Yamamoto",
+        "Othmane Kabal",
+        "Lakshan Karunathilake",
+        "Kotaro Nishigori",
+        "Vicente Lermanda",
+        "Shixiong Zhao",
+        "Yanming He",
+        "Hideaki Takeda"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://ceur-ws.org/Vol-4085/paper49.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-e1fb8733-9a95-4e67-a6a0-503e47559b5a",
+      "title": "古事類苑の知識グラフ化と言語リソースとしての活用",
+      "coauthors": [
+        "武田 英明",
+        "山田 奨治",
+        "相田 満"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://anlp.jp/proceedings/annual_meeting/2025/pdf_dir/E4-3.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-2bf11416-48a6-4da7-b438-2196a98ad384",
+      "title": "引用・参考関係を考慮した和歌集の知識グラフ構築",
+      "coauthors": [
+        "武田 英明",
+        "山田 奨治",
+        "相田 満"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://ipsj.ixsq.nii.ac.jp/records/237419"
+      ]
+    },
+    {
+      "ledger_id": "ral-028f61ec-35bb-46b1-b91b-9cc2cd708d8c",
+      "title": "ミックスダウンの視覚化による支援システムの開発",
+      "coauthors": [
+        "北谷光浩",
+        "根上生也"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://ipsj.ixsq.nii.ac.jp/records/104715"
+      ]
+    },
+    {
+      "ledger_id": "ral-9a4b0830-6ad7-4470-a80c-0cd1ad4ce46a",
+      "title": "MEMS加速度センサーユニットを用いた市民参加型地震波計測ネットワークの構築",
+      "coauthors": [
+        "金 亜伊",
+        "岩本 穂"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "observed_cached_or_mirrored",
+      "observations": [
+        {
+          "coauthor": "金亜伊",
+          "category": "published_papers",
+          "source_url": "https://researchmap.jp/ahyi_kim?lang=english",
+          "access_method": "researchmap_search_cache",
+          "match_basis": "原典PDFの英語題名、著者3名、Interaction2015、284–286頁が一致",
+          "note": "共著者側は査読あり・2015年2月。PDFは2015/3/5。日付と査読範囲は引き続き確認。",
+          "checked_at": "2026-09-10"
+        }
+      ],
+      "reason": "今回の推奨は論文。PDFの英語題名・著者・頁で筆頭著者登録と同一性を確認。査読あり表示だけから全文査読とは判断しない。",
+      "primary_source_urls": [
+        "https://www.interaction-ipsj.org/proceedings/2015/data/20150226/A36.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-51174035-6677-4b5f-a2e5-4c1ac375ff81",
+      "title": "ActionLog：実世界指向コンテンツ記述支援システム",
+      "coauthors": [
+        "沼 晃介",
+        "濱崎 雅弘",
+        "大向 一輝",
+        "武田 英明"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://www.interaction-ipsj.org/archives/paper2005/pdf2005/interactive/B227.pdf"
+      ]
+    },
+    {
+      "ledger_id": "ral-a06fdee2-f8e8-4e4e-92b8-0fc478a5e20e",
+      "title": "A Weblog Grounded to the Real World",
+      "coauthors": [
+        "Kosuke Numa",
+        "Hideaki Takeda",
+        "Takuichi Nishimura",
+        "Yutaka Matsuo",
+        "Masahiro Hamasaki",
+        "Noriyuki Fujimura",
+        "Keisuke Ishida",
+        "Tom Hope",
+        "Yoshiyuki Nakamura",
+        "Satoshi Fujiyoshi",
+        "Kazuya Sakamoto",
+        "Hiroshi Nagata",
+        "Osamu Nakagawa",
+        "Eiji Shinbori"
+      ],
+      "previous_proposal": "published_papers",
+      "suggested_category": "published_papers",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://m.aaai.org/Library/Symposia/Spring/ss06-03.php"
+      ]
+    },
+    {
+      "ledger_id": "ral-ff338756-ff29-4126-a409-f99ededadac2",
+      "title": "Balog: Location-based information aggregation system",
+      "coauthors": [
+        "Kosuke Numa",
+        "Tetsuro Tokunaga",
+        "Ikki Ohmukai",
+        "Hideaki Takeda"
+      ],
+      "previous_proposal": "misc",
+      "suggested_category": "misc",
+      "review_status": "needs_review",
+      "evidence_status": "not_verified",
+      "observations": [],
+      "reason": "共著者の同一成果の登録カテゴリーは今回取得できた情報では未確認。従来案を暫定表示し、共著者確認済みとは扱わない。",
+      "primary_source_urls": [
+        "https://citeseerx.ist.psu.edu/document?doi=2213f45740b0fa646ba61343ace6d378bafee6ee&repid=rep1&type=pdf"
+      ]
+    }
+  ]
+}
