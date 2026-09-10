@@ -1,6 +1,6 @@
 # alchembright_web
 
-移行は完了しました。今後は `main` を更新すると、GitHub Actionsから https://www.alchembright.com/ へ自動公開されます。[記事の追加・更新手順](docs/adding-posts.md)を参照してください。
+移行は完了しました。記事は `drafts`、開発は `develop` で更新し、確認後に `main` へマージすると、GitHub Actionsから https://www.alchembright.com/ へ自動公開されます。[記事の追加・更新手順](docs/adding-posts.md)を参照してください。
 
 
 Web site for Alchembright

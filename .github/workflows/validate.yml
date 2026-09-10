@@ -1,8 +1,9 @@
-name: Validate migration preview
+name: Validate site changes
 on:
   pull_request:
-  push:
     branches: [main]
+  push:
+    branches: [main, develop, drafts, 'feature/**', 'draft/**']
   workflow_dispatch:
 permissions:
   contents: read
