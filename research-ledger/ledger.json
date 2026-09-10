@@ -1,0 +1,598 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "ral-00000000-0000-4000-8000-000000000001",
+      "kind": "projects",
+      "subtype": "research_project",
+      "title": {
+        "ja": "Raspberry Piを用いた地震計の開発",
+        "en": null
+      },
+      "date": null,
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": "Hiroki UEMATSU"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "contributor"
+        }
+      ],
+      "peer_reviewed": "not_applicable",
+      "doi": null,
+      "urls": [
+        "https://seismic.balog.jp/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": null,
+      "evidence": [
+        {
+          "url": "https://github.com/hirokiu/alchembright_web/blob/e8eb8fb/src/data/works.json",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "urls",
+            "web_work_slug",
+            "contributors"
+          ],
+          "note": "Existing public Works identifies the researcher’s involvement; specific role and project dates remain unverified."
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "開始・終了年月、具体的な役割、Researchmap掲載区分を確認する。英語題名は未確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": "seismometer",
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      }
+    },
+    {
+      "id": "ral-00000000-0000-4000-8000-000000000002",
+      "kind": "projects",
+      "subtype": "research_project",
+      "title": {
+        "ja": "地震オントロジー・地震LOD",
+        "en": null
+      },
+      "date": null,
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": "Hiroki UEMATSU"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "contributor"
+        }
+      ],
+      "peer_reviewed": "not_applicable",
+      "doi": null,
+      "urls": [
+        "https://seismic.balog.jp/ontology/?lang=ja"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": null,
+      "evidence": [
+        {
+          "url": "https://github.com/hirokiu/alchembright_web/blob/e8eb8fb/src/data/works.json",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "urls",
+            "web_work_slug",
+            "contributors"
+          ],
+          "note": "Existing public Works identifies the researcher’s involvement; specific role and project dates remain unverified."
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "開始・終了年月、具体的な役割、Researchmap掲載区分を確認する。英語題名は未確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": "earthquake-ontology",
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      }
+    },
+    {
+      "id": "ral-00000000-0000-4000-8000-000000000003",
+      "kind": "projects",
+      "subtype": "research_project",
+      "title": {
+        "ja": "古事類苑・和歌データベース",
+        "en": null
+      },
+      "date": null,
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": "Hiroki UEMATSU"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "contributor"
+        }
+      ],
+      "peer_reviewed": "not_applicable",
+      "doi": null,
+      "urls": [
+        "http://tamana.lodac.nii.ac.jp/"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": null,
+      "evidence": [
+        {
+          "url": "https://github.com/hirokiu/alchembright_web/blob/e8eb8fb/src/data/works.json",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title",
+            "urls",
+            "web_work_slug",
+            "contributors"
+          ],
+          "note": "Existing public Works identifies the researcher’s involvement; specific role and project dates remain unverified."
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "開始・終了年月、具体的な役割、Researchmap掲載区分を確認する。英語題名は未確認。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": "kojiruien-waka",
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      }
+    },
+    {
+      "id": "ral-00000000-0000-4000-8000-000000000004",
+      "kind": "publications",
+      "subtype": "research_report",
+      "title": {
+        "ja": "地震の分類のためのオントロジー構築",
+        "en": null
+      },
+      "date": "2023-03-17",
+      "end_date": null,
+      "ongoing": false,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": "Hiroki UEMATSU"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "金 亜伊",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        },
+        {
+          "name": {
+            "ja": "武田 英明",
+            "en": null
+          },
+          "person_id": null,
+          "role": "author"
+        }
+      ],
+      "peer_reviewed": "unknown",
+      "doi": "10.11517/jsaisigtwo.2023.SWO-059_07",
+      "urls": [
+        "https://doi.org/10.11517/jsaisigtwo.2023.SWO-059_07"
+      ],
+      "project_ids": [
+        "ral-00000000-0000-4000-8000-000000000002"
+      ],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": "人工知能学会第二種研究会資料",
+        "volume": "2023",
+        "issue": "SWO-059",
+        "pages": "07-"
+      },
+      "organization": null,
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "published_papers",
+      "evidence": [
+        {
+          "url": "https://www.jstage.jst.go.jp/article/jsaisigtwo/2023/SWO-059/2023_07/_article/-char/ja/",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title.ja",
+            "date",
+            "contributors",
+            "doi",
+            "bibliographic",
+            "subtype"
+          ],
+          "note": "Publisher bibliographic metadata; peer review and English title not confirmed."
+        },
+        {
+          "url": "https://researchmap.jp/hiroki_u/published_papers/48338812",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "researchmap_category",
+            "sync.researchmap.external_id"
+          ],
+          "note": "Observed link and category on the public portal."
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "needs_review",
+      "review_notes": [
+        "Researchmapの著者を上松大輝・金亜伊・武田英明の順に修正。査読有無、英語題名、掲載区分の本人確認待ち。"
+      ],
+      "publication_status": "withheld",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "needs_review",
+          "external_id": "48338812",
+          "url": "https://researchmap.jp/hiroki_u/published_papers/48338812",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Researchmap portal shows only Hiroki UEMATSU; publisher lists three authors."
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      }
+    },
+    {
+      "id": "ral-00000000-0000-4000-8000-000000000005",
+      "kind": "career",
+      "subtype": "affiliation",
+      "title": {
+        "ja": "東京経済大学 コミュニケーション学部 特別招聘教授",
+        "en": null
+      },
+      "date": "2026-04",
+      "end_date": null,
+      "ongoing": true,
+      "contributors": [
+        {
+          "name": {
+            "ja": "上松 大輝",
+            "en": "Hiroki UEMATSU"
+          },
+          "person_id": "hiroki-uematsu",
+          "role": "特別招聘教授"
+        }
+      ],
+      "peer_reviewed": "not_applicable",
+      "doi": null,
+      "urls": [
+        "https://researchmap.jp/hiroki_u/research_experience/53506459"
+      ],
+      "project_ids": [],
+      "related_ids": [],
+      "keywords": [],
+      "bibliographic": {
+        "venue": null,
+        "volume": null,
+        "issue": null,
+        "pages": null
+      },
+      "organization": "東京経済大学 コミュニケーション学部",
+      "funding": {
+        "funder": null,
+        "program": null,
+        "award_number": null
+      },
+      "researchmap_category": "research_experience",
+      "evidence": [
+        {
+          "url": "https://researchmap.jp/hiroki_u/research_experience/53506459",
+          "accessed_at": "2026-09-10",
+          "supports": [
+            "title.ja",
+            "date",
+            "ongoing",
+            "organization",
+            "contributors"
+          ],
+          "note": "Public portal lists affiliation, role and April 2026 start. English translation not supplied."
+        }
+      ],
+      "last_verified_at": "2026-09-10",
+      "verification": "verified",
+      "review_notes": [],
+      "publication_status": "public",
+      "web_work_slug": null,
+      "sync": {
+        "researchmap": {
+          "status": "tracked",
+          "external_id": "53506459",
+          "url": "https://researchmap.jp/hiroki_u/research_experience/53506459",
+          "checked_at": "2026-09-10",
+          "content_hash": null,
+          "note": "Portal fields observed; full external record comparison not completed."
+        },
+        "orcid": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "google_scholar": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "university_db": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "alchembright": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        },
+        "cv": {
+          "status": "tracked",
+          "external_id": null,
+          "url": null,
+          "checked_at": null,
+          "content_hash": null,
+          "note": null
+        }
+      }
+    }
+  ]
+}
