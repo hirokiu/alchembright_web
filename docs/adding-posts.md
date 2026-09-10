@@ -1,6 +1,6 @@
 # 新しいブログ記事の追加
 
-公開ブランチ `docs/wordpress-migration-audit` に記事を追加してpushすると、GitHub Actionsがサイト全体を再生成・検証してGitHub Pagesへ公開します。別ブランチの変更は、この公開ブランチへ取り込んだ時点で反映されます。現在のプレビューURLとnoindex設定は継続します。
+公開ブランチ `docs/wordpress-migration-audit` に記事を追加してpushすると、GitHub Actionsがサイト全体を再生成・検証してGitHub Pagesへ公開します。別ブランチの変更は、この公開ブランチへ取り込んだ時点で反映されます。公開URLは https://www.alchembright.com/ です。noindex設定は継続します。
 
 自動更新対象：記事ページ、ブログ一覧、カテゴリー別（親カテゴリーも含む）、タグ別、タグ一覧の件数、年別・月別、ページ送り、RSS、サイトマップ、サムネイル。これらのHTMLを手動で作る必要はありません。
 

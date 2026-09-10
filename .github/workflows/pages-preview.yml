@@ -1,4 +1,4 @@
-name: Deploy crawl-blocked Pages preview
+name: Deploy custom-domain Pages (noindex)
 on:
   push:
     branches: [docs/wordpress-migration-audit]
@@ -18,8 +18,8 @@ jobs:
     env:
       ASTRO_TELEMETRY_DISABLED: '1'
       PUBLIC_SITE_MODE: preview
-      ALCHEMBRIGHT_SITE: https://hirokiu.github.io
-      ALCHEMBRIGHT_BASE: /alchembright_web
+      ALCHEMBRIGHT_SITE: https://www.alchembright.com
+      ALCHEMBRIGHT_BASE: /
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
@@ -31,16 +31,16 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           gh api "repos/$GITHUB_REPOSITORY/pages" --jq '{cname,build_type}' > /tmp/pages.json
-          node --input-type=module -e 'import fs from "node:fs"; const p=JSON.parse(fs.readFileSync("/tmp/pages.json")); if(p.cname || p.build_type!=="workflow") throw Error("Preview requires no custom domain and GitHub Actions source");'
-      - name: Require host-level crawl exclusion
-        if: vars.PAGES_PREVIEW_ALLOW_NOINDEX_ONLY != 'true'
-        run: node scripts/deploy/check-preview-robots.mjs
+          node --input-type=module -e 'import fs from "node:fs"; const p=JSON.parse(fs.readFileSync("/tmp/pages.json")); if(p.cname!=="www.alchembright.com" || p.build_type!=="workflow") throw Error("Expected www.alchembright.com and GitHub Actions source");'
       - uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - run: npm ci
       - run: npm test
       - run: npm run check
       - name: Regenerate articles, category/tag/date archives and thumbnails
         run: npm run build
+      - name: Verify root robots.txt blocks crawling
+        run: |
+          node --input-type=module -e 'import fs from "node:fs"; if(fs.readFileSync("dist/robots.txt","utf8").trim()!=="User-agent: *\nDisallow: /") throw Error("Missing root crawl exclusion");'
       - name: Verify preview (pending media allowed for review)
         run: npm run migration:verify
       - uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
