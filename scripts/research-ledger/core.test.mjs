@@ -49,3 +49,17 @@ test('same title/year warns, distinct publication and presentation are not merge
  assert.equal(validateLedger(x).warnings.length,1);r.kind='presentations';r.researchmap_category='presentations';assert.equal(validateLedger(x).warnings.length,0);
 });
 test('invalid input fails export closed',()=>assert.throws(()=>publicData({records:[]})));
+test('review scope is consistent and retained in public output',()=>{
+ invalid(x=>{x.records[3].peer_review_scope='abstract';x.records[3].peer_reviewed='no';});
+ const x=copy(),r=x.records.find(r=>r.subtype==='symposium_paper');
+ r.verification='verified';r.review_notes=[];r.publication_status='public';
+ assert.equal(publicData(x).records.find(p=>p.id===r.id).peer_review_scope,'abstract');
+});
+test('review flags point to retained observations and valid ledger records',()=>{
+ const queue=JSON.parse(readFileSync(new URL('../../research-ledger/review-queue.json',import.meta.url)));
+ const observed=JSON.parse(readFileSync(new URL('../../research-ledger/observations/researchmap-2026-09-10.json',import.meta.url)));
+ const urls=new Set(observed.entries.map(o=>o.url)),ids=new Set(seed.records.map(r=>r.id));
+ assert.equal(new Set(queue.items.map(i=>i.id)).size,queue.items.length);
+ for(const item of queue.items){assert.equal(item.status,'needs_review');for(const url of item.source_urls)assert.ok(urls.has(url));for(const id of item.ledger_ids)assert.ok(ids.has(id));}
+ assert.equal(queue.items.find(i=>i.id==='DUP-001').source_urls.length,2);
+});

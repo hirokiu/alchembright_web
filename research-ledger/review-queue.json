@@ -1,0 +1,122 @@
+{
+  "as_of": "2026-09-10",
+  "items": [
+    {
+      "id": "DUP-001",
+      "type": "possible_duplicate_records",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-5dfcf545-5f26-4621-ab4d-584a6b6fa94d"
+      ],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/published_papers/46097311",
+        "https://researchmap.jp/hiroki_u/misc/47272865"
+      ],
+      "note": "同題名の論文/MISC。書誌・DOIを確認してから本人が統合要否を決める。観測レコードは両方保持。"
+    },
+    {
+      "id": "AUTH-48338813",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/published_papers/48338813"
+      ],
+      "note": "原表示に繰り返し著者名: y.。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-49768683",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-881619b2-92f5-4fd4-9f0e-c7b10caa1fde"
+      ],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/49768683"
+      ],
+      "note": "原表示に繰り返し著者名: 山田奨治, 武田英明。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-47272865",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [
+        "ral-5dfcf545-5f26-4621-ab4d-584a6b6fa94d"
+      ],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/47272865"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 武田英明, 相田満。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060398",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060398"
+      ],
+      "note": "原表示に繰り返し著者名: 市瀬龍太郎。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060409",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060409"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 市瀬龍太郎, 武田英明, 沼晃介。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060405",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060405"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 武田英明, 沼晃介。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060408",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060408"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 武田英明, 沼晃介。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060407",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060407"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 武田英明, 沼晃介。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060406",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060406"
+      ],
+      "note": "原表示に繰り返し著者名: 市瀬龍太郎, 武田英明, 沼晃介。自動統合せず本人確認。"
+    },
+    {
+      "id": "AUTH-37060397",
+      "type": "repeated_author_names",
+      "status": "needs_review",
+      "ledger_ids": [],
+      "source_urls": [
+        "https://researchmap.jp/hiroki_u/misc/37060397"
+      ],
+      "note": "原表示に繰り返し著者名: 上松大輝, 大向一輝, 武田英明, 沼晃介, 浜崎雅弘。自動統合せず本人確認。"
+    }
+  ]
+}

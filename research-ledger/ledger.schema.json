@@ -164,6 +164,16 @@
               "not_applicable"
             ]
           },
+          "peer_review_scope": {
+            "type": "string",
+            "enum": [
+              "full_text",
+              "abstract",
+              "none",
+              "unknown",
+              "not_applicable"
+            ]
+          },
           "doi": {
             "anyOf": [
               {

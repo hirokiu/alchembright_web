@@ -40,7 +40,7 @@ export function validateLedger(input) {
     for(const ref of r.project_ids) if(ids.get(ref)?.kind!=='projects' || ref===r.id) errors.push(`${r.id}: Invalid project reference ${ref}`);
     for(const ref of r.related_ids) if(!ids.has(ref) || ref===r.id) errors.push(`${r.id}: Invalid related reference ${ref}`);
   }
-  return {errors,warnings};
+  return {errors,warnings:[...new Set(warnings)]};
 }
 export function publicData(input) {
   const result=validateLedger(input);
@@ -49,7 +49,7 @@ export function publicData(input) {
   const publicIds=new Set(records.map(r=>r.id));
   return {schema_version:1, records:records.map(r=>({
     id:r.id,kind:r.kind,subtype:r.subtype,title:r.title,date:r.date,end_date:r.end_date,ongoing:r.ongoing,
-    contributors:r.contributors,peer_reviewed:r.peer_reviewed,doi:r.doi,urls:r.urls,
+    contributors:r.contributors,peer_reviewed:r.peer_reviewed,peer_review_scope:r.peer_review_scope,doi:r.doi,urls:r.urls,
     project_ids:r.project_ids.filter(id=>publicIds.has(id)),related_ids:r.related_ids.filter(id=>publicIds.has(id)),
     keywords:r.keywords,bibliographic:r.bibliographic,organization:r.organization,funding:r.funding,
     web_work_slug:r.web_work_slug,researchmap_category:r.researchmap_category,

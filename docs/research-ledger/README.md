@@ -1,5 +1,9 @@
 # Research Activity Ledger v1
 
+**更新版（本人確認反映）**: 現在のマスターは13件（研究3・論文等8・所属1・研究費1）。下記の初期5件の説明は初回監査時点の記録です。[確認用データ一覧](review-data-2026-09-10.md)、[分類方針](classification-policy.md)、[本人確認事項](owner-decisions-2026-09-10.md)を参照してください。今回更新・追加した9件は本人レビュー待ちで、公開供給は所属1件のままです。
+
+重複候補は `research-ledger/review-queue.json` に保存。公開観測の33レコードはそのまま保持し、自動統合・削除していません。
+
 2026-09-10。対象は研究者 **上松大輝 / Hiroki UEMATSU**。研究者番号00897423、researchmap R000018545、ORCID 0000-0003-4215-3112を公開プロフィールで確認。Daiki UEMATSUおよび同英字名の別分野研究者を氏名だけで取り込まない。
 
 ## 1. 現状監査
@@ -28,6 +32,7 @@ Researchmap公開ポータルを直接HTTP取得し、論文13 / MISC17 / 経歴
 | date / end_date / ongoing | YYYY / YYYY-MM / YYYY-MM-DD。精度を保持。不明はnull。ongoing=falseだけで終了済みとは断定しない |
 | contributors | 著者順を保持した配列、人物IDと役割。本人のperson_id必須、共著者英字名の推測をしない |
 | peer_reviewed | yes/no/unknown/not_applicable。掲載区分と独立 |
+| peer_review_scope | 任意追加属性。full_text / abstract / none / unknown / not_applicable。省略時は範囲未確認。Astro供給APIにも含む。じんもんこん2024はabstractで全文査読と区別 |
 | doi / urls | DOI本体、HTTP(S) URL。構文検証のみで到達性・実在性を保証しない |
 | project_ids / related_ids | project参照と関連成果。発表と論文は別レコードとして関連付け |
 | bibliographic | venue/volume/issue/pages。公開日と会議実施日は別レコードで管理 |
@@ -120,3 +125,7 @@ npm run build
 ## 初期実装の検証結果
 
 Node 24.19.0、ASTRO_TELEMETRY_DISABLED=1で検証。npm test: 29件（台帳10件を含む）合格。Astro check: 52ファイル、エラー/警告/ヒント0。build: 734ページ。migration:verify: failures=0、pending_media=0、legacy_links=11（既存の旧リンク報告）。VPSパス監査1件合格。ledger:validate: 5件、警告0。台帳を既存ページへ表示する結合UIはUI担当の次PRで検証する。
+
+### 本人確認反映後の検証
+
+2026-09-10更新版: 13レコード、スキーマ検証エラー/警告0。全31テスト（台帳12）合格、Astro checkエラー/警告0、734ページbuild成功。任意属性peer_review_scopeを追加し、概要査読と全文査読の混同を防止。重複警告は同じ2レコードが日英両題名で一致しても1件にまとめる。

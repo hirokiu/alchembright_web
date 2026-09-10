@@ -36,6 +36,7 @@ export const recordSchema = z.strictObject({
   date: date.nullable(), end_date: date.nullable(), ongoing: z.boolean(),
   contributors: z.array(z.strictObject({name: localized, person_id: z.literal('hiroki-uematsu').nullable(), role: text})).min(1),
   peer_reviewed: z.enum(['yes','no','unknown','not_applicable']),
+  peer_review_scope: z.enum(['full_text','abstract','none','unknown','not_applicable']).optional(),
   doi: z.string().regex(/^10\.\d{4,9}\/\S+$/i).nullable(), urls: z.array(url),
   project_ids: z.array(id), related_ids: z.array(id), keywords: z.array(text),
   bibliographic: z.strictObject({venue: nullableText, volume: nullableText, issue: nullableText, pages: nullableText}),
@@ -54,6 +55,11 @@ export const recordSchema = z.strictObject({
   if (v.verification === 'needs_review' && !v.review_notes.length) issue('Review notes required');
   if (v.verification === 'verified' && v.review_notes.length) issue('Unresolved review notes prevent verification');
   if (v.verification === 'verified' && ['publications','presentations'].includes(v.kind) && !v.date) issue('Publication/presentation date required for verification');
+  if (v.peer_review_scope === 'abstract' || v.peer_review_scope === 'full_text') {
+    if (v.peer_reviewed !== 'yes') issue('Reviewed scope requires peer_reviewed=yes');
+  }
+  if (v.peer_review_scope === 'none' && v.peer_reviewed !== 'no') issue('No review scope requires peer_reviewed=no');
+  if (v.peer_review_scope === 'not_applicable' && v.peer_reviewed !== 'not_applicable') issue('Non-applicable review scope requires matching review status');
   if (v.ongoing && v.end_date) issue('Ongoing record cannot have end date');
   if (v.date && v.end_date && v.date > v.end_date && !v.date.startsWith(v.end_date)) issue('End date precedes start date');
 });
