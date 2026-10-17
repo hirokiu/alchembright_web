@@ -10,7 +10,7 @@ const {project}=Astro.props;
   <p class="eyebrow">{project.kind}</p><h1>{project.title}</h1>
   <div class="prose">
    <p class="app-lead">{project.summary}</p>
-   <figure><img src={project.image} width="840" height="360" alt={`${project.title}のシステム概念図`} /><figcaption>仕組みを説明する概念図</figcaption></figure>
+   {project.image && <figure><img src={project.image} width="840" height="360" alt={`${project.title}のシステム概念図`} /><figcaption>仕組みを説明する概念図</figcaption></figure>}
    {project.sections.map(([title,body])=><section><h2>{title}</h2><p>{body}</p></section>)}
    {project.links.length>0 && <section><h2>公開成果・論文</h2><ul>{project.links.map(([title,url])=><li><a href={url}>{title}</a></li>)}</ul></section>}
   </div>
