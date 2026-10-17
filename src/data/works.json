@@ -97,6 +97,49 @@
     "image": "/img/works/kojiruien-waka.svg"
   },
   {
+    "slug": "humanitext",
+    "title": "Humanitext — 古典研究とAIの協働",
+    "kind": "研究 / デジタル人文学・知識グラフ",
+    "summary": "西洋古典の引用や解釈のつながりを、専門家が検証できる知識グラフとして整理する研究。",
+    "sections": [
+      [
+        "研究内容",
+        "Humanitextは、AIと人文学の専門家の協働により、西洋古典を横断して研究・読解する基盤を開発するプロジェクトです。古典の引用や言い換え、批判などの関係を記録し、根拠をたどれる知識として活用することを目指します。"
+      ],
+      [
+        "知識グラフと検証",
+        "AIが提案した作品間の関係を専門家が確認し、関係の種類や方向、検証履歴とともに管理します。WikibaseとNeo4jによる知識グラフを整備し、検証済みの関係を使うGraphRAGが回答や引用の信頼性をどのように改善するかを評価します。"
+      ],
+      [
+        "上松の担当",
+        "上松大輝は、Wikibaseの構築、人物・作品の同定などを担当します。"
+      ],
+      [
+        "HAVIへの採択",
+        "2026年、Schmidt SciencesのHumanities and AI Virtual Institute（HAVI）に採択されました。採択課題は「Humanitext: A Human-AI Co-Creation Platform for Verified Classical Scholarship」です。"
+      ]
+    ],
+    "links": [
+      [
+        "Humanitext公式サイト",
+        "https://www.humanitext.ai/"
+      ],
+      [
+        "Humanitext：採択内容・研究計画・担当者",
+        "https://www.humanitext.ai/news/havi-2026-adoption/"
+      ],
+      [
+        "国立情報学研究所：採択発表",
+        "https://www.nii.ac.jp/news/release/2026/1015-1.html"
+      ],
+      [
+        "Schmidt Sciences：HAVI採択発表",
+        "https://www.schmidtsciences.org/havi-2026-announcement/"
+      ]
+    ],
+    "image": ""
+  },
+  {
     "slug": "portal-operations",
     "title": "大規模ポータルサイトの運用",
     "kind": "業務 / Webサービス",
