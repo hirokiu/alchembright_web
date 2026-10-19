@@ -1,0 +1,17 @@
+import { readFileSync, writeFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { z } from 'zod';
+import { ledgerSchema,targets } from './schema.mjs';
+import { validateLedger,publicData,syncStatus } from './core.mjs';
+const root=new URL('../../',import.meta.url);
+const ledger=JSON.parse(readFileSync(new URL('research-ledger/ledger.json',root),'utf8'));
+const command=process.argv[2]??'validate';
+const result=validateLedger(ledger);
+for(const error of result.errors) console.error(error);
+for(const warning of result.warnings) console.warn(warning);
+if(result.errors.length) process.exit(1);
+if(command==='validate') console.log(`Valid: ${ledger.records.length} records; ${result.warnings.length} warnings`);
+else if(command==='export') console.log(JSON.stringify(publicData(ledger),null,2));
+else if(command==='report') console.log(JSON.stringify(ledger.records.map(r=>({id:r.id,title:r.title,verification:r.verification,review_notes:r.review_notes,sync:Object.fromEntries(targets.map(t=>[t,syncStatus(r,t)]))})),null,2));
+else if(command==='schema') writeFileSync(fileURLToPath(new URL('research-ledger/ledger.schema.json',root)),JSON.stringify(z.toJSONSchema(ledgerSchema),null,2)+'\n');
+else throw new Error(`Unknown command: ${command}`);
