@@ -1,8 +1,12 @@
+---
+import { profiles } from '../data/person.mjs';
+---
 <section class="prose research-profile" aria-labelledby="research-heading">
   <h2 id="research-heading">研究活動</h2>
   <p>上松 大輝は、国立情報学研究所 情報学プリンシプル研究系の特任研究員です。知識コンテンツ科学研究センターの検索基盤チームにも参加しています。</p>
   <p>Semantic Web、知識グラフ、IoTを研究領域とし、分野をまたいで知識を検索・活用できる基盤の構築に取り組んでいます。</p>
   <p>人文学資料の知識グラフ化にも取り組み、<a href="/works/humanitext/">Humanitext</a>ではWikibaseの構築と人物・作品の同定などを担当しています。</p>
+  <p>東京経済大学 コミュニケーション学部の特別招聘教授も務めています。</p>
   <h3>学位</h3>
   <p>総合研究大学院大学 複合科学研究科 情報学専攻 博士後期課程修了。博士（情報学）。</p>
   <h3>著書</h3>
@@ -10,7 +14,7 @@
   <p>松下孝太郎 監修・編著。山本光、鈴木一史、村上洋一、上松大輝、椋本輔、工藤由希、崎山卓哉、車川隆洋、楳村麻里子 共著。ISBN：978-4-297-15997-9。</p>
   <h3>研究者情報</h3>
   <ul>
-    <li><a href="https://researchmap.jp/hiroki_u">researchmap — 上松 大輝（Hiroki UEMATSU）</a></li>
+    {profiles.map(profile => <li><a href={profile.url}>{profile.label}</a></li>)}
     <li><a href="https://www.nii.ac.jp/faculty/list/project-profs/">国立情報学研究所 — 特任研究員等</a></li>
     <li><a href="https://www.kmcs.nii.ac.jp/about/member.html">知識コンテンツ科学研究センター — メンバー</a></li>
   </ul>

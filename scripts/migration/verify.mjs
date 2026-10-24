@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
 import { signature } from './lib.mjs';
+import { validProfileScript } from '../../src/data/person.mjs';
 const root = path.resolve(process.env.ALCHEMBRIGHT_DIST_DIR || 'dist');
 const report=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
 try {const extra=JSON.parse(await fs.readFile('migration/reports/reviewed-mt.json','utf8'));report.records.push(...extra.records);}catch(e){if(e.code!=='ENOENT')throw e;}
@@ -36,8 +37,11 @@ for(const r of report.records) {
 }
 for(const [file,$] of pages) {
   const relative = path.relative(root,file);
+  const jsonLdCount = $('script[type="application/ld+json"]').length;
+  if(jsonLdCount !== (relative === 'about/index.html' ? 1 : 0)) failures.push({file:relative,reason:'profile JSON-LD count mismatch'});
   for (const script of $('script').toArray()) {
     const e=$(script), src=e.attr('src');
+    if(validProfileScript(relative, script.attribs, e.html())) continue;
     const allowed=['index.html','404.html'].includes(relative) && e.attr('type')==='module' && /^\/_astro\/[A-Za-z0-9_.-]+\.js$/.test(src || '') && !e.html().trim();
     if (!allowed) failures.push({file:relative,reason:'unexpected script'});
     else try { await fs.access(path.join(root,src)); } catch { failures.push({file:relative,reason:'missing navigation script'}); }
