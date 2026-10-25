@@ -1,0 +1,36 @@
+{
+  "accessed_at": "2026-09-10",
+  "source": "https://scholar.google.com/citations?user=0b03ZwEAAAAJ",
+  "scope": "Web tool cached profile, articles 1–20 only; crawl shown about 1.7 years ago; not a current full inventory",
+  "identity_evidence": "Verified nii.ac.jp email; homepage www.alchembright.com; Knowledge Graph / Semantic Web",
+  "titles": [
+    "Balog: Location-based information aggregation system",
+    "場log：Weblog環境における位置情報利用の提案",
+    "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area",
+    "タグ付けされた場所に基づいたコミュニケーション支援",
+    "ActionLog：実世界指向コンテンツ記述支援システム",
+    "Design for Data Structures: Data Unification and Federation with Wikibase",
+    "A Weblog Grounded to the Real World",
+    "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用",
+    "MEMS加速度センサーユニットを用いた市民参加型地震波計測ネットワークの構築",
+    "コンテクストを考慮した位置情報に基づくコミュニケーションシステム",
+    "ActionLog：移動履歴に基づく位置情報付きWeblogの自動生成",
+    "場log:位置情報に基づく情報整理システム",
+    "場log",
+    "Communication support with location-based information",
+    "古事類苑と和歌データベースの知識グラフ構築",
+    "引用・参考関係を考慮した和歌集の知識グラフ構築",
+    "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築",
+    "地震LODの拡張と利活用",
+    "地震の分類のためのオントロジー構築",
+    "Earthquake LOD: Seismic Dataset Construction with Ontology Oriented Design Patterns"
+  ],
+  "excluded_profiles": [
+    "GT6LhVYAAAAJ (development economics, different person)"
+  ],
+  "unresolved": [
+    "場log/位置情報整理システム：同一成果・システムの重複候補。論文に追加しない。",
+    "コンテクストを考慮した位置情報に基づくコミュニケーションシステム：公式プログラムは確認、刊行物の書誌・本文は未照合。",
+    "Metadata Schema for Community Archive Cooperation：DOI 10.34450/data.jsda.13336574 と .v1 は資料・版の確認が必要。論文には追加しない。"
+  ]
+}
