@@ -1,4 +1,5 @@
 import fs from 'node:fs/promises';
+import { validAnalyticsScript } from '../../src/data/analytics.mjs';
 import path from 'node:path';
 import { load } from 'cheerio';
 import { signature } from './lib.mjs';
@@ -37,10 +38,13 @@ for(const r of report.records) {
 }
 for(const [file,$] of pages) {
   const relative = path.relative(root,file);
+  const analyticsCount = $('script').toArray().filter(s=>validAnalyticsScript(s.attribs,$(s).html())).length;
+  if(analyticsCount !== (process.argv.includes('--release') ? 2 : 0)) failures.push({file:relative,reason:'GA4 script count mismatch'});
   const jsonLdCount = $('script[type="application/ld+json"]').length;
   if(jsonLdCount !== (relative === 'about/index.html' ? 1 : 0)) failures.push({file:relative,reason:'profile JSON-LD count mismatch'});
   for (const script of $('script').toArray()) {
     const e=$(script), src=e.attr('src');
+    if(process.argv.includes('--release') && validAnalyticsScript(script.attribs,e.html())) continue;
     if(validProfileScript(relative, script.attribs, e.html())) continue;
     const allowed=['index.html','404.html'].includes(relative) && e.attr('type')==='module' && /^\/_astro\/[A-Za-z0-9_.-]+\.js$/.test(src || '') && !e.html().trim();
     if (!allowed) failures.push({file:relative,reason:'unexpected script'});
