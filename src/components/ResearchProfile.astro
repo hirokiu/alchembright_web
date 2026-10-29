@@ -12,6 +12,16 @@ import { profiles } from '../data/person.mjs';
   <h3>著書</h3>
   <p><a href="https://gihyo.jp/book/2026/978-4-297-15997-9">『スクラッチ全機能事典』</a>（共著）、技術評論社、2026年11月9日発売予定。</p>
   <p>松下孝太郎 監修・編著。山本光、鈴木一史、村上洋一、上松大輝、椋本輔、工藤由希、崎山卓哉、車川隆洋、楳村麻里子 共著。ISBN：978-4-297-15997-9。</p>
+  <h3>研究テーマと公開成果</h3>
+  <ul>
+    <li><a href="/works/seismometer/">市民参加型の地震観測とRaspberry Pi地震計</a> — 計測システムと研究発表。</li>
+    <li><a href="/works/earthquake-ontology/">地震オントロジー・地震LOD</a> — 観測データを結び付ける語彙と論文。</li>
+    <li><a href="/works/kojiruien-waka/">古事類苑・和歌データベース</a> — 人文学資料の知識グラフと公開論文。</li>
+    <li><a href="/works/humanitext/">Humanitext</a> — Wikibaseの構築と人物・作品の同定。</li>
+    <li><a href="/works/balog/">場log</a> — 場と情報を結び付けるプロジェクト。</li>
+  </ul>
+  <h3>English profile</h3>
+  <p lang="en">Hiroki Uematsu holds a doctorate in Informatics from SOKENDAI and is a researcher at the National Institute of Informatics, Japan. His work spans the Semantic Web, knowledge graphs, seismic observation, digital archives, and digital humanities. In Humanitext, he works on Wikibase infrastructure and the identification of people and works.</p>
   <h3>研究者情報</h3>
   <ul>
     {profiles.map(profile => <li><a href={profile.url}>{profile.label}</a></li>)}

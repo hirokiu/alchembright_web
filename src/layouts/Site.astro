@@ -1,7 +1,7 @@
 ---
 import '../styles/site.css';
 import { analyticsSrc, analyticsInit } from '../data/analytics.mjs';
-import { profileGraph, serializeJsonLd } from '../data/person.mjs';
+import { profileGraph, serializeJsonLd, researcherSummary } from '../data/person.mjs';
 import LegacyNavigation from '../components/LegacyNavigation.astro';
 import SocialLinks from '../components/SocialLinks.astro';
 interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; }
@@ -29,7 +29,8 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
     </>}
     {path === "/about/" && <script is:inline type="application/ld+json" set:html={serializeJsonLd(profileGraph)} />}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title === 'home' ? 'Alchembright' : `${title} — Alchembright`}</title>
+    <title>{path === '/about/' ? '上松大輝（Hiroki Uematsu）研究者プロフィール — Alchembright' : title === 'home' ? 'Alchembright' : `${title} — Alchembright`}</title>
+    {path === "/about/" && <meta name="description" content={researcherSummary} />}
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={new URL(path, Astro.site).href} />
