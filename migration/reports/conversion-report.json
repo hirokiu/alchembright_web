@@ -449,7 +449,7 @@
     "src/content/blog/2021/wp-442.md": "e1157db911e40a4611c69f5a3145db8251a0d81f0673b4beab132b6f3e970046",
     "src/content/blog/2025/wp-527.md": "8944d824961aa9635e9ffd5196f9b2f4439417c4f6934f11bc085ef8ad75a04c",
     "src/content/pages/wp-461.md": "cb8efbc5502423c0854ce3789bb8709fa4c39d986c1a116c676ca5f9db2fb8bd",
-    "src/content/pages/wp-466.md": "0dae5af2486dabf130004da06f81ed99425f1c41492e3ae3558cbc6667f70849",
+    "src/content/pages/wp-466.md": "5ba3435d9d50253ec6a3752e6ec0a9cc578bf74a8b66979b3e8cd1d2a3f1299e",
     "src/content/pages/wp-531.md": "2511802cd7794a20034c829bda1ea2fb3ba88fd6f5290cece05e139e6e0b25ea",
     "src/data/categories.json": "3ac621c6d6b947e5c523c4e1eb852741d79311cf5b7a832efe8e553c7c79d77e",
     "src/data/tags.json": "5b49c0131b34b040b20dfdf04ef9f2d5f1c71c3ba334064a3dec97b2f3a83496"
@@ -8692,15 +8692,22 @@
       "format": "markdown",
       "warnings": [],
       "expected": {
-        "text": "上松大輝（うえまつひろき）国立情報学研究所特任研究員、Alchembright代表。博士（情報学）。総合研究大学院大学複合科学研究科情報学専攻博士後期課程修了。SI業務、Web系ベンチャー企業のCTO・COOを経て、SemanticWeb、知識グラフ、IoTの研究に従事。地震観測・地震データの知識グラフ化、古事類苑・和歌などのデジタルアーカイブや人文学資料の活用に取り組む。HumanitextではWikibaseの構築と人物・作品の同定を担当。",
-        "attrs": [],
+        "text": "上松大輝（うえまつひろき）国立情報学研究所特任研究員、Alchembright代表。博士（情報学）。総合研究大学院大学複合科学研究科情報学専攻博士後期課程修了。SI業務、Web系ベンチャー企業のCTO・COOを経て、SemanticWeb、知識グラフ、IoTの研究に従事。地震観測・地震データの知識グラフ化、古事類苑・和歌などのデジタルアーカイブや人文学資料の活用に取り組む。HumanitextではWikibaseの構築と人物・作品の同定を担当。執筆noteで『偶像の表と裏』（仮題）を執筆しています。アイドルを入口に、他者を応援することと、テクノロジーが変える「好き」のかたちを考える連載です。本文はnoteで更新しています。序章「偶像はAppleWatchをしていいのか」をnoteで読む連載の紹介",
+        "attrs": [
+          {
+            "href": "https://note.com/he_rock_u/n/nf16a1ac26177"
+          },
+          {
+            "href": "/news/idols-note-series/"
+          }
+        ],
         "code": [],
         "breaks": 0,
         "tableCells": []
       },
       "editorial_update": {
-        "date": "2026-10-17",
-        "reason": "本人の指示に基づき短文プロフィールにSI・ベンチャー経歴、地震・アーカイブ・人文学の研究活動を追記。"
+        "date": "2026-10-29",
+        "reason": "本人の依頼に基づきnote連載の紹介と序章・連載紹介へのリンクを追記。本文はnoteをマスターとして更新。"
       }
     },
     {
