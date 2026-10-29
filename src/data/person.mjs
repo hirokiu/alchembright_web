@@ -6,6 +6,7 @@ export const profiles = [
   {label:'東京経済大学 教員プロフィール', url:'https://gyoseki.acoffice.jp/tkeihp/KgApp/k03/resid/S000258'},
   {label:'GitHub', url:'https://github.com/hirokiu'},
 ];
+export const researcherSummary = '上松大輝（Hiroki Uematsu）。博士（情報学）。国立情報学研究所の特任研究員。Semantic Web、知識グラフ、地震観測、デジタルアーカイブ、デジタル人文学に取り組んでいます。';
 export const profileGraph = {
   '@context':'https://schema.org',
   '@type':'ProfilePage',
@@ -14,6 +15,7 @@ export const profileGraph = {
   name:'上松大輝 — Alchembright',
   mainEntity:{
     '@type':'Person', '@id':'https://www.alchembright.com/about/#person',
+    description:researcherSummary,
     name:'上松 大輝', alternateName:['上松大輝','Hiroki Uematsu','Hiroki UEMATSU','hiroki_u'],
     givenName:'大輝', familyName:'上松', url:'https://www.alchembright.com/about/',
     sameAs:profiles.map(p=>p.url),
