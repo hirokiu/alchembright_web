@@ -8,7 +8,7 @@ canonical_path: /news/idols-note-series/
 original_url: null
 published_at_local: "2026-10-29T16:50:00"
 published_at_gmt: "2026-10-29T07:50:00"
-modified_at_local: "2026-10-29T16:50:00"
+modified_at_local: "2026-11-06T20:15:15"
 category_ids: [14, 9]
 tag_ids: []
 excerpt: アイドルのApple Watchを入口に、他者を応援することと、テクノロジーが変える「好き」のかたちを考える連載をnoteではじめました。
@@ -28,5 +28,7 @@ conversion_format: markdown
 まずは序章にあたる「偶像はApple Watchをしていいのか」を公開しました。
 
 [序章「偶像はApple Watchをしていいのか」をnoteで読む](https://note.com/he_rock_u/n/nf16a1ac26177)
+
+[第2回「アイドルの素顔は誰がつくるのか」をnoteで読む](https://note.com/he_rock_u/n/n8ea659f64e37)
 
 書籍にまとめることも考えていますが、ひとまずは、移動中に自分で読み返して、気になるところを直しながら書いていきます。本文はnoteで更新し、このサイトには公開した文章への案内をまとめます。
