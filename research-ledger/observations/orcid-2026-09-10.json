@@ -1,0 +1,286 @@
+{
+  "accessed_at": "2026-09-10",
+  "source": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/works",
+  "raw_sha256": "195657bbc6b75dc17e5ca16b84784c52f42f1017faaa5d8c47b398c55f370ddf",
+  "entries": [
+    {
+      "put_code": "206980623",
+      "title": "コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "dois": [
+        "10.2964/jsik_2025_022"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980623",
+      "ledger_ids": [
+        "ral-572e03d4-13e1-406c-9a1a-22a517176f05"
+      ]
+    },
+    {
+      "put_code": "206980643",
+      "title": "古事類苑LODを用いた地部と引用資料との関連性抽出",
+      "dois": [
+        "10.2964/jsik_2025_026"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980643",
+      "ledger_ids": [
+        "ral-9c877662-7648-4600-a592-74c47b22c291"
+      ]
+    },
+    {
+      "put_code": "206980644",
+      "title": "エラータ：コミュニケーションプロセスとしてのデジタルアーカイブの理論的基礎付け：基礎情報学の情報概念を中心に",
+      "dois": [
+        "10.2964/jsik_2025_036"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980644",
+      "ledger_ids": [
+        "ral-1cd6061c-1f75-4891-a79a-9d28bbe2368d"
+      ]
+    },
+    {
+      "put_code": "206980514",
+      "title": "地震および災害事例のLOD化と相互運用性の向上",
+      "dois": [
+        "10.11517/pjsai.JSAI2025.0_2K1OS602"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/206980514",
+      "ledger_ids": [
+        "ral-2f138348-642f-46ec-8364-4c5b1f7c01a7"
+      ]
+    },
+    {
+      "put_code": "160050851",
+      "title": "明治期に編纂された百科史料事典「古事類苑」の知識グラフ構築",
+      "dois": [
+        "10.11517/jsaisigtwo.2023.SWO-062_02"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050851",
+      "ledger_ids": [
+        "ral-5dfcf545-5f26-4621-ab4d-584a6b6fa94d"
+      ]
+    },
+    {
+      "put_code": "180532715",
+      "title": "地震LODの拡張と利活用",
+      "dois": [
+        "10.11517/pjsai.JSAI2024.0_3L1OS3a05"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/180532715",
+      "ledger_ids": [
+        "ral-52b3aecc-0bf1-4f83-949f-ed097c036b7e"
+      ]
+    },
+    {
+      "put_code": "160050854",
+      "title": "地震の分類のためのオントロジー構築",
+      "dois": [
+        "10.11517/jsaisigtwo.2023.SWO-059_07"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050854",
+      "ledger_ids": [
+        "ral-00000000-0000-4000-8000-000000000004"
+      ]
+    },
+    {
+      "put_code": "160050927",
+      "title": "Development of a high-performance seismic phase picker using deep learning in the Hakone volcanic area",
+      "dois": [
+        "10.1186/s40623-023-01840-5"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050927",
+      "ledger_ids": [
+        "ral-af4c3b53-c3ed-48b4-be30-3813aa8a3305"
+      ]
+    },
+    {
+      "put_code": "160050926",
+      "title": "Earthquake Ontology and LOD",
+      "dois": [],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050926",
+      "ledger_ids": [
+        "ral-ec73954a-7707-4193-8c9b-35994808ccf8"
+      ]
+    },
+    {
+      "put_code": "160050853",
+      "title": "地震語彙の構築と地震LOD",
+      "dois": [
+        "10.11517/pjsai.JSAI2023.0_2B6GS301"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050853",
+      "ledger_ids": [
+        "ral-c0fd95ca-1626-4f61-95a2-2dddc8558bf7"
+      ]
+    },
+    {
+      "put_code": "129380274",
+      "title": "Design for Data Structures: Data Unification and Federation with Wikibase",
+      "dois": [
+        "10.1109/bigdata55660.2022.10020686"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/129380274",
+      "ledger_ids": [
+        "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61"
+      ]
+    },
+    {
+      "put_code": "160050928",
+      "title": "Design for Data Structures: Data Unification and Federation with Wikibase",
+      "dois": [
+        "10.1109/BigData55660.2022.10020686"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050928",
+      "ledger_ids": [
+        "ral-7fd68e07-8df5-4e22-813f-f9f3f60fec61"
+      ]
+    },
+    {
+      "put_code": "113772401",
+      "title": "Wikidata連携：Wikibaseを用いた知識グラフの拡張",
+      "dois": [
+        "10.11517/jsaisigtwo.2022.SWO-056_04"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/113772401",
+      "ledger_ids": [
+        "ral-4e7e2a45-0184-4965-84d5-59cd3ad338e0"
+      ]
+    },
+    {
+      "put_code": "160050929",
+      "title": "Development of High-Performance Seismic Phase Picker Using Deep Learning in Hakone Volcanic Area",
+      "dois": [
+        "10.21203/rs.3.rs-2253946/v1"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/160050929",
+      "ledger_ids": [
+        "ral-0b8fec0e-8b9a-4e02-827b-883829edb5f5"
+      ]
+    },
+    {
+      "put_code": "113772491",
+      "title": "Metadata Schema for Community Archive Cooperation",
+      "dois": [
+        "10.34450/data.jsda.13336574.v1"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/113772491",
+      "ledger_ids": []
+    },
+    {
+      "put_code": "113772525",
+      "title": "Metadata Schema for Community Archive Cooperation",
+      "dois": [
+        "10.34450/data.jsda.13336574"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/113772525",
+      "ledger_ids": []
+    },
+    {
+      "put_code": "84074373",
+      "title": "[25] コミュニティアーカイブ連携のためのメタデータスキーマについて",
+      "dois": [
+        "10.24506/jsda.4.s1_s27"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074373",
+      "ledger_ids": [
+        "ral-1f834f61-1c45-43ee-9679-ee22e475ffd9"
+      ]
+    },
+    {
+      "put_code": "84074378",
+      "title": "[A14] 「夕暮れ映像祭2019」とコミュニティ実践：地域アーカイブ連携を支えるショーケースとシステムの構想",
+      "dois": [
+        "10.24506/jsda.4.2_97"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074378",
+      "ledger_ids": [
+        "ral-80439b49-1b01-4803-94b8-f298ff6291da"
+      ]
+    },
+    {
+      "put_code": "84074375",
+      "title": "ソーシャルメディアを用いたSpatial Knowledge Graphの構築",
+      "dois": [
+        "10.11517/pjsai.JSAI2020.0_1O4GS404"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074375",
+      "ledger_ids": [
+        "ral-e2d9ee4a-e0f0-4693-997e-cdf96771a806"
+      ]
+    },
+    {
+      "put_code": "118086567",
+      "title": "オントロジーマッチングを用いた知識グラフの構築",
+      "dois": [
+        "10.11517/jsaisigtwo.2018.SWO-044_04"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/118086567",
+      "ledger_ids": [
+        "ral-90bc327a-589d-452b-9be2-8aabf7a88273"
+      ]
+    },
+    {
+      "put_code": "84074189",
+      "title": "A Weblog Grounded to the Real World",
+      "dois": [],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074189",
+      "ledger_ids": [
+        "ral-a06fdee2-f8e8-4e4e-92b8-0fc478a5e20e"
+      ]
+    },
+    {
+      "put_code": "84074386",
+      "title": "ActionLog：行動に着目した実世界コンテクストに基づく情報共有",
+      "dois": [
+        "10.11517/pjsai.JSAI06.0.223.0"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074386",
+      "ledger_ids": [
+        "ral-86d9b88a-ab01-4ea5-808d-97128947fa59"
+      ]
+    },
+    {
+      "put_code": "84074388",
+      "title": "2004年度人工知能学会全国大会スケジューリング支援システムの開発と運用",
+      "dois": [
+        "10.11517/pjsai.JSAI05.0.8.0"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074388",
+      "ledger_ids": [
+        "ral-44f57133-dadc-41d4-b36d-bcce8b4d8e67"
+      ]
+    },
+    {
+      "put_code": "84074390",
+      "title": "ActionLog：移動履歴に基づく位置情報付きWeblogの自動生成",
+      "dois": [
+        "10.11517/pjsai.JSAI05.0.37.0"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074390",
+      "ledger_ids": [
+        "ral-e2c3f4a6-a2d7-4c23-9e2a-65c744e49f83"
+      ]
+    },
+    {
+      "put_code": "84074190",
+      "title": "Communication support with location-based information",
+      "dois": [
+        "10.1109/AMT.2005.1505344"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074190",
+      "ledger_ids": [
+        "ral-0be9a772-4531-49a6-9c52-44dc9905c851"
+      ]
+    },
+    {
+      "put_code": "84074395",
+      "title": "タグ付けされた場所に基づいたコミュニケーション支援",
+      "dois": [
+        "10.11517/pjsai.JSAI05.0.35.0"
+      ],
+      "url": "https://pub.orcid.org/v3.0/0000-0003-4215-3112/work/84074395",
+      "ledger_ids": [
+        "ral-0e3aee8f-036f-47d1-8d2a-0985b1a5cc91"
+      ]
+    }
+  ],
+  "note": "public worksを26件観測。複数put-code・版違い・論文以外を含むため件数を論文数と解釈しない。"
+}
