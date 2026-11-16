@@ -47,7 +47,8 @@ for(const [file,$] of pages) {
     if(process.argv.includes('--release') && validAnalyticsScript(script.attribs,e.html())) continue;
     if(validProfileScript(relative, script.attribs, e.html())) continue;
     const allowed=['index.html','404.html'].includes(relative) && e.attr('type')==='module' && /^\/_astro\/[A-Za-z0-9_.-]+\.js$/.test(src || '') && !e.html().trim();
-    if (!allowed) failures.push({file:relative,reason:'unexpected script'});
+    const lessonCopy = relative === 'lessons/ai-flyer/index.html' && src === '/lessons/ai-flyer/copy-prompts.js' && e.attr('type') === 'module' && !e.html().trim();
+    if (!allowed && !lessonCopy) failures.push({file:relative,reason:'unexpected script'});
     else try { await fs.access(path.join(root,src)); } catch { failures.push({file:relative,reason:'missing navigation script'}); }
   }
   if($('[onclick],[onerror],[onload]').length) failures.push({file:path.relative(root,file),reason:'unexpected active content in static output'});

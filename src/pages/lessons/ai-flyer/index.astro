@@ -1,7 +1,14 @@
+---
+import { analyticsSrc, analyticsInit } from '../../../data/analytics.mjs';
+const canonical = new URL('/lessons/ai-flyer/', Astro.site).href;
+const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
+---
 <!doctype html>
 <html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="canonical" href="https://www.alchembright.com/lessons/ai-flyer/"><title>生成AIでつくってみよう｜参加者用</title>
-<style>
+<link rel="canonical" href={canonical} />
+{preview && <meta name="robots" content="noindex,nofollow" />}
+{!preview && <><script is:inline id="ga4-loader" async src={analyticsSrc}></script><script is:inline id="ga4-init" set:html={analyticsInit}></script></>}<title>生成AIでつくってみよう｜参加者用</title>
+<style is:inline>
 *{box-sizing:border-box}body{margin:0;background:#faf8f1;color:#202d28;font:1rem/1.75 system-ui,sans-serif}main{max-width:42rem;margin:auto;padding:1.25rem 1rem 3rem}h1,h2,h3{line-height:1.4}h2{margin-top:2.25rem;padding-top:1rem;border-top:1px solid #c7d4cd}a{color:#175b46}.prompt{background:#fff;border:1px solid #c7d4cd;border-radius:.65rem;padding:.75rem;margin:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:.6rem 0 .2rem}code{font:inherit}button{background:#175b46;color:#fff;border:0;border-radius:.4rem;padding:.5rem 1rem;min-height:44px;font:inherit;cursor:pointer}button:focus-visible{outline:3px solid #b65e0a;outline-offset:3px}.status{min-height:1.75em}
 </style></head><body><main>
 <h1>生成AIでつくってみよう</h1>
@@ -65,13 +72,4 @@
 <div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>背景の水色はこのままで、本文だけを「初めての方も歓迎。本がなくても参加できます。」に戻してください。</code></pre></div>
 <p>短く頼んでうまくいった場合も、「今回は何が残ったか」「次に残したいものは何か」を考えてみましょう。練習では個人情報や非公開の情報を使わず、公開前には文字の間違いと画像を使ってよいかを確認します。</p><p><a href="./prompts.md">Markdownを開く</a></p>
 <p class="status" role="status" id="status"></p></main>
-<script>
-function select(node){const r=document.createRange();r.selectNodeContents(node);const s=getSelection();s.removeAllRanges();s.addRange(r);}
-for(const b of document.querySelectorAll('.prompt button')){
- b.addEventListener('click',async()=>{
-  const c=b.parentElement.querySelector('code');
-  try{await navigator.clipboard.writeText(c.textContent);b.textContent='コピー済み';document.querySelector('#status').textContent='プロンプトをコピーしました。';setTimeout(()=>b.textContent='コピー',1600);}
-  catch{select(c);b.textContent='選択済み：長押ししてコピー';document.querySelector('#status').textContent='コピーできない場合は、選択した文章を長押ししてコピーしてください。';}
- });
-}
-</script></body></html>
+<script is:inline type="module" src="/lessons/ai-flyer/copy-prompts.js"></script></body></html>
