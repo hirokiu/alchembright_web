@@ -6,7 +6,7 @@ export async function GET({ site }: { site: URL | undefined }) {
   const paths = [
     ...(await routes()).map(route => route.path),
     ...projects.map(project => `/works/${project.slug}/`),
-    '/works/kirokun/', '/works/balog/', '/tags/', '/privacy/', '/feed/',
+    '/works/kirokun/', '/works/balog/', '/tags/', '/privacy/', '/feed/', '/lessons/ai-flyer/',
   ];
   const escape = (value: string) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&apos;');
   const urls = [...new Set(paths.map(path => new URL(path, site).href))].sort();
