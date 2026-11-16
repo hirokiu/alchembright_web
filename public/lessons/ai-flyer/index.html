@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex"><title>生成AIでつくってみよう｜参加者用</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#faf8f1;color:#202d28;font:1rem/1.75 system-ui,sans-serif}main{max-width:42rem;margin:auto;padding:1.25rem 1rem 3rem}h1,h2,h3{line-height:1.4}h2{margin-top:2.25rem;padding-top:1rem;border-top:1px solid #c7d4cd}a{color:#175b46}.prompt{background:#fff;border:1px solid #c7d4cd;border-radius:.65rem;padding:.75rem;margin:1rem 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;margin:.6rem 0 .2rem}code{font:inherit}button{background:#175b46;color:#fff;border:0;border-radius:.4rem;padding:.5rem 1rem;min-height:44px;font:inherit;cursor:pointer}button:focus-visible{outline:3px solid #b65e0a;outline-offset:3px}.status{min-height:1.75em}
+</style></head><body><main>
+<h1>生成AIでつくってみよう</h1>
+<p>昼休みのミニ読書会｜チラシづくり</p>
+<p>各プロンプトをコピーして、画像を作れる生成AIに貼り付けます。使えない場合は、講師の画面を見ながら「次に何と頼むか」を考えるだけで参加できます。</p>
+<h2>1｜短く頼んで、チラシを一枚作る</h2>
+<p>最初は画像を添付せず、これだけ送ります。</p>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>昼休みの読書会のチラシを、画像で一枚作って。</code></pre></div>
+<p><strong>できたら確認：</strong> 誰向けの案内に見えますか？ 頼んでいない日時や場所は入っていませんか？ 気になるところを一つ探しましょう。</p>
+<h2>2｜見た結果をもとに、同じチャットで頼み直す</h2>
+<p>気になったことを伝えます。例えば、知らない日時や場所が入っていたら：</p>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>日時と場所はまだ決まっていません。その部分だけ削除してください。見出しと写真はそのままにしてください。</code></pre></div>
+<p>見た目も整えたいときは、次の文章版かMarkdown版のどちらかを試します。まだチラシを作っていない場合は、冒頭の「このチラシを次の内容に整えてください」を「次の内容でチラシを画像で一枚作ってください」に変えて使えます。</p>
+<h3>文章版</h3>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>このチラシを次の内容に整えてください。横長で、左に「昼休みのミニ読書会」と「初めての方も歓迎。本がなくても参加できます。」を配置してください。右には窓辺の机に置いた開いた本と緑のマグカップの写真を配置してください。背景は明るいクリーム色で、文字の後ろは無地にしてください。見出しは太めのゴシック体風、本文は見出しより小さく読みやすくしてください。指定していない文字や日時・場所は入れないでください。</code></pre></div>
+<h3>Markdown版</h3>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>このチラシを次の内容に整えてください。
+
+## 形と配置
+- 横長
+- 左：見出しと本文
+- 右：窓辺の机に置いた開いた本と緑のマグカップの写真
+
+## 載せる文字
+- 見出し：昼休みのミニ読書会
+- 本文：初めての方も歓迎。本がなくても参加できます。
+- 指定していない文字や日時・場所は入れない
+
+## 背景と書体
+- 明るいクリーム色。文字の後ろは無地
+- 見出し：太めのゴシック体風
+- 本文：見出しより小さく読みやすく</code></pre></div>
+<p><strong>次の準備：</strong> クリーム色の背景、見出し、本文、写真がそろったら、その画像を「元のチラシ」として保存します。用意できなければ、講師の見本で見比べます。</p>
+<h2>3｜背景を変える：Aの短い指示</h2>
+<p>保存した元のチラシを添付して送ります。</p>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>このチラシの背景を淡い水色にして。</code></pre></div>
+<p><strong>できたら確認：</strong> 背景だけでなく、元のチラシと見比べて、文字・写真・位置を確認します。「本がなくても参加できます」は残っていますか？</p>
+<h2>4｜残すものを伝える：Bで頼み直す</h2>
+<p>同じチャットに元のチラシをもう一度添付し、「何を基準に、何だけを変えるか」を伝えます。次のうち一つを選びます。</p>
+<h3>短い版</h3>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>今添付した元のチラシを基準に、背景だけ淡い水色に。文字と写真はそのままにしてください。</code></pre></div>
+<h3>文章版</h3>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>今添付した元のチラシを基準に、クリーム色の背景だけを淡い水色にしてください。見出しと本文の文面、書体、大きさ、位置は元のままにしてください。右の写真は内容、大きさ、位置を変えないでください。新しい文字や飾りは加えないでください。</code></pre></div>
+<h3>Markdown版</h3>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>## 基準
+- 今添付した元のチラシ
+
+## 変えるところ
+- クリーム色の背景だけを淡い水色に変更
+
+## 残すもの
+- 見出しと本文の文面、書体、大きさ、位置
+- 右の写真の内容、大きさ、位置
+
+## 追加しないもの
+- 新しい文字や飾り</code></pre></div>
+<h2>5｜最後の見比べ</h2>
+<p>- 変えたかったところは変わった？</p>
+<p>- 残したかった文面、写真、位置は残った？</p>
+<p>- まだ違うところがあれば、一つ選んで頼み直す。</p>
+<div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>背景の水色はこのままで、本文だけを「初めての方も歓迎。本がなくても参加できます。」に戻してください。</code></pre></div>
+<p>短く頼んでうまくいった場合も、「今回は何が残ったか」「次に残したいものは何か」を考えてみましょう。練習では個人情報や非公開の情報を使わず、公開前には文字の間違いと画像を使ってよいかを確認します。</p><p><a href="./prompts.md">Markdownを開く</a></p>
+<p class="status" role="status" id="status"></p></main>
+<script>
+function select(node){const r=document.createRange();r.selectNodeContents(node);const s=getSelection();s.removeAllRanges();s.addRange(r);}
+for(const b of document.querySelectorAll('.prompt button')){
+ b.addEventListener('click',async()=>{
+  const c=b.parentElement.querySelector('code');
+  try{await navigator.clipboard.writeText(c.textContent);b.textContent='コピー済み';document.querySelector('#status').textContent='プロンプトをコピーしました。';setTimeout(()=>b.textContent='コピー',1600);}
+  catch{select(c);b.textContent='選択済み：長押ししてコピー';document.querySelector('#status').textContent='コピーできない場合は、選択した文章を長押ししてコピーしてください。';}
+ });
+}
+</script></body></html>
