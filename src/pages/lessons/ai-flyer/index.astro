@@ -14,9 +14,10 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
 <h1>生成AIでつくってみよう</h1>
 <p>昼休みのミニ読書会｜チラシづくり</p>
 <p>各プロンプトをコピーして、画像を作れる生成AIに貼り付けます。使えない場合は、講師の画面を見ながら「次に何と頼むか」を考えるだけで参加できます。</p>
+<p><a href="#survey">講座終了後のアンケートはこちら</a></p>
 <h2>講座スライド（PDF）</h2>
 <ol>
-<li>生成AIの全体像：<a href="./ai-overview.pdf">解説資料（31ページ）</a></li>
+<li>生成AIの全体像：<a href="./ai-overview.pdf">解説資料（32ページ）</a></li>
 <li>実習「生成AIでつくってみよう」：<a href="./slides.pdf">通常版</a> ・ <a href="./slides-uematsu.pdf">上松テンプレート版</a></li>
 </ol>
 <p>全体像を確認したあと、下のプロンプトを使ってチラシを作ります。</p>
@@ -77,5 +78,11 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
 <p>- まだ違うところがあれば、一つ選んで頼み直す。</p>
 <div class="prompt"><button type="button">コピー</button><pre tabindex="0"><code>背景の水色はこのままで、本文だけを「初めての方も歓迎。本がなくても参加できます。」に戻してください。</code></pre></div>
 <p>短く頼んでうまくいった場合も、「今回は何が残ったか」「次に残したいものは何か」を考えてみましょう。練習では個人情報や非公開の情報を使わず、公開前には文字の間違いと画像を使ってよいかを確認します。</p><p><a href="./prompts.md">Markdownを開く</a></p>
+<section id="survey" aria-labelledby="survey-heading">
+<h2 id="survey-heading">講座アンケートのお願い</h2>
+<p>本日はご参加いただき、ありがとうございました。講座の感想をお聞かせください。みなさんの声は、今後の講座づくりの参考になり、講師の励みにもなります。</p>
+<p><a href="https://forms.gle/uFkQwAjsMa9CDf1o9">アンケートフォームを開く</a></p>
+<p>Zoomでご参加の方は、回答を送信してからご退室ください。ご協力をお願いいたします。</p>
+</section>
 <p class="status" role="status" id="status"></p></main>
 <script is:inline type="module" src="/lessons/ai-flyer/copy-prompts.js"></script></body></html>
