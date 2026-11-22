@@ -15,8 +15,7 @@
 "source_timezone": null
 "category_ids":
   - 9
-"tag_ids":
-  - -1
+tag_ids: [-1, -24, -31]
 "original_category_labels": []
 "excerpt": "過去の下書きを本人確認のうえ公開した記事です。"
 "mt_basename": "post_8"

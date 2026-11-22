@@ -16,7 +16,7 @@
 "source_timezone": null
 "category_ids":
   - 1
-"tag_ids": []
+tag_ids: [-40, -33]
 "parent_id": 0
 "menu_order": 0
 "excerpt": "Welcome to my new blog powered by Movable Type. This is the first

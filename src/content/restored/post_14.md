@@ -16,7 +16,7 @@
 "category_ids":
   - 9
   - 5
-tag_ids: [-1]
+tag_ids: [-1, -24, -25, -28, -29]
 "original_category_labels":
   - "4行日記"
 "excerpt": "過去の下書きを本人確認のうえ公開した記事です。"

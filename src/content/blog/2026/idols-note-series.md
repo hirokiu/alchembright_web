@@ -10,7 +10,7 @@ published_at_local: "2026-10-29T16:50:00"
 published_at_gmt: "2026-10-29T07:50:00"
 modified_at_local: "2026-11-18T14:16:05"
 category_ids: [14, 9]
-tag_ids: []
+tag_ids: [-64, -65, -66, -67]
 excerpt: アイドルのApple Watchを入口に、他者を応援することと、テクノロジーが変える「好き」のかたちを考える連載をnoteではじめました。
 conversion_format: markdown
 ---

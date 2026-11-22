@@ -16,7 +16,7 @@
 "category_ids":
   - 9
   - 8
-"tag_ids": []
+tag_ids: [-28]
 "original_category_labels":
   - "LoveSongs"
 "excerpt": "過去の下書きを本人確認のうえ公開した記事です。"

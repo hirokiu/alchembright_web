@@ -7,7 +7,7 @@ export function hashtagLinks(tag) {
   const value = hashtagFor(tag);
   if (!value) return null;
   const encoded = encodeURIComponent(value);
-  return { value, x: `https://x.com/hashtag/${encoded}`, instagram: `https://www.instagram.com/explore/tags/${encoded}/` };
+  return { value, x: `https://x.com/hashtag/${encoded}`, instagram: `https://www.instagram.com/explore/tags/${encoded}/`, note: `https://note.com/tag/${encoded}` };
 }
 export function advertisingAllowed(data, categories, tags) {
   if (data.content_type !== 'post' || !data.canonical_path.startsWith('/blog/') || data.article_kind === 'research') return false;

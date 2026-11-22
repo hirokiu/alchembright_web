@@ -16,7 +16,7 @@
 "category_ids":
   - 9
   - 5
-tag_ids: [-1]
+tag_ids: [-1, -24, -25, -27]
 "original_category_labels":
   - "4行日記"
   - "学業"

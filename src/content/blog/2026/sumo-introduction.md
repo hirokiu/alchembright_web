@@ -10,7 +10,7 @@ published_at_local: "2026-11-08T15:52:00"
 published_at_gmt: "2026-11-08T06:52:00"
 modified_at_local: "2026-11-08T15:52:00"
 category_ids: [13]
-tag_ids: [-5,-7,-14]
+tag_ids: [-5, -7, -14, -71, -72, -21, -51, -8]
 excerpt: Eclipse SUMOのインストール方法と、道路と車両を用意して最初のシミュレーションを実行する流れを紹介します。
 seo_description: 交通流シミュレータEclipse SUMOのWindows・macOS・Linuxへの導入方法と、neteditで道路・車両を作りsumo-guiで動かす手順を紹介します。
 seo_modified_at: "2026-11-22"

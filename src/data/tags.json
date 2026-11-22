@@ -636,5 +636,575 @@
     "taxonomy": "post_tag",
     "meta": [],
     "ad_policy": "deny"
+  },
+  {
+    "id": -21,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/linux/",
+    "name": "Linux",
+    "slug": "linux",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -22,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/server/",
+    "name": "サーバー",
+    "slug": "server",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -23,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/git/",
+    "name": "Git",
+    "slug": "git",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -24,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/journal/",
+    "name": "日記",
+    "slug": "journal",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -25,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/four-line-diary/",
+    "name": "四行日記",
+    "slug": "four-line-diary",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -26,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/job-hunting/",
+    "name": "就職活動",
+    "slug": "job-hunting",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -27,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/university-life/",
+    "name": "大学生活",
+    "slug": "university-life",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -28,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/music-jp/",
+    "name": "音楽",
+    "slug": "music-jp",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -29,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/guitar/",
+    "name": "ギター",
+    "slug": "guitar",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -30,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/home-cooking/",
+    "name": "自炊",
+    "slug": "home-cooking",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -31,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/communication/",
+    "name": "コミュニケーション",
+    "slug": "communication",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -32,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/balog/",
+    "name": "場log",
+    "slug": "balog",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -33,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/weblog/",
+    "name": "ブログ",
+    "slug": "weblog",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -34,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/mitou/",
+    "name": "未踏",
+    "slug": "mitou",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -35,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/travel/",
+    "name": "旅行",
+    "slug": "travel",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -36,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/anime/",
+    "name": "アニメ",
+    "slug": "anime",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -37,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/the-pillows/",
+    "name": "thepillows",
+    "slug": "the-pillows",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -38,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/live-music/",
+    "name": "ライブ",
+    "slug": "live-music",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -39,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/mail-server/",
+    "name": "メールサーバー",
+    "slug": "mail-server",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -40,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/movable-type/",
+    "name": "MovableType",
+    "slug": "movable-type",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -41,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/geolocation/",
+    "name": "位置情報",
+    "slug": "geolocation",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -42,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/sweets/",
+    "name": "スイーツ",
+    "slug": "sweets",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -43,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/gourmet/",
+    "name": "グルメ",
+    "slug": "gourmet",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -44,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/cinema/",
+    "name": "映画",
+    "slug": "cinema",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -45,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/graduate-school/",
+    "name": "大学院",
+    "slug": "graduate-school",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -46,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/programming/",
+    "name": "プログラミング",
+    "slug": "programming",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -47,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/network/",
+    "name": "ネットワーク",
+    "slug": "network",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -48,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/photography/",
+    "name": "写真",
+    "slug": "photography",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -49,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/semantic-web/",
+    "name": "セマンティックWeb",
+    "slug": "semantic-web",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -50,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/udon/",
+    "name": "うどん",
+    "slug": "udon",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -51,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/macos/",
+    "name": "macOS",
+    "slug": "macos",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -52,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/smartphone/",
+    "name": "スマートフォン",
+    "slug": "smartphone",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -53,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/database/",
+    "name": "データベース",
+    "slug": "database",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -54,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/vim/",
+    "name": "Vim",
+    "slug": "vim",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -55,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/ramen/",
+    "name": "ラーメン",
+    "slug": "ramen",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -56,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/xml/",
+    "name": "XML",
+    "slug": "xml",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -57,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/wordpress/",
+    "name": "WordPress",
+    "slug": "wordpress",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -58,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/cooking-workflow/",
+    "name": "料理の段取り",
+    "slug": "cooking-workflow",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -59,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/humanitext/",
+    "name": "Humanitext",
+    "slug": "humanitext",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -60,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/digital-humanities/",
+    "name": "デジタル人文学",
+    "slug": "digital-humanities",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -61,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/humanities/",
+    "name": "人文学",
+    "slug": "humanities",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -62,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/ai/",
+    "name": "AI",
+    "slug": "ai",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -63,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/wikibase/",
+    "name": "Wikibase",
+    "slug": "wikibase",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -64,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/note/",
+    "name": "note",
+    "slug": "note",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -65,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/idols/",
+    "name": "アイドル",
+    "slug": "idols",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -66,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/fandom/",
+    "name": "推し活",
+    "slug": "fandom",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -67,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/essays/",
+    "name": "エッセイ",
+    "slug": "essays",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -68,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/scratch/",
+    "name": "Scratch",
+    "slug": "scratch",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -69,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/programming-education/",
+    "name": "プログラミング教育",
+    "slug": "programming-education",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -70,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/books/",
+    "name": "書籍",
+    "slug": "books",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -71,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/traffic-simulation/",
+    "name": "交通シミュレーション",
+    "slug": "traffic-simulation",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -72,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/open-source/",
+    "name": "オープンソース",
+    "slug": "open-source",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -73,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/web-development/",
+    "name": "Web開発",
+    "slug": "web-development",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -74,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/chatgpt/",
+    "name": "ChatGPT",
+    "slug": "chatgpt",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -75,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/generative-ai/",
+    "name": "生成AI",
+    "slug": "generative-ai",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -76,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/markdown/",
+    "name": "Markdown",
+    "slug": "markdown",
+    "taxonomy": "post_tag",
+    "meta": []
+  },
+  {
+    "id": -77,
+    "count": 0,
+    "description": "",
+    "link": "https://www.alchembright.com/tag/digital-archives/",
+    "name": "デジタルアーカイブ",
+    "slug": "digital-archives",
+    "taxonomy": "post_tag",
+    "meta": []
   }
 ]

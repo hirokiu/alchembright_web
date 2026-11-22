@@ -10,7 +10,7 @@ published_at_local: "2026-09-10T12:00:00"
 published_at_gmt: "2026-09-10T03:00:00"
 modified_at_local: "2026-09-10T12:00:00"
 category_ids: [14, 9]
-tag_ids: []
+tag_ids: [-33, -13]
 excerpt: AlchembrightのWebサイトを更新しました。これまでのブログを引き継ぎ、研究や仕事の紹介を追加しています。
 conversion_format: markdown
 ---

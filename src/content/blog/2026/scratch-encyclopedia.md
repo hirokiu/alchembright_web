@@ -10,7 +10,7 @@ published_at_local: "2026-10-17T12:00:00"
 published_at_gmt: "2026-10-17T03:00:00"
 modified_at_local: "2026-10-17T12:00:00"
 category_ids: [14, 9]
-tag_ids: []
+tag_ids: [-68, -46, -69, -70]
 excerpt: 共著として参加した『スクラッチ全機能事典』が、技術評論社より2026年11月9日に発売予定です。
 conversion_format: markdown
 ---
