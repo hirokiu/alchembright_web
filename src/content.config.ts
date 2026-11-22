@@ -8,6 +8,10 @@ const archive = defineCollection({
     title: z.string(), canonical_path: z.string().startsWith('/'), original_url: z.url().nullable(),
     published_at_local: z.string(), published_at_gmt: z.string().nullable(),
     modified_at_local: z.string(), category_ids: z.array(z.number()), tag_ids: z.array(z.number()),
+    seo_description: z.string().trim().min(1).max(160).optional(),
+    seo_modified_at: z.iso.date().optional(),
+    article_kind: z.enum(['general', 'research', 'unreviewed']).default('unreviewed'),
+    ads_allowed: z.boolean().default(false),
     excerpt: z.string(), conversion_format: z.enum(['markdown','html-preserved']),
   }),
 });
