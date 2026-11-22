@@ -1,4 +1,5 @@
 ---
+import { articleDescription, articleGraph, articleDates } from '../lib/article-seo.mjs';
 import { render } from 'astro:content';
 import Site from '../layouts/Site.astro';
 import thumbnails from '../data/thumbnails.json';
@@ -16,16 +17,18 @@ const rendered = route.entry ? await render(route.entry) : null;
 const Content = rendered?.Content;
 const entry = route.entry;
 const post = entry?.data.content_type === 'post';
+const dates = post ? articleDates(entry.data) : null;
 const years = await archiveYears();
 const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*の続きを読む(?:\\n|\s)*$/, '').trim().slice(0,160);
 
 ---
-<Site title={route.title} path={route.path} section={post ? (entry.data.category_ids.includes(14) ? 'news' : 'blog') : undefined} legacyNavigation={route.path === '/'}>
+<Site description={post ? articleDescription(entry.data) : undefined} article={post ? articleGraph(entry.data, Astro.site?.href) : null} title={route.title} path={route.path} section={post ? (entry.data.category_ids.includes(14) ? 'news' : 'blog') : undefined} legacyNavigation={route.path === '/'}>
   {entry && Content ? (
     <article class="article">
       {route.path === '/kirokun-support/' && <nav class="breadcrumbs" aria-label="パンくず"><a href="/category/works/">Works</a><span aria-hidden="true">/</span><a href="/works/kirokun/">KIROKUN</a><span aria-hidden="true">/</span><span>プライバシーポリシー</span></nav>}
       {post && <div class="eyebrow"><a href="/category/blog/">Blog</a><time datetime={entry.data.published_at_local.slice(0,10)}>{entry.data.published_at_local.slice(0,10)}</time></div>}
       <h1>{route.title}</h1>
+      {post && <p class="article-byline">著者：<a href="/about/" rel="author">上松大輝（hiroki_u）</a>{entry.data.first_published_at && <> · 公開：<time datetime={dates!.published}>{dates!.published}</time></>}{dates?.modified && <> · 更新：<time datetime={dates.modified}>{dates.modified}</time></>}</p>}
       {entry.data.source_system === "movable-type" && <p class="restoration-note">表示の日付は当時の下書き作成日です。2026年9月9日、本人が公開内容を確認したうえで公開しました。</p>}
       <div class="prose" data-source-id={entry.data.source_id}><Content /></div>
       {route.path === "/about/" && <><ResearchProfile /><ProfessionalExperience /></>}

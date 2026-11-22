@@ -12,6 +12,10 @@ modified_at_local: "2026-11-08T15:52:00"
 category_ids: [13]
 tag_ids: [-5, -7]
 excerpt: Eclipse SUMOのインストール方法と、道路と車両を用意して最初のシミュレーションを実行する流れを紹介します。
+seo_description: 交通流シミュレータEclipse SUMOのWindows・macOS・Linuxへの導入方法と、neteditで道路・車両を作りsumo-guiで動かす手順を紹介します。
+seo_modified_at: "2026-11-22"
+article_kind: general
+ads_allowed: false
 conversion_format: markdown
 ---
 
@@ -87,4 +91,4 @@ neteditの「Edit」→「Open in sumo-gui」を選ぶと、作成したネッ�
 
 最初は小さな道路と車両だけの構成で十分です。「ネットワーク」「需要」「設定」という3点の関係が分かると、より複雑なシナリオにも進みやすくなります。
 
-道路網はneteditで描くだけでなく、OpenStreetMapのデータを取得してnetconvertで変換することもできます。その先には、信号制御や検出器の設定、PythonからSUMOを操作するTraCIなど、さまざまな拡張が待っています。カスタマイズについては、別の機会にまとめたいと思います。
+道路網はneteditで描くだけでなく、OpenStreetMapのデータを取得してnetconvertで変換することもできます。その先には、信号制御や検出器の設定、PythonからSUMOを操作するTraCIなど、さまざまな拡張が待っています。Pythonから操作する方法は、続編の[TraCIによるカスタマイズ入門](/blog/tech/sumo-traci-introduction/)で紹介しています。

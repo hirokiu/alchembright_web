@@ -3,10 +3,23 @@ import { validAnalyticsScript } from '../../src/data/analytics.mjs';
 import path from 'node:path';
 import { load } from 'cheerio';
 import { signature } from './lib.mjs';
+import YAML from 'yaml';
+import { articleGraph } from '../../src/lib/article-seo.mjs';
 import { validProfileScript } from '../../src/data/person.mjs';
 const root = path.resolve(process.env.ALCHEMBRIGHT_DIST_DIR || 'dist');
 const report=JSON.parse(await fs.readFile('migration/reports/conversion-report.json','utf8'));
 try {const extra=JSON.parse(await fs.readFile('migration/reports/reviewed-mt.json','utf8'));report.records.push(...extra.records);}catch(e){if(e.code!=='ENOENT')throw e;}
+const articleGraphs = new Map();
+for (const file of (await fs.readdir('src/content', {recursive:true})).filter(f=>f.endsWith('.md'))) {
+  const text = await fs.readFile(path.join('src/content',file),'utf8');
+  const data = YAML.parse(text.match(/^---\n([\s\S]*?)\n---/)[1]);
+  const graph = articleGraph(data, process.env.ALCHEMBRIGHT_SITE || 'https://www.alchembright.com');
+  if(graph) articleGraphs.set(path.join(data.canonical_path.slice(1),'index.html'), graph);
+}
+function validArticleScript(relative, attributes, text) {
+  if(!articleGraphs.has(relative) || attributes.type!=='application/ld+json' || Object.keys(attributes).some(k=>k!=='type')) return false;
+  try {return JSON.stringify(JSON.parse(text))===JSON.stringify(articleGraphs.get(relative));} catch {return false;}
+}
 const failures=[], legacyLinks=[];
 const pages=new Map();
 const projectBase=(process.env.ALCHEMBRIGHT_BASE || '/').replace(/\/$/,'');
@@ -41,10 +54,11 @@ for(const [file,$] of pages) {
   const analyticsCount = $('script').toArray().filter(s=>validAnalyticsScript(s.attribs,$(s).html())).length;
   if(analyticsCount !== (process.argv.includes('--release') ? 2 : 0)) failures.push({file:relative,reason:'GA4 script count mismatch'});
   const jsonLdCount = $('script[type="application/ld+json"]').length;
-  if(jsonLdCount !== (relative === 'about/index.html' ? 1 : 0)) failures.push({file:relative,reason:'profile JSON-LD count mismatch'});
+  if(jsonLdCount !== (relative === 'about/index.html' || articleGraphs.has(relative) ? 1 : 0)) failures.push({file:relative,reason:'JSON-LD count mismatch'});
   for (const script of $('script').toArray()) {
     const e=$(script), src=e.attr('src');
     if(process.argv.includes('--release') && validAnalyticsScript(script.attribs,e.html())) continue;
+    if(validArticleScript(relative, script.attribs, e.html())) continue;
     if(validProfileScript(relative, script.attribs, e.html())) continue;
     const allowed=['index.html','404.html'].includes(relative) && e.attr('type')==='module' && /^\/_astro\/[A-Za-z0-9_.-]+\.js$/.test(src || '') && !e.html().trim();
     const lessonCopy = relative === 'lessons/ai-flyer/index.html' && src === '/lessons/ai-flyer/copy-prompts.js' && e.attr('type') === 'module' && !e.html().trim();

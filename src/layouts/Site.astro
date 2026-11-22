@@ -4,8 +4,8 @@ import { analyticsSrc, analyticsInit } from '../data/analytics.mjs';
 import { profileGraph, serializeJsonLd, researcherSummary } from '../data/person.mjs';
 import LegacyNavigation from '../components/LegacyNavigation.astro';
 import SocialLinks from '../components/SocialLinks.astro';
-interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; }
-const {title,path,legacyNavigation=false,section} = Astro.props;
+interface Props { title: string; path: string; legacyNavigation?: boolean; section?: string; description?: string; article?: Record<string, unknown> | null; }
+const {title,path,legacyNavigation=false,section,description,article} = Astro.props;
 const isHome = path === '/';
 const active = section ?? (
   /^\/(category\/news|news)(\/|$)/.test(path) ? 'news' :
@@ -28,9 +28,17 @@ const preview = import.meta.env.PUBLIC_SITE_MODE !== 'production';
       <script is:inline id="ga4-init" set:html={analyticsInit}></script>
     </>}
     {path === "/about/" && <script is:inline type="application/ld+json" set:html={serializeJsonLd(profileGraph)} />}
+    {article && <script is:inline type="application/ld+json" set:html={serializeJsonLd(article)} />}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{path === '/about/' ? '上松大輝（Hiroki Uematsu）研究者プロフィール — Alchembright' : title === 'home' ? 'Alchembright' : `${title} — Alchembright`}</title>
-    {path === "/about/" && <meta name="description" content={researcherSummary} />}
+    {(path === "/about/" || description) && <meta name="description" content={path === "/about/" ? researcherSummary : description} />}
+    {article && <>
+      <meta name="author" content="上松大輝" />
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content={title} />
+      <meta property="og:url" content={new URL(path, Astro.site).href} />
+      {description && <meta property="og:description" content={description} />}
+    </>}
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="canonical" href={new URL(path, Astro.site).href} />
