@@ -21,7 +21,4 @@ export function articleGraph(data, site = 'https://www.alchembright.com') {
     ...(dates.modified ? { dateModified: dates.modified } : {}), inLanguage: 'ja' };
 }
 // This is an eligibility gate only. No ad code, slot, or request is rendered.
-export function adsPermitted(data) {
-  return data.content_type === 'post' && data.canonical_path.startsWith('/blog/') &&
-    !data.category_ids.includes(14) && data.article_kind === 'general' && data.ads_allowed === true;
-}
+export { advertisingAllowed as adsPermitted } from './tag-policy.mjs';

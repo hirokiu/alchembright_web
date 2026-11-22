@@ -16,7 +16,7 @@
 "category_ids":
   - 9
   - 4
-"tag_ids": []
+tag_ids: [-1, -24]
 "original_category_labels":
   - "days"
 "excerpt": "過去の下書きを本人確認のうえ公開した記事です。"

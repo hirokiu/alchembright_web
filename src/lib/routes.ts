@@ -22,7 +22,7 @@ export async function routes(): Promise<Route[]> {
     const ids = descendants(category.id);
     listing(pathOf(category.link),category.name,posts.filter(e=>e.data.category_ids.some(id=>ids.includes(id))));
   }
-  for (const tag of tags) listing(pathOf(tag.link),tag.name,posts.filter(e=>e.data.tag_ids.includes(tag.id)));
+  for (const tag of tags.filter(t=>(!('internal' in t) || !t.internal))) listing(pathOf(tag.link),tag.name,posts.filter(e=>e.data.tag_ids.includes(tag.id)));
   for (const year of new Set(posts.map(e=>e.data.published_at_local.slice(0,4)))) listing(`/${year}/`,`${year}年`,posts.filter(e=>e.data.published_at_local.startsWith(year)));
   for (const month of new Set(posts.map(e=>e.data.published_at_local.slice(0,7)))) listing(`/${month.replace('-','/')}/`,`${month.replace('-','年')}月`,posts.filter(e=>e.data.published_at_local.startsWith(month)));
   if (new Set(out.map(r=>r.path)).size !== out.length) throw new Error('Route collision');

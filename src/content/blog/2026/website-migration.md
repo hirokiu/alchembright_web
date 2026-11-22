@@ -10,7 +10,7 @@ published_at_local: "2026-09-10T12:00:00"
 published_at_gmt: "2026-09-10T03:00:00"
 modified_at_local: "2026-09-10T12:00:00"
 category_ids: [13]
-tag_ids: [-5, -11, -12, -13]
+tag_ids: [-5, -11, -12, -13, -33, -73, -57, -40, -74, -75, -76, -77, -23]
 excerpt: 過去のブログ記事を引き継ぎながら、AlchembrightをWordPressからAstroとGitHub Pagesへ移行しました。ChatGPT Astraとの対話を通じた構築の流れと、今回の更新内容を紹介します。
 conversion_format: markdown
 ---

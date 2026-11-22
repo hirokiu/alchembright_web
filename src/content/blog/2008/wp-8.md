@@ -15,8 +15,7 @@
 "source_timezone": null
 "category_ids":
   - 1
-"tag_ids":
-  - -1
+tag_ids: [-1, -24]
 "parent_id": 0
 "menu_order": 0
 "excerpt": "MTは、Ver.3.3くらいから使ってなかったのだけど、だいぶ変化してるのね。

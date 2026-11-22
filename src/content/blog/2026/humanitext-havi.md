@@ -10,7 +10,7 @@ published_at_local: "2026-10-17T12:00:00"
 published_at_gmt: "2026-10-17T03:00:00"
 modified_at_local: "2026-10-17T12:00:00"
 category_ids: [14, 9]
-tag_ids: []
+tag_ids: [-59, -60, -61, -62, -63, -20]
 excerpt: 参加するHumanitextプロジェクトが、Schmidt SciencesのHumanities and AI Virtual Institute（HAVI）に採択されました。
 conversion_format: markdown
 ---
