@@ -1,0 +1,17 @@
+---
+import { categories, tags, pathOf } from '../lib/routes';
+import { hashtagLinks } from '../lib/tag-policy.mjs';
+interface Props { categoryIds: number[]; tagIds: number[]; }
+const { categoryIds, tagIds } = Astro.props;
+const selected = tags.filter(t=>tagIds.includes(t.id) && !('internal' in t && t.internal));
+---
+<div class="terms">
+  <nav aria-label="この記事のカテゴリー"><span>カテゴリー</span>{categories.filter(c=>categoryIds.includes(c.id)).map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</nav>
+  {selected.length > 0 && <nav class="article-tags" aria-label="この記事のハッシュタグ"><span>タグ</span>{selected.map(tag=>{
+    const social = hashtagLinks(tag);
+    return <span class="tag-group"><a href={pathOf(tag.link)}>#{social?.value || tag.name}</a>{social && <span class="tag-social">（<a href={social.x} target="_blank" rel="noopener noreferrer" aria-label={`Xで #${social.value} を見る`}>X</a> · <a href={social.instagram} target="_blank" rel="noopener noreferrer" aria-label={`Instagramで #${social.value} を見る`}>Instagram</a>）</span>}</span>;
+  })}</nav>}
+</div>
+<style>
+.terms{display:grid;gap:1rem}.terms nav{gap:.6rem 1rem;align-items:baseline}.tag-group{display:inline-flex;flex-wrap:wrap;align-items:baseline;max-width:100%;overflow-wrap:anywhere}.tag-social{font-size:.8rem;color:#666}.tag-social a{padding:.25rem .1rem;display:inline-block}
+</style>

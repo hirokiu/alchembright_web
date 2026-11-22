@@ -20,9 +20,13 @@ test('JSON-LD safely escapes HTML and explicit summaries override excerpts',()=>
  const json=serializeJsonLd(articleGraph({...base,title:'</script><script>alert(1)</script>'}));
  assert.ok(!json.includes('<'));assert.equal(JSON.parse(json).headline,'</script><script>alert(1)</script>');
 });
-test('ads require explicit permission and reviewed general blog classification',()=>{
- assert.equal(adsPermitted(base),false);
- const allowed={...base,article_kind:'general',ads_allowed:true};
- assert.equal(adsPermitted(allowed),true);
- for(const override of [{article_kind:'research'},{article_kind:'unreviewed'},{ads_allowed:'true'},{content_type:'page'},{canonical_path:'/works/test/'},{category_ids:[13,14]}]) assert.equal(adsPermitted({...allowed,...override}),false);
+test('ads use explicit taxonomy permission with deny precedence',()=>{
+ const categories=[{id:13},{id:4,ad_policy:'allow'},{id:14,ad_policy:'deny'}];
+ const tags=[{id:1,ad_policy:'allow'},{id:2,ad_policy:'deny'}];
+ const allowed={...base,tag_ids:[1]};
+ assert.equal(adsPermitted(base,categories,tags),false);
+ assert.equal(adsPermitted(allowed,categories,tags),true);
+ assert.equal(adsPermitted({...base,category_ids:[4]},categories,tags),true);
+ for(const override of [{article_kind:'research'},{tag_ids:[1,2]},{tag_ids:[999]},{category_ids:[14]},{category_ids:[999]},{content_type:'page'},{canonical_path:'/works/test/'}]) assert.equal(adsPermitted({...allowed,...override},categories,tags),false);
+ assert.equal(adsPermitted(base,[{id:9,ad_policy:'allow'},{id:13,parent:9}],tags),false);
 });

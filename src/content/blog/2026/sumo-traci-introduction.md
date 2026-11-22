@@ -10,11 +10,10 @@ published_at_local: "2026-11-08T15:58:00"
 published_at_gmt: "2026-11-08T06:58:00"
 modified_at_local: "2026-11-08T15:58:00"
 category_ids: [13]
-tag_ids: [-5, -7]
+tag_ids: [-5,-7,-14,-15,-16]
 excerpt: SUMOのTraCIをPythonから使い、シミュレーションを進めながら車両の位置と速度を取得する基本を紹介します。
 seo_description: SUMOをPythonから操作するTraCI入門。ライブラリの導入、シミュレーションの実行、車両の位置・速度の取得、接続終了までの基本を紹介します。
 article_kind: general
-ads_allowed: false
 conversion_format: markdown
 ---
 

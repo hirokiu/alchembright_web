@@ -4,6 +4,7 @@ import { render } from 'astro:content';
 import Site from '../layouts/Site.astro';
 import thumbnails from '../data/thumbnails.json';
 const thumbnailFor = (path: string) => (thumbnails as Record<string,string>)[path];
+import ArticleTerms from '../components/ArticleTerms.astro';
 import WorksList from '../components/WorksList.astro';
 import ResearchProfile from '../components/ResearchProfile.astro';
 import ProfessionalExperience from '../components/ProfessionalExperience.astro';
@@ -32,7 +33,7 @@ const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*�
       {entry.data.source_system === "movable-type" && <p class="restoration-note">表示の日付は当時の下書き作成日です。2026年9月9日、本人が公開内容を確認したうえで公開しました。</p>}
       <div class="prose" data-source-id={entry.data.source_id}><Content /></div>
       {route.path === "/about/" && <><ResearchProfile /><ProfessionalExperience /></>}
-      {post && <nav class="terms" aria-label="この記事の分類">{categories.filter(c=>entry.data.category_ids.includes(c.id)).map(c=><a href={pathOf(c.link)}>{c.name}</a>)}{tags.filter(t=>entry.data.tag_ids.includes(t.id)).map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</nav>}
+      {post && <ArticleTerms categoryIds={entry.data.category_ids} tagIds={entry.data.tag_ids} />}
     </article>
   ) : (
     <section class="archive">
@@ -46,7 +47,7 @@ const excerptText = (text: string) => text.replace(/(?:^|\n)\s*[“「"][^\n]*�
         <span>{route.page} / {route.totalPages}</span>
         {route.page! < route.totalPages! && <a rel="next" href={`${route.base}page/${route.page!+1}/`}>次のページ →</a>}
       </nav>}
-      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div><h2>タグ</h2><div class="years">{tags.map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</div><p><a href="/tags/">タグ一覧を見る →</a></p></aside>}
+      {route.path !== '/category/works/' && <aside><h2>年別に読む</h2><div class="years">{years.map(y=><a href={`/${y}/`}>{y}</a>)}</div><h2>カテゴリー</h2><div class="years">{categories.map(c=><a href={pathOf(c.link)}>{c.name}</a>)}</div><h2>タグ</h2><div class="years">{tags.filter(t=>!('internal' in t && t.internal)).map(t=><a href={pathOf(t.link)}>#{t.name}</a>)}</div><p><a href="/tags/">タグ一覧を見る →</a></p></aside>}
     </section>
   )}
 </Site>

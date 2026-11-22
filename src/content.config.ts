@@ -11,7 +11,6 @@ const archive = defineCollection({
     seo_description: z.string().trim().min(1).max(160).optional(),
     seo_modified_at: z.iso.date().optional(),
     article_kind: z.enum(['general', 'research', 'unreviewed']).default('unreviewed'),
-    ads_allowed: z.boolean().default(false),
     excerpt: z.string(), conversion_format: z.enum(['markdown','html-preserved']),
   }),
 });
